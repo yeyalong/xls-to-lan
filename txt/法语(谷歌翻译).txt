@@ -1,0 +1,856 @@
+UCCodeEncode=UTF8
+#menu1#=Mise à jour, etes vous sur?
+#menu2#=Enter:Oui / ESC:Annuler
+#menu3#=Type de fichier inconnu
+#menu4#=Réussite, Reset SVP
+#menu5#=Pas de fichier de mise à jour
+#menu6#=Insérer clé USB, SVP
+#menu7#=Erreur mise à jour système
+#menu8#=Mise à jour…
+#menu9#=Veuillez patienter quelques minutes
+#menu10#=Fichier trop important
+#menu11#=Update système
+#menu12#=Update écran bienvenue
+#menu13#=Update motion
+#menu14#=Danger : Erase Parameter 
+#menu15#=F1_Recovery paramètres
+#menu16#=F2_Paramètres par défaut
+#menu17#=F3_Effacer tous les fichiers
+#menu18#=Entrer mot de passe, SVP
+#menu19#=Effacement terminé
+#menu20#=Effacement inachevé
+#menu21#=Récupération paramètre réussie
+#menu174#=Une touche pour sortir
+#menu22#=Erreur récupération paramètres
+#menu23#=Initialisation paramètres réussie
+#menu24#=Erreur initialisation paramétres
+#menu25#=Identifiant mot de passe
+#menu26#=Type de codage
+#menu27#=jours
+#menu28#=fois
+#menu29#=Pas code
+#menu30#=Nombre de codage
+#menu31#=Codage un
+#menu32#=Codage deux
+#menu33#=Codage trois
+#menu34#=Dernier codage
+#menu35#=Recompter
+#menu36#=Enregistrer
+#menu37#=Codage actif pour %d jours
+#menu38#=Codage actif pour %d fois
+#menu39#=Lutilisateur en cours nest pas limité
+#menu40#=Erreur de décryptage
+#menu41#=Décryptage réussi
+#menu42#=Presser Enter pour changer les coordonnées
+#menu43#=Sauvegarde réussie
+#menu44#=Erreur fichier de configuration
+#menu45#=Port de duplication, reset SVP
+#menu46#=Direction horizontale
+#menu47#=Direction verticale
+#menu48#=CW
+#menu49#=CCW
+#menu50#=Presser Enter pour changer
+#menu51#=Définition dentrée
+#menu52#=Port-press PgUp/PgDn Type-press Enter
+#menu53#=Port
+#menu54#=Type
+#menu55#=Définition de sortie
+#menu56#=Quitter la coupe?
+#menu57#=Enter = Quitter
+#menu58#=ESC = Continuer coupe
+#menu59#=Retour O.K. ?
+#menu60#=Entrer Compensation saignée :
+#menu61#=Quitter la coupe dabord
+#menu62#=Aller au nouveau percage?
+#menu63#=Oxycoupe
+#menu64#=Plasma
+#menu65#=Démo
+#menu66#=V. coupe
+#menu244#=V. démo
+#menu68#=Manuel
+#menu69#=Mvt 2T
+#menu70#=Mvt 4T
+#menu71#=MvStep
+#menu72#=Step Val
+#menu73#=Stop
+#menu74#=Pause
+#menu75#=Coupe
+#menu76#=Percage
+#menu77#=Démo
+#menu78#=Retour
+#menu79#=Manuel
+#menu80#=Bord
+#menu81#=Arc
+#menu82#=Entrer la valeur du step
+#menu83#=Hors limite, réinitialiser
+#menu88#=Entrer la vitesse de coupe
+#menu89#=Entrer la compensation de saignée
+#menu90#=Entrer la vitesse en manuel
+#menu91#=[G] Retour coupe
+#menu92#=[X] Décalage coupe
+#menu93#=[Y] Retour seul
+#menu94#=[X] Coordonnées Offset
+#menu95#=Haute chauffe
+#menu96#=Basse chauffe
+#menu97#=Percage 1
+#menu98#=Percage 2
+#menu99#=Percage 3
+#menu100#=Mode fonctionnement
+#menu101#=Allumage
+#menu102#=Coupe
+#menu95#=Haute chauffe
+#menu103#=Percage 1
+#menu104#=Percage 2
+#menu105#=Percage 3
+#menu106#=Temps darc
+#menu107#=Tps posit.
+#menu108#=Percage 
+#menu109#=Maintien 
+#menu110#=THC actif
+#menu111#=Purge
+#menu112#=Retour Arc 
+#menu113#=Retard arc
+#menu114#=Détection
+#menu115#=Démo
+#menu116#=Erreur paramètre
+#menu117#=Code erroné
+#menu118#=Erreur arc
+#menu119#=Code trop long
+#menu120#=Alarme limite mécanique
+#menu121#=Alarme limite soft
+#menu122#=Erreur de division
+#menu123#=Alarme durgence
+#menu124#=Alarme arc interrompu
+#menu125#=Collision Plasma
+#menu126#=Erreur DUAL RAM
+#menu127#=Erreur DSP RAM
+#menu128#=Etes-vous sur de sortir?
+#menu129#=ENTER = Sortie
+#menu130#=ESC = annuler
+#menu131#=1. SVP sauvegarder  paramètres
+#menu132#=2. Perte point break après autodiag
+#menu133#=3.SVP Redémarrer après autodiag
+#menu134#=Etes-vous sur?
+#menu135#=Entrée
+#menu136#=Limite avant
+#menu137#=Limite arrière
+#menu138#=Limite droite
+#menu139#=Limite gauche
+#menu140#=Arret durgence
+#menu141#=Retour arc ok
+#menu142#=Défaut de position
+#menu143#=Collision plasma
+#menu144#=Sortie
+#menu145#=Allumage
+#menu146#=Basse préchauffe
+#menu95#=Haute préchauffe
+#menu147#=Oxygène bas
+#menu148#=Oxygène moyen
+#menu149#=Oxygène haut
+#menu150#=Montée torche
+#menu151#=Descente torche
+#menu152#=Purge
+#menu153#=THC actif
+#menu154#=Défaut de position
+#menu155#=Démarrage plasma
+#menu156#=Maintien de torche
+#menu157#=Electrovanne
+#menu158#=Servo actif
+#menu159#=Pulvérisation poudre
+#menu160#=Mélange poudre
+#menu161#=Préchauffe marquage
+#menu162#=Code clavier:
+#menu163#=Année Mois Jour Semaine
+#menu164#=Presser up ou down pour modifier
+#menu165#=Pas de clé USB
+#menu166#=Pas de disque U
+#menu167#=Echec douverture fichier 
+#menu168#=Echec douverture fichier 
+#menu169#=Edition du fichier impossible
+#menu170#=Fichier non admis
+#menu171#=Confirmer suppression du fichier?
+#menu172#=Le fichier existe, écrasement OK?
+#menu173#=Création fichier réussie
+#menu175#=Copie échouée, 1 touche pour sortir
+#menu176#=Copie réussie
+#menu2#=Enter: Oui /  ESC: annuler
+#menu179#=Sauvegarde en cours …
+#menu170#=Fichier non admis
+#menu180#=Valeur saignée incorrecte
+#menu181#=Réinitialiser saignée à zéro
+#menu182#=Compilation OK
+#menu183#=Code trop long
+#menu184#=Entrée nom de fichier
+#menu186#=Enter: fichier remplaçant
+#menu187#=ESC: retour
+#menu188#=Sauvegarde, attendez SVP
+#menu191#=Lecture du fichier impossible
+#menu192#=En cours…
+#menu193#=Sauvegarde échouée
+#menu194#=Entrer langle SVP
+#menu195#=Min:-360 Max:360
+#menu196#=Angle:
+#menu197#=Entrer paramètres (unité : mm)
+#menu198#=Rangées
+#menu199#=Colonnes
+#menu200#=Espace Rang
+#menu201#=Espace Col
+#menu202#=Qt. rangs ou colonnes trop faible
+#menu203#=Sélectionner type imbrication
+#menu204#=F1_Droit
+#menu205#=F2_Décalé
+#menu206#=F3_Imbriqué
+#menu207#=Qt Rangées
+#menu208#=Qt Colonnes
+#menu209#=F8_OK
+#menu210#=Entrer proportion
+#menu211#=Pas négatif
+#menu212#=F1_Alignement Tole
+#menu213#=F2_Entrer angle
+#menu214#=X_Start  Y_OK  ESC_Sortie
+#menu215#=Réglage X: 
+#menu216#=Réglage Y: 
+#menu217#=Angle:
+#menu218#=Entrer:Retour arrière
+#menu219#=ESC:Ne pas revenir
+#menu221#=Connection échouée
+#menu222#=Ouvrir le fichier SVP
+#menu223#=Ok pour couper ?
+#menu224#=Enter:coupe ESC:retour
+#menu225#=Départ Démo ?
+#menu226#=Enter=Départ/ESC=Retour
+#menu227#=Option Pièce
+#menu228#=Type de produit: F2100T
+#menu229#=Fichier USB
+#menu230#=Quitter coupe ou ouvrir un fichier
+#menu232#=Clé USB disponible
+#menu233#=Erreur clé USB
+#menu234#=Système expiré
+#menu235#=Contacter votre fournisseur
+#menu236#=Erreur code 1%d D
+#menu237#=Une touche pour sortir
+#menu238#=Erreur code 2%d T
+#menu239#=Le port Dual Ram est ok
+#menu240#=Le port Dual Ram nest pas ok
+#menu241#=Erreur, pas de carte flash
+#menu242#=Echec dinitialisation carte flash
+#menu243#=Carte flash est Ok
+#menu245#=Saignée
+#menu246#=Etat:
+#menu247#=Fichier:
+#menu248#=Vitesse:
+#menu249#=FLSK F2500
+#menu250#=Version
+#menu251#=V. manuel
+#menu252#=Ligne/Trou actuel:
+#menu253#=F1
+Biblio
+#menu254#=F2
+Fichiers
+#menu255#=F3
+Options
+#menu256#=F4
+Réglages
+#menu257#=F5
+Diagnostic
+#menu258#=F6
+ZoomSur
+#menu259#=F7
+Depl Man
+#menu260#=F8
+Zéro
+#menu261#=F8
+Zoom
+#menu262#=F1
+Pièce
+#menu263#=F2
+Ouvert.
+#menu264#=F1
+CN
+#menu265#=F2
+USB
+#menu266#=F3
+Cherche
+#menu267#=F4
+Edition
+#menu268#=F5
+Effacer
+#menu269#=F7
+Visu
+#menu270#=F1
+Commun
+#menu271#=F2
+Oxycoupe
+#menu272#=F3
+Plasma
+#menu273#=F4
+Poudre
+#menu274#=F5
+Système
+#menu275#=F6
+Import
+#menu276#=F7
+Export
+#menu277#=F8
+Sauve
+#menu278#=F1
+Entrée
+#menu279#=F2
+Sortie
+#menu280#=F3
+OuvreOut
+#menu281#=F4
+FermeOut
+#menu282#=F5
+Clavier
+#menu283#=F6
+AutoDiag
+#menu284#=F7
+DateHeur
+#menu285#=F8
+DéfSyst
+#menu286#=Récupération Paramètres
+#menu287#=Sauvegarde Paramètres
+#menu288#=F3
+Définir
+#menu289#=F4
+Crypter
+#menu290#=F5
+Décrypt
+#menu291#=F6
+Langue
+#menu292#=Mise à Jour
+#menu293#=F1
+Retour
+#menu294#=F2
+Démo
+#menu295#=F3
+Ret.Orig
+#menu296#=F6
+Préch -
+#menu297#=F7
+Préch +
+#menu298#=F8
+VersPerc
+#menu299#=F2
+Angle
+#menu300#=F3
+Grille
+#menu301#=F4
+Echelle
+#menu302#=F5
+Reprise
+#menu303#=F6
+Edition
+#menu304#=F7
+Restaure
+#menu305#=F8
+OK
+#menu306#=F1
+Compiler
+#menu307#=F2
+AjoutLgn
+#menu308#=F3
+SupLigne
+#menu309#=F4
+NouvFile
+#menu277#=F8
+Sauve
+#menu310#=F1
+Entrée
+#menu311#=F2
+Sortie
+#menu312#=F3
+Axes
+#menu313#=F4
+Moteur
+#menu314#=F5
+Option
+#menu277#=F8
+Sauver
+#menu315#=F1
+Dép 2T
+#menu316#=F2
+Dép 4T
+#menu317#=F3
+Dép Step
+#menu318#=F4
+Vit -
+#menu319#=F5
+Vit +
+#menu320#=F7
+Récupér
+#menu321#=F6
+Vers USB
+#menu322#=Entrer chaine caractères
+#menu323#=Pas de fichier correspondant
+#menu324#=Entrer la valeur du step
+#menu325#=Francais
+#menu326#=Chinois
+#menu327#=Anglais
+#menu328#=Vitesse de coupe
+#menu329#=Vitesse en manuel
+#menu330#=Vitesse à vide
+#menu331#=Compensation de saignée
+#menu332#=Vitesse angle (1-100)
+#menu333#=Type de coupe
+#menu334#=Oui
+#menu335#=Non
+#menu336#=Vitesse retour
+#menu337#=Vitesse poudre
+#menu338#=Vitesse démo
+#menu67#=V. démo
+#menu339#=Temps dallumage
+#menu340#=Temps de préchauffe basse
+#menu341#=Temps de préchauffe haute
+#menu342#=Temps de percage 1
+#menu343#=Temps de percage 2
+#menu344#=Temps de percage 3
+#menu345#=Temps de purge
+#menu346#=Temps de descente
+#menu347#=Temps de montée percage
+#menu348#=Temps de descente percage
+#menu349#=THC actif
+#menu350#=Maintien Préchauffe
+#menu351#=Bord de coupe actif
+#menu352#=Rampe Vitesse
+#menu353#=Rampe des temps
+#menu354#=Temps darc
+#menu355#=Temps de percage
+#menu356#=Temps de remontée fin de coupe
+#menu357#=Temps de vérification Arc
+#menu358#=Temps de vérification Position
+#menu359#=Temps relevage IHS
+#menu360#=Vitesse de blocage THC
+#menu361#=Surveillance darc actif
+#menu362#=Distance de blocage THC
+#menu363#=Délai perte arc
+#menu365#=Temps dallumage Poudre
+#menu366#=Temps de préchauffe poudre
+#menu367#=Temps ouverture du mélange poudre
+#menu368#=Temps fermeture du mélange poudre
+#menu369#=Temps de remontée poudre 
+#menu370#=Temps de descente poudre
+#menu371#=Offset poudre horizontal
+#menu372#=Offset poudre vertical
+#menu373#=Impulsion axe horizontal
+#menu374#=Impulsion axe vertical
+#menu375#=Vitesse de coupe maxi
+#menu376#=Vitesse à vide maxi
+#menu377#=Vitesse plancher pour petit rayon 
+#menu379#=Temps daccélération oxycoupage
+#menu381#=Temps darret durgence
+#menu382#=Vitesse de départ
+#menu383#=Max X+
+#menu384#=Max Y+
+#menu385#=Min X-
+#menu386#=Min Y-
+#menu380#=Temps daccélération plasma
+#menu387#=Vitesse de déplacement manuel maxi
+#menu388#=Import paramètre réussi
+#menu389#=Echec dimport paramètres
+#menu390#=Aucun fichier F2300.DAT
+#menu391#=Redémarrer pour activer
+#menu392#=Valider import paramètres?
+#menu393#=Fichier paramètre : F2300D.DAT
+#menu394#=Export paramètres réussi
+#menu395#=Echec Export Paramètres
+#menu396#=Echec Ouvert fichier param
+#menu397#=Fichier existe dans USB, effacez
+#menu398#=Export paramètres; OK?
+#menu399#=Import paramètres réussi
+#menu400#=Défaut chrg 1 touche pour continuer
+#menu401#=Paramtr dégradés: vérifier réglages
+#menu402#=Récupération paramètres réussie
+#menu403#=Erreur de vitesse de coupe
+#menu404#=Erreur vitesse déplac manuel
+#menu405#=Erreur de vitesse déplacement vide
+#menu406#=Erreur  valeur de saignée
+#menu407#=Erreur  vitesse dangle
+#menu408#=Erreur de coupure darc
+#menu409#=Vitesse de coupe trop rapide
+#menu410#=Vitesse manuelle trop rapide 
+#menu411#=Vitesse à vide trop rapide
+#menu412#=Vitesse Retour/essai trop rapide
+#menu413#=Vitesse Poudre trop rapide
+#menu414#=Vitesse de démo trop rapide
+#menu415#=Diminuer vitesse pulsHor/pulsVer 
+#menu416#=Sauvegarde paramètre réussite
+#menu417#=Changer paramètres système ?
+#menu407#=Erreur vitesse dangle
+#menu418#=Oxy
+#menu419#=Plasma
+#menu420#=Miroir X
+#menu421#=Miroir Y 
+#menu422#=F1_Sélection 
+#menu423#=F2_Sélection amorcage
+#menu424#=Entrer numéro de ligne et
+#menu425#=presser ←→ pour ajuster
+#menu426#=F8_OK
+#menu427#=F1_Centre
+#menu428#=F2_AR/gauche
+#menu429#=F3_AV/gauche
+#menu430#=F4_AR/Droit
+#menu431#=F5_AV/Droit
+#menu432#=Entrer numéro de percage et
+#menu433#=presser ←→ pour ajuster
+#menu434#=Type controle
+#menu435#=F6
+Vers CN
+#menu436#=Entrée
+#menu437#=Sortie
+#menu438#=Taille
+#menu439#=Quantité
+#menu440#=Entrer nom répertoire
+#menu441#=Création répertoire réussie
+#menu442#=Création répertoire échouée
+#menu443#=Trop de répertoires: Effacer
+#menu444#=Effacer répertoire: OK?
+#menu445#=Effacer Fichiers
+#menu446#=type coordonnées
+#menu447#=Absolu
+#menu448#=Relatif
+#menu449#=Press ←→pour changer
+#menu450#=Quitter test bord
+#menu451#=F3
+Set bord
+#menu461#=Unité par défaut
+#menu452#=Métric
+#menu453#=Inches
+#menu454#=Redémarrer pour changer unité
+#menu455#=I.J val coordonnées
+#menu456#=Répertoire actuel
+#menu457#=Nb empl.
+#menu458#=Paramétre
+#menu459#=SP(0X 1Y)
+#menu460#=N°
+#menu455#=I.J Type coord.
+#menu461#=Unité par défaut
+#menu462#=Vérif ligne de coupe
+#menu463#=Garde angle tole
+#menu464#=F1
+PtDépart
+#menu465#=F5
+NvRéper
+#menu466#=Effectuer sauvegarde
+#menu467#=Charger sauvegarde
+#menu378#=Limitation vitesse pour rayon < à
+#menu468#=Note : 
+#menu469#=>0 = AntiHoraire
+#menu470#=<0 = Horaire
+#menu471#= 0  = Pas de rotation
+#menu472#=Année
+#menu473#=Mois
+#menu474#=Jour
+#menu475#=Sem.
+#menu476#=Lun
+#menu477#=Mar
+#menu478#=Mer
+#menu479#=Jeu
+#menu480#=Ven
+#menu481#=Sam
+#menu482#=Dim
+#menu525#=Utilis mandrin
+#menu526#=Pulse mandrin
+#menu527#=Mode système
+#menu528#=Coupe tole
+#menu529#=Coupe tube
+#menu530#=Diamètre non précisé
+#menu531#=Mode coupe tube
+#menu537#=Laser
+#menu538#=Ajust temps laser
+#menu539#=Temps purge avant laser ON
+#menu540#=Temps après laser ON
+#menu541#=Temps THC
+#menu542#=Maintien Purge
+#menu543#=Laser On
+#menu544#=Purge
+#menu545#=Coupe Laser
+#menu546#=THC actif
+#menu547#=Dist. Laser OFF
+#menu548#=Dist. Purge OFF
+#menu554#=●
+#menu483#=Avant
+#menu484#=Arrière
+#menu485#=Gauche
+#menu486#=Droite
+#menu487#=Allumage
+#menu488#=O2 coupe
+#menu489#=Accélération
+#menu490#=Décélération
+#menu491#=Start
+#menu492#=Stop
+#menu493#=Montée
+#menu494#=Descente
+#menu495#=Langue actu : francais
+#menu496#=Ajout fichiers langue
+#menu497#=Setup avancé
+#menu498#=Aluminium
+#menu499#=Changer ou non setup avancé ?
+#menu500#=Param par défaut
+#menu501#=Effacer tous fichiers ?
+#menu502#=Mot de passe incorrect
+#menu503#=Test surface
+#menu505#=Garder angle pour alignement tole
+#menu506#=Cote 1
+#menu507#=Cote 2
+#menu508#=Cote 3
+#menu509#=Cote 4
+#menu510#=Cote 5
+#menu511#=Cote 6
+#menu512#=Cote 7
+#menu513#=Cote 8
+#menu514#=Cote 9
+#menu515#=Cote 10
+#menu516#=Les fichiers langue sont sur USB?
+#menu517#=Inversion XY
+#menu518#=Quantité 1
+#menu519#=Quantité 2
+#menu520#=Déactivation F
+#menu532#=Dia. tube principal 
+#menu533#=Dia. tube piqueur
+#menu534#=Longueur recouvrt
+#menu551#=Fichier langue inexistant
+#menu552#=Dabord ajouter fichiers langue
+#menu553#=Import réussi fichiers langue %d
+#menu84#=Distance step hors limite
+#menu85#=Vitesse hors limite
+#menu86#=Saignée hors limite
+#menu87#=Vitesse Manuel hors limite
+#menu220#=Ouverture du fichier impossible 
+#menu364#=Temps blocage THC avant M08
+#menu576#=F8
+Ret.Orig
+#menu600#=F1
+RécupParm
+#menu601#=F2
+SauveParm
+#menu602#=F8
+Mise à Jour
+#menu610#=Use cylinder THC
+#menu611#=Consigne Volts
+#menu612#=Tension darc morte
+#menu613#=entrée tension capacitive
+#menu614#=Condensateur mort tension
+#menu615#=Communication Modbus échec!
+#menu616#=tension arc actuelle
+#menu617#=tension capacitive actuelle
+#menu618#=Impossible de définir les paramètres
+#menu619#=temps percage dynamique
+#menu620#=temps percage
+#menu621#=Initial Temps de positionnement de montée
+#menu622#=Utilisez la fonction danalyse
+#menu623#=Modbus maître et mode esclave
+#menu624#=vitesse de transmission Modbus
+#menu625#=Maitre
+#menu626#=Esclave
+#menu627#=limite Z haut
+#menu628#=limite Z bas
+#menu565#=F6
+Volts  -
+#menu566#=F7
+Volts +
+#menu567#=F6
+Préc -
+#menu568#=F7
+Préc +
+#menu569#=Consigne Volts
+#menu570#=Ecart maxi Volts
+#menu571#=Sensibilité THC
+#menu572#=Valeur delta Volts
+#menu573#=THC On
+#menu574#=THC Off
+#menu575#=Set arc erreur de tension
+#menu577#=Arc sur lerreur de valeur de protection de tension
+#menu578#=Augmenter lerreur de valeur de sensibilité
+#menu579#=Set tension darc régler manuellement lerreur foulée
+#menu580#=Consigne V
+#menu581#=Actuelle V
+#menu582#=Temps IHS rapide
+#menu584#=Erreur de valeur de temps de positionnement rapide
+#menu586#=Des étincelles source de signal de réussite
+#menu587#=intérieur
+#menu588#=extérieur
+#menu700#=Correction derreur AD
+#menu701#=Échantillonnage de tension darc
+#menu640#=Fermer la détection de collision
+#menu641#=Après la coupe est terminée sans fermer loxygène de préchauffage
+#menu555#=Angle dinclinaison horizontale
+#menu562#=Calculer langle dinclinaison horizontale
+#menu556#=longue gauche
+#menu557#=colonne de droite
+#menu558#=Top à long
+#menu559#=Lower longue
+#menu560#=En bas à gauche à la longueur supérieure droite
+#menu561#=En haut à gauche à la longueur en bas à droite
+#menu563#=Calculer langle horizontal de la réussite dinclinaison
+#menu564#=Impossible de calculer langle dinclinaison horizontale
+#menu702#=Plasma vitesse pistolet de levage
+#menu703#=allumage Dépoussiérage
+#menu704#=purge
+#menu705#=F3
+laser ret
+#menu706#=F4
+confirm le
+#menu707#=F5
+confirm fin
+#menu708#=F7
+Annuler
+#menu709#=Sélectionnez larme principale
+#menu710#=F1
+est pas sél
+#menu711#=Positionnée pistolet laser décalé latéralement
+#menu712#=Laser gun ciblage décalage longitudinal
+#menu713#=Pistolet à plasma décalé latéralement
+#menu714#=Pistolet à plasma de déplacement longitudinal
+#menu715#=Sil vous plaît sélectionner le canon principal
+#menu716#=Alarme interdiction de conduire
+#menu717#=indication de marche
+#menu718#=Arbre Utilisation du mandrin
+#menu719#=Durée de purge
+#menu720#=Limite de vitesse de soudage
+#menu721#=temps daccélération
+#menu722#=Pour la première fois à zéro vitesse
+#menu723#=Deuxième vitesse de prise dorigine
+#menu724#=Homing retraite distance X
+#menu725#=Homing distance de retraite Y
+#menu726#=F4
+machine
+#menu727#=Utilisez lalésage du cylindre
+#menu729#=Support USB noms de fichiers longs
+#menu730#=Cylindre temps douverture
+#menu731#=Heure de fermeture des cylindres
+#menu732#=F2
+Lance-flam
+#menu733#=F3
+Plasma gun
+#menu734#=pistolet à peinture
+#menu800#=Drilling Statut
+#menu801#=tapotement
+#menu802#=sélever
+#menu803#=déclin
+#menu804#=lieu de forage
+#menu178#=Le fichier existe déjà, le remplacer?
+#menu805#=F4
+laser déc
+#menu806#=F5
+laser ret
+#menu807#=Fonction de commande de soudage
+#menu808#=Temps Crater
+#menu809#=Temps darc
+#menu810#=Limite supérieure THC
+#menu811#=Limite inférieure THC
+#menu812#=Léquipement périphérique
+#menu813#=Broche de perçage position zéro à proximité de la plaque
+#menu814#=Chaque trou a taraudé fois pas à pas
+#menu815#=Après lachèvement du forage arrêt de la hauteur
+#menu816#=La longueur totale du fichier G-code dépasse la limite
+#menu817#=G seule ligne de code plus longue que la limite!
+#menu818#=Ralenti / erreur de vitesse inverse
+#menu819#=Erreur de vitesse Dusting
+#menu820#=G numéro de code de lignes dépasse la limite!
+#menu821#=La présence de fichiers de code G de distorsion!
+#menu822#=Pas le fichier G-code!
+#menu823#=Fichier vide!
+#menu824#=périphérique prêt
+#menu825#=Après arc Temps de descente
+#menu826#=Sélection de la sortie du pistolet Flame
+#menu827#=Sélection de la sortie du canon à plasma
+#menu828#=Piercing passe
+#menu829#=Nombre de pièce
+#menu830#=distance de Cut
+#menu831#=durée
+#menu832#=effacé
+#menu833#=Confirmer défrichée?
+#menu834#=Piercing
+#menu835#=Nombre
+#menu836#=dist Cut
+#menu837#=durée
+#menu838#=Fonction de répétition, sil vous plaît réinitialiser
+#menu839#=inutilisé
+#menu840#=fonction
+#menu841#=8421 0
+#menu842#=8421 1
+#menu843#=8421 2
+#menu844#=8421 3
+#menu845#=8421 4
+#menu846#=8421 5
+#menu847#=8421 6
+#menu848#=8421 7
+#menu849#=Avant dentrer dans la
+#menu850#=Après la retraite
+#menu851#=temps de coupe
+#menu852#=Gun Flame vitesse de levage
+#menu853#=Plasma vitesse pistolet de levage
+#menu854#=Copiez le répertoire pour déterminer tous les fichiers sur le disque dur il?
+#menu2002#=Après avoir atteint le signal de retour à la maison de laxe-X
+#menu2003#=Y-axe de larrière après avoir heurté le signal de la maison
+#menu2004#=Axe X zéro pièce
+#menu2005#=Zéro décalage axe Y
+#menu2006#=Machine de position de stationnement X
+#menu2007#=Machine de position de stationnement Y
+#menu2008#=Fermer après chaque installation de forage
+#menu2009#=Erreur Flame Vitesse Temps
+#menu2010#=Plasma et Vitesse erreur
+#menu2011#=Erreur darrêt du temps
+#menu2012#=Après perforation soulevé activer retard
+#menu2013#=Choix de laxe
+#menu2014#=Après avoir atteint le signal de distance de la maison de retraite
+#menu2015#=décalage
+#menu2016#=Machine de position de stationnement
+#menu2017#=Séquence Homing
+#menu2018#=Activer retour à zéro
+#menu2019#=Direction positive Homing
+#menu2020#=inverse
+#menu2021#=avant
+#menu2022#=axe des X,
+#menu2023#=axe Y
+#menu2024#=axe Z
+#menu2025#=Tous les axes activés simultanément de retour à zéro
+#menu2026#=Arbre Chuck
+#menu2027#=Nomb de fich pour long, très long pour copier, sil vous plaît soyez patient!
+#menu2028#=Zéro plage de décalage a dépassé les limites
+#menu2029#=Machine garée plage de position a dépassé les limites
+#menu2030#=Homing répétition de séquence, sil vous plaît re-set
+#menu2031#=Sil vous plaît entrer un temps de montée de ciblage (s)
+#menu2032#=Changement de vitesse en pourcentage (en%)
+#menu2033#=Retour à la déterminer?
+#menu2034#=OK autorisé coordonner?
+#menu630#=Ouvrir Rig
+#menu2035#=Nombre de fichiers dépassement, supprimer certains
+#menu2036#=F1-Supprimer les fichiers
+#menu2037#=F2-supprimer un dossier
+#menu2038#=F3-tous les fichiers clairs
+#menu2039#=F6
+Fich vide
+#menu2040#=chemin daccès actuel
+#menu2041#=U disque
+#menu2042#=disque dur
+#menu2043#=Importer à partir dU disque
+#menu2044#=Importer à partir du disque dur
+#menu2045#=Exporter vers U disque
+#menu2046#=Exporter vers le disque dur
+#menu2047#=erreur inconnue
+#menu2048#=La jauge de longueur de trajet de courant
+#menu2049#=Le nombre actuel de dossier de fichiers de dépassement
+#menu2050#=Axe Dust partition de 1Y coordonnent
+#menu2051#=Axe Dust partition de 2Y coordonnent
+#menu2052#=F7
+ Divers
+#menu2053#=Dust partition 1 sortie
+#menu2054#=Sortie Zone 2 de la poussière
+#menu2055#=Séparation des poussières 3 sorties
+#menu2056#=F8
+Ret zéro
+#menu2057#=Retour au zéro machine
+#menu2058#=Retour à la position darrêt
+#menu2059#=Coordonner autorisé
+#menu2060#=Sélection de la sortie de la torche en mode Demo
+#menu629#=mode Exploration
+#menu631#=F4
+arbre
+#menu2061#=Activer le débogage
+#menu2062#=ouvert laser
+#menu2063#=Plasma sélection du mode de flamme
+#menu2064#=F6
+Ouv Laser

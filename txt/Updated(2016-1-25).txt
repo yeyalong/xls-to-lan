@@ -1,0 +1,1003 @@
+UCCodeEncode=GB18030
+#menu1#=Update. O.K.?
+#menu2#=Enter:Yes / ESC:Cancel
+#menu3#=Unknown file type
+#menu4#=Updated Successfully. Pls restart
+#menu5#=Update file is not found
+#menu6#=Please insert USB
+#menu7#=Update failed
+#menu8#=Updating¡­
+#menu9#=Please wait for few minutes
+#menu10#=Too large file
+#menu11#=F1 System update
+#menu12#=F2 Startup screen update
+#menu13#=F3 Control parameter update
+#menu14#=F4 System recovery
+#menu15#=F1 Parameter recovery
+#menu16#=F2 Initialize parameter
+#menu17#=F3 Clear all files
+#menu18#=Please enter password
+#menu19#=Cleared successfully.
+#menu20#=Failed to clear
+#menu21#=Parameter recovered successfully
+#menu174#=Press any key to return
+#menu22#=Failed to parameter recovery
+#menu23#=Parameter initialized successfully
+#menu24#=Failed to initialize parameter
+#menu25#=Login password
+#menu26#=Security
+#menu27#=days
+#menu28#=times
+#menu29#=NoSecurity
+#menu30#=Security level
+#menu31#=Unlock 1
+#menu32#=Unlock 2
+#menu33#=Unlock 3
+#menu34#=Unlock finished
+#menu35#=Recount
+#menu36#=Save
+#menu37#=Available for %d days 
+#menu38#=Available for  %d times
+#menu39#=Current user is not restricted 
+#menu40#=Failed to unlock
+#menu41#=Unlocked successfully
+#menu42#=Press Enter to change
+#menu43#=Saved successfully
+#menu44#=File setting error
+#menu45#=No. duplicated. Please try new no.
+#menu46#=Transverse-axis direction
+#menu47#=Longitudinal-axis direction
+#menu48#=CW
+#menu49#=CCW
+#menu50#=Press Enter to change
+#menu51#=Input definition
+#menu52#=PgUp/PgDn : Change Port, Enter : Change Type
+#menu53#=Port
+#menu54#=Type
+#menu55#=Output definition
+#menu56#=Quit cutting. O.K.?
+#menu57#=Enter: Quit
+#menu58#=ESC: Continue cutting
+#menu59#=Return. O.K.?
+#menu60#=Please input Kerf :
+#menu61#=Quit cutting, and input Kerf again.
+#menu62#=Jump to the next pierce point?
+#menu63#=Oxy-Fuel
+#menu64#=Plasma
+#menu65#=Dry run
+#menu66#=Cut SP
+#menu244#=Cut SP
+#menu68#=JOG
+#menu69#=MmtrMV
+#menu70#=ContMV
+#menu71#=StepMV
+#menu72#=StepDist
+#menu73#=Stop
+#menu74#=Pause
+#menu75#=Cut
+#menu76#=Pierce
+#menu77#=Dry run
+#menu78#=Backwrd
+#menu79#=JOG
+#menu80#=Edge
+#menu81#=Arc ON
+#menu82#=Please input feeding lenth
+#menu83#=Too learge number, reset
+#menu88#=Please input cutting speed
+#menu89#=Please input Kerf
+#menu90#=Please input JOG speed
+#menu91#=[G] Return to cutting
+#menu92#=[X] Offset cutting
+#menu93#=[Y] Return
+#menu94#=[X] Coordinate offset
+#menu95#=High preheat
+#menu96#=Low preheat
+#menu97#=Pierce 1
+#menu98#=Pierce 2
+#menu99#=Pierce 3
+#menu100#=Operate Mode:
+#menu101#=Ignition
+#menu102#=Oxygen
+#menu95#=High Preheat
+#menu103#=Pierce 1
+#menu104#=Pierce 2
+#menu105#=Pierce 3
+#menu106#=Arc time
+#menu107#=Pos. time
+#menu108#=Pierce
+#menu109#=THC disable
+#menu110#=THC enable
+#menu111#=Blow
+#menu112#=Arc detect
+#menu113#=Pierce delay
+#menu114#=In Positon
+#menu115#=Dry run
+#menu116#=Parameter error
+#menu117#=Non standard code 
+#menu118#=Arc error
+#menu119#=Too long code
+#menu120#=Hard limit alarm
+#menu121#=Soft limit alarm
+#menu122#=Division error
+#menu123#=Emergycy alarm
+#menu124#=Arc OFF alarm
+#menu125#=Torch collision
+#menu126#=Dual RAM error
+#menu127#=DSP RAM error
+#menu128#=Return. O.K.?
+#menu129#=ENTER: Return
+#menu130#=ESC: Cancel
+#menu131#=1. Please backup parameter
+#menu132#=2. After selfcheck, lose breakpoint
+#menu133#=3. Please restart after self-check
+#menu134#=Selfcheck. O.K.?
+#menu135#=Input
+#menu136#=Forward limit
+#menu137#=Back limit
+#menu138#=Right limit
+#menu139#=Left limit
+#menu140#=Emergency stop
+#menu141#=Arc
+#menu142#=Torch position
+#menu143#=Torch collision
+#menu144#=Output
+#menu145#=Ignition
+#menu146#=Low preheat
+#menu95#=High preheat
+#menu147#=Low cutting oxygen
+#menu148#=Med. cutting oxygen
+#menu149#=High cutting oxygen
+#menu150#=Torch Up
+#menu151#=Torch Down
+#menu152#=Blow
+#menu153#=THC enable
+#menu154#=Position detect
+#menu155#=Arc start
+#menu156#=Hold Torch
+#menu157#=Valve
+#menu158#=Servo On
+#menu159#=Powder marking1
+#menu160#=Powder marking2
+#menu161#=Marking preheat
+#menu162#=Keyboard code:
+#menu163#=Year Month Day Week
+#menu164#=Press Up/Down to change Date&Time  
+#menu165#=File is not found
+#menu166#=USB is not found
+#menu167#=Failed to open file
+#menu168#=Failed to open file
+#menu169#=Folder cant be edited
+#menu170#=Not supported file
+#menu171#=Delete file. O.K.?
+#menu172#=Same file exists. Replace it?
+#menu173#=Successfully created a file
+#menu175#=Copy failed. Any key to return
+#menu176#=Copy completed
+#menu2#=Enter:Yes / ESC:cancel
+#menu179#=Saving...
+#menu170#=Not supported file
+#menu180#=Kerf is invalid
+#menu181#=Reset Kerf to zero
+#menu182#=Compiling completed
+#menu183#=Too long code
+#menu184#=Please enter the file name:
+#menu186#=Enter: Replace file
+#menu187#=ESC: Return
+#menu188#=Saving¡­, Please wait
+#menu191#=Failed to load file
+#menu192#=Processing...
+#menu193#=Save failed
+#menu194#=Please input angle
+#menu195#=Min: -360, Max: 360
+#menu196#=Angle:
+#menu197#=Please input parameter (unit: mm)
+#menu198#=Rows
+#menu199#=Columns
+#menu200#=RowLength
+#menu201#=ColumnLength
+#menu202#=Too few Rows or Columns
+#menu203#=Please select array type
+#menu204#=F1: Matrix
+#menu205#=F2: Stagger
+#menu206#=F3: Stacking
+#menu207#=Row Stack
+#menu208#=Column Stack
+#menu209#=F8: OK
+#menu210#=Please enter ratio: 
+#menu211#=Ratio must be more than zero
+#menu212#=F1 Plate angle adjustment 
+#menu213#=F2 Angle input
+#menu214#=X-Start / Y-End / ESC-Exit
+#menu215#=Adjust X: 
+#menu216#=Adjust Y: 
+#menu217#=Angle
+#menu218#=Enter: Return to start point
+#menu219#=ESC: Dont return to start point
+#menu221#=Connection failure
+#menu222#=Please select cutting data
+#menu223#=Start cutting. O.K.?
+#menu224#=Enter: Start cutting / ESC: Return
+#menu225#=Start Dry run. O.K.?
+#menu226#=Enter: Start Dry run / ESC: Return
+#menu227#=Edit Part
+#menu228#=Model: F2500
+#menu229#=USB file
+#menu230#=Quit cutting or open a file
+#menu232#=USB is connected
+#menu233#=USB Error!
+#menu234#=Error code 0
+#menu235#=Please contact your supplier
+#menu236#=Error code 1%xD
+#menu237#=Press any key to return
+#menu238#=Error code 2%xT
+#menu239#=Dual RAM is O.K.
+#menu240#=Dual RAM error
+#menu241#=Fatal error! Storage device could not be found. 
+#menu242#=Fatal error! Failed to initialise storage device.
+#menu243#=Initialised storage device successfully
+#menu245#=Kerf
+#menu246#=Status:
+#menu247#=File:
+#menu248#=Live speed: 
+#menu249#=FLSK F2500
+#menu250#=Version:
+#menu251#=JOG speed
+#menu252#=CurrentLine/Pierce
+#menu253#=F1
+Patterns
+#menu254#=F2
+Files
+#menu255#=F3
+Parts
+#menu256#=F4
+Parameter
+#menu257#=F5
+Diagnose
+#menu258#=F6
+Zoon In
+#menu259#=F7
+JOG
+#menu260#=F8
+0 Reset 
+#menu261#=F8
+Zoom In
+#menu262#=F1
+External
+#menu263#=F2
+Internal
+#menu264#=F1
+HDD file
+#menu265#=F2
+USB file
+#menu266#=F3
+Search
+#menu267#=F4
+Edit file
+#menu268#=F5
+Del.File
+#menu269#=F7
+Preview
+#menu270#=F1
+Common
+#menu271#=F2
+Oxy-Fuel
+#menu272#=F3
+Plasma
+#menu273#=F4
+Marking
+#menu274#=F5
+System
+#menu275#=F6
+Import
+#menu276#=F7
+Export
+#menu277#=F8
+Save
+#menu278#=F1
+Import IO
+#menu279#=F2
+Edit IO
+#menu280#=F3
+Port ON
+#menu281#=F4
+Port OFF
+#menu282#=F5
+Keyboard
+#menu283#=F6
+Selfcheck
+#menu284#=F7
+Date&Time
+#menu285#=F8
+SystemDef
+#menu286#=Parameter recovery
+#menu287#=PM backup
+#menu288#=F3
+Define
+#menu289#=F4
+Security
+#menu290#=F5
+Unlock
+#menu291#=F6
+Language
+#menu292#=Update
+#menu293#=F1
+Back
+#menu294#=F2
+Dry run
+#menu295#=F3
+0 return
+#menu296#=F6
+PrheatEnd
+#menu297#=F7
+Preheat +
+#menu298#=F8
+SelPierce
+#menu299#=F2
+Rotate
+#menu300#=F3
+Array
+#menu301#=F4
+Scale
+#menu302#=F5
+LineStart
+#menu303#=F6
+Edit File
+#menu304#=F7
+Cancel
+#menu305#=F8
+OK
+#menu306#=F1
+Compile
+#menu307#=F2
+Add Line
+#menu308#=F3
+Del Line
+#menu309#=F4
+New File
+#menu277#=F8
+Save
+#menu310#=F1
+Input IO
+#menu311#=F2
+Output IO
+#menu312#=F3
+Axes
+#menu313#=F4
+Motor
+#menu314#=F5
+Option
+#menu277#=F8
+Save
+#menu315#=F1
+MmtryMV
+#menu316#=F2
+Conti. MV
+#menu317#=F3
+Step MV
+#menu318#=F4
+Speed - 
+#menu319#=F5
+Speed +
+#menu320#=F7
+Recover
+#menu321#=F6
+USB SAVE
+#menu322#=Please input a text to serch
+#menu323#=File is not found
+#menu324#=Please input feeding lenth
+#menu325#=French
+#menu326#=Chinese
+#menu327#=English
+#menu328#=Cutting speed
+#menu329#=JOG speed
+#menu330#=Rapid speed
+#menu331#=Kerf
+#menu332#=Corner speed (1-100)
+#menu333#=Cutting method
+#menu334#=Yes
+#menu335#=No
+#menu336#=Dry run / back speed
+#menu337#=Marking speed
+#menu338#=Dry run Speed
+#menu67#=DryRunSP
+#menu339#=Ignition time
+#menu340#=Low preheat time
+#menu341#=High preheat time
+#menu342#=Pierce 1 time
+#menu343#=Pierce 2 time
+#menu344#=Pierce 3 time
+#menu345#=Blow time
+#menu346#=Torch down time
+#menu347#=Pierce up time
+#menu348#=Pierce down time
+#menu349#=THC enable
+#menu350#=Hold preheat
+#menu351#=Edge start
+#menu352#=Creep Speed
+#menu353#=Creep Time
+#menu354#=Arc time
+#menu355#=Pierce time
+#menu356#=Torch Up time (after Arc OFF)
+#menu357#=Arc detect time
+#menu358#=Initial height sensing time
+#menu359#=Position Up time (after IHS)
+#menu360#=Speed to hold THC
+#menu361#=Main Arc
+#menu362#=Height to hold THC
+#menu363#=Arc OFF delay
+#menu365#=Marking ignition time
+#menu366#=Marking preheat Time
+#menu367#=Marking start time
+#menu368#=Marking stop time
+#menu369#=Marking torch Up time
+#menu370#=Marking torch Down time
+#menu371#=Marking torch horizontal offset
+#menu372#=Marking torch vertical offset
+#menu373#=Transverse axis pulse
+#menu374#=Longitudinal axis pulse
+#menu375#=Max. Cutting speed 
+#menu376#=Max. Rapid speed
+#menu377#=Small circle clamp speed
+#menu379#=Accerate time in Oxy-Fuel
+#menu381#=Emergency stop time
+#menu382#=Start speed
+#menu383#=Max. +X
+#menu384#=Max. +Y
+#menu385#=Min. -X
+#menu386#=Min. -Y
+#menu380#=Accerate time in Plasma
+#menu387#=Max. JOG speed
+#menu388#=Imported parameter succesfully
+#menu389#=Failed to import parameter
+#menu390#=F2300.DAT file is not found
+#menu391#=Restart to active parameter
+#menu392#=Import parameter. O.K.?
+#menu393#=Parameter file is F2300D.DAT
+#menu394#=Exported Parameter succesfully
+#menu395#=Failed to export parameter
+#menu396#=Failed to open parameter file
+#menu397#=Please delete parameter file in USB
+#menu398#=Export parameter. O.K.?
+#menu399#=Imported parameter succesfully
+#menu400#=Inferior paramtr. Load default data
+#menu401#=Inferior parameter. Check parameter
+#menu402#=Parameter recovered successfully
+#menu403#=Cutting speed error
+#menu404#=JOG speed error
+#menu405#=Rapid speed error
+#menu406#=Kerf error
+#menu407#=Corner speed error
+#menu408#=Small circle clamp speed error
+#menu409#=Too fast Cutting speed 
+#menu410#=Too fast JOG speed
+#menu411#=Too fast Rapid speed
+#menu412#=Too fast Dry run / Reverce speed 
+#menu413#=Too fast Marking speed
+#menu414#=Too fast Dry run speed
+#menu415#=Decrease pulse to increase speed
+#menu416#=Parameter saved successfully
+#menu417#=Change system parameter. O.K.?
+#menu407#=Corner speed error
+#menu418#=Ox-Fl
+#menu419#=Plasma
+#menu420#=X Mirror
+#menu421#=Y Mirror
+#menu422#=F1 Select line
+#menu423#=F2 Select Pierce
+#menu424#=Input line no.:
+#menu425#=Press¡û¡úSelect lines
+#menu426#=F8 OK
+#menu427#=F1: Center
+#menu428#=F2: Bottom left
+#menu429#=F3: Top left
+#menu430#=F4: Bottom right
+#menu431#=F5: Top right
+#menu432#=Input No. of Pierce:
+#menu433#=Press¡û¡úSelect No. of pierce 
+#menu434#=Remote controller type
+#menu435#=F6
+Copy HDD
+#menu436#=Lead in
+#menu437#=Lead out
+#menu438#=Size
+#menu439#=Quantity
+#menu440#=Please input folder name
+#menu441#=Create folder succesfully
+#menu442#=Failed to create folder
+#menu443#=Too many folders. Please delete
+#menu444#=Delete folder. OK?
+#menu445#=ClearFile
+#menu446#=Coordinate
+#menu447#=ABS
+#menu448#=REL
+#menu449#=Press ¡û¡úto change
+#menu450#=Quit border test
+#menu451#=F3
+Border
+#menu461#=Unit
+#menu452#=Metric
+#menu453#=Inches
+#menu454#=Restart to change unit
+#menu455#=IJ coordinate type
+#menu456#=Current folder
+#menu457#=Slot No.
+#menu458#=Parameter
+#menu459#=SP(0X1Y)
+#menu460#=No
+#menu455#=IJ coordinate type
+#menu461#=Unit:
+#menu462#=Fitting short line
+#menu463#=Store plate angle
+#menu464#=F1
+Start Pnt
+#menu465#=F5
+NewFolder
+#menu466#=Save backup data
+#menu467#=Load backup data
+#menu378#=Radius to limit speed
+#menu468#=Note1): 
+#menu469#=>0, Rotate CCW
+#menu470#=Note2): <0, Rotate CW
+#menu471#=Note3): =0, Rotate 0 degree
+#menu472#=Year
+#menu473#=Month
+#menu474#=Day
+#menu475#=Week
+#menu476#=Mon
+#menu477#=Tue
+#menu478#=Wen
+#menu479#=Thur
+#menu480#=Fri
+#menu481#=Sat
+#menu482#=Sun
+#menu525#=Use Chuck
+#menu526#=Chuck pulse
+#menu527#=System mode
+#menu528#=Plate cut
+#menu529#=Pipe cut
+#menu530#=Diameter is not set
+#menu531#=Pipe cutting mode
+#menu537#=Laser
+#menu538#=Laser adjust time
+#menu539#=Blow delay before Laser ON
+#menu540#=Delay after Laser ON
+#menu541#=THC time
+#menu542#=Blow hold
+#menu543#=Laser On
+#menu544#=Blow
+#menu545#=Laser cut
+#menu546#=THC Enable
+#menu547#=Distance to Laser OFF
+#menu548#=Distance to Blow OFF
+#menu554#=¡ñ
+#menu483#=Move Up Input
+#menu484#=Move Down Input
+#menu485#=Move Left Input
+#menu486#=Move Right Input
+#menu487#=Ignition Input
+#menu488#=CutOxygen input
+#menu489#=Acceleration Input
+#menu490#=Deacceleration Input
+#menu491#=Start Input
+#menu492#=Stop Input
+#menu493#=Torch Up Input
+#menu494#=Torch Down Input
+#menu495#=Current Language: Eng
+#menu496#=Add Language Files
+#menu497#=Advanced Setup
+#menu498#=Aluminium (ALU)
+#menu499#=Careful, You Will 
+Change Advanced Setup
+#menu500#=Default Value
+#menu501#=Clear all files?
+#menu502#=Password is Wrong
+#menu503#=Frame Test
+#menu505#=Save Input Angle as Steel Angle
+#menu506#=Size 1
+#menu507#=Size 2
+#menu508#=Size 3
+#menu509#=Size 4
+#menu510#=Size 5
+#menu511#=Size 6
+#menu512#=Size 7
+#menu513#=Size 8
+#menu514#=Size 9
+#menu515#=Size 10
+#menu516#=Make sure language files are in USB
+#menu517#=XY Exchange
+#menu518#=Quantity 1
+#menu519#=Quantity 2
+#menu520#=Forbidden F
+#menu532#=Main pipe D
+#menu533#=Branch pipe D
+#menu534#=Over burn length
+#menu551#=Language File is not exist
+#menu552#=Please add language files firstly
+#menu553#=Successfully import language files %d
+#menu84#=Step Distance is Out of Limited
+#menu85#=Speed is Out of Limited
+#menu86#=Kerf is Out of Limited
+#menu87#=Manual Speed is Out of Limited
+#menu220#=Can not Open File
+#menu364#=Time to Lock THC before M08
+#menu576#=F8
+0 return
+#menu600#=F1 Parameter
+recovery
+#menu601#=F2
+PM backup
+#menu602#=F8
+Update
+#menu610#=Use Cylinder THC
+#menu611#=Set Arc Voltage
+#menu612#=Set dead Arc Voltage
+#menu613#=Set Capacity Voltage
+#menu614#=Set Dead Capacity Voltage
+#menu615#=Modbus communication failure!
+#menu616#=Real-time arc voltage
+#menu617#=Real-time capacity voltage
+#menu618#=Failed to save data
+#menu619#=Dynamic piercing time
+#menu620#=Pierce Delay
+#menu621#=The initial rise time positioning
+#menu622#=Use Crawl in Piercing
+#menu623#=modbus master-slave mode
+#menu624#=Modbus baud rate
+#menu625#=Master
+#menu626#=Slave
+#menu627#=ZLimitUp
+#menu628#=ZLimitDown
+#menu565#=F6
+Arc Reduce
+#menu566#=F7
+Arc Add
+#menu567#=F6
+PreheatEnd
+#menu568#=F7
+PreheatAdd
+#menu569#=Set Arc Voltage
+#menu570#=Arc Protection Value
+#menu571#=THC Sensitivity
+#menu572#=Arc Set  Step Value
+#menu573#=AutoTHC
+#menu574#=ManualTHC
+#menu575#=Set Arc Voltage Error
+#menu577#=Arc Protection Value Error
+#menu578#=THC Sensitivity Value Error
+#menu579#=Arc Set  Step Value Error
+#menu580#=SetArc
+#menu581#=ActualArc
+#menu582#=FastIHSTime
+#menu584#=Fast IHS Time Error
+#menu586#=Arc Success Signal Source
+#menu587#=Inside
+#menu588#=Outside
+#menu700#=AD correction error
+#menu701#=Sampling Arc Value
+#menu640#=No Plasma and Steal contact check
+#menu641#=Hold Preheat after cutting end
+#menu555#=Horizontal Axis Angle
+#menu562#=Calculate Horizontal Axis Angle
+#menu556#=Left Length
+#menu557#=Right Length
+#menu558#=Upper Length
+#menu559#=Bottom Length
+#menu560#=LD to RU length
+#menu561#=LP to RD length
+#menu563#=Calc Axis Angle Sucessfully
+#menu564#=Faile to Calc Axis Angle
+#menu702#=Plasma Torch Updown Speed
+#menu703#=Marker ignition
+#menu704#=Blow out
+#menu705#=F3 Laser
+GunOut
+#menu706#=F4
+StartPnt
+#menu707#=F5
+EndPnt
+#menu708#=F7
+Cancel
+#menu709#=Sel Gun
+#menu710#=F1
+No Offset
+#menu711#=Laser Gun horizontal offset to Flame Gun
+#menu712#=Laser Gun vertical offset to Flame Gun
+#menu713#=Plasma Gun horizontal offset to Flame Gun
+#menu714#=Plasma Gun vertical offset to Flame Gun
+#menu715#=Please select Gun
+#menu716#=Warning:Driver forbidden
+#menu717#=Run Indicator
+#menu718#=PIPE mode
+#menu719#=Blow time
+#menu720#=Max Welding Speed
+#menu721#=Accelerate Time
+#menu722#=First time seek zero speed
+#menu723#=Second time seek zero speed
+#menu724#=X Distance after zero switch
+#menu725#=Y Distance after zero switch
+#menu726#=F4
+Machine
+#menu727#=Air Cylinder Used
+#menu729#=Long Name support
+#menu730#=Air Cylinder Open Time
+#menu731#=Air Cylinder Close Time
+#menu732#=F2
+Flame Cut
+#menu733#=F3
+Plasma Cut
+#menu734#=Sel Gun
+#menu800#=Drill State
+#menu801#=Tapping
+#menu802#=Lift
+#menu803#=Lower
+#menu804#=Position
+#menu178#=File already exists, replace?
+#menu805#=F4
+Laser Offset
+#menu806#=F5
+Laser Back
+#menu807#=Weld Performance Control
+#menu808#=Arc Off Time
+#menu809#=Arc On Time
+#menu810#=Upper Limit in THC
+#menu811#=Lower Limit in THC
+#menu812#=Peripheral equipment
+#menu813#=Zero pos is near steel In Drill Gun
+#menu814#=Times for tapping one hole
+#menu815#=Stop height after finishing drill
+#menu816#=Total length G code file exceeds the limit
+#menu817#=Single-line G-code length exceeds the limit
+#menu818#=Rapid/ reverse speed error
+#menu819#=Marking speed error
+#menu820#=G Code total number of rows exceeds the limit
+#menu821#=Presence garbled G code file
+#menu822#=Not  G-code file
+#menu823#=Empty file
+#menu824#=Peripheral ready
+#menu825#=Torch Down Time after Arcing
+#menu826#=Flame Torch Output Port
+#menu827#=Plasma Torch Output Port
+#menu828#=Pierce Count
+#menu829#=WorkPiece Count
+#menu830#=Cut Length
+#menu831#=Run Time
+#menu832#=Clear
+#menu833#=Sure to clear?
+#menu834#=Pierce
+#menu835#=WorkPiece
+#menu836#=Length
+#menu837#=Run Time
+#menu838#=Function Duplication,Please Reset
+#menu839#=None
+#menu840#=Function
+#menu841#=8421 Bit0
+#menu842#=8421 Bit1
+#menu843#=8421 Bit2
+#menu844#=8421 Bit3
+#menu845#=8421 Bit4
+#menu846#=8421 Bit5
+#menu847#=8421 Bit6
+#menu848#=8421 Bit7
+#menu849#=Demo
+#menu850#=Back
+#menu851#=Cut Time
+#menu852#=Flame Updown Speed
+#menu853#=Plasma Updown Speed
+#menu854#=Ensure copy all files in the folder to the hard disk?
+#menu2002#=X Distance after zero switch
+#menu2003#=Y Distance after zero switch
+#menu2004#=X axis zero offset
+#menu2005#=Y axis zero offset
+#menu2006#=Machine parked position X
+#menu2007#=Machine parked position Y
+#menu2008#=Close Drill Motor every time
+#menu2009#=Accerate Time in Flame Error
+#menu2010#=Accerate Time in Plasma Error
+#menu2011#=Emergency Stop Time Error
+#menu2012#=Time of Disable THC After Piercing
+#menu2013#=Axis select
+#menu2014#=Back distance after zero switch
+#menu2015#=Zero offset
+#menu2016#=Machine parked position
+#menu2017#=Back to zero sequence
+#menu2018#=Back to zero enable
+#menu2019#=Back to zero direction is positive
+#menu2020#=Reverse
+#menu2021#=Positive
+#menu2022#=Axis X
+#menu2023#=Axis Y
+#menu2024#=Axis Z
+#menu2025#=All the enabled axis back to zero together
+#menu2026#=Chuck axis
+#menu2027#=Much files, copy will be a long time, please be patient!
+#menu2028#=Zero offset beyond limit
+#menu2029#=Machine parked position beyong limit
+#menu2030#=Back to zero sequence repeat, Please reset
+#menu2031#=Please Input Position Up Time(s)
+#menu2032#=Speed Percentage change (%)
+#menu2033#=Sure to back?
+#menu2034#=Sure to clear?
+#menu630#=OpenDrillGun
+#menu2035#=Number of files overrun, delete some
+#menu2036#=F1-Del File
+#menu2037#=F2-Del Folder
+#menu2038#=F3-Del All File
+#menu2039#=F6
+Clear All
+#menu2040#=Current Path
+#menu2041#=UDisk
+#menu2042#=HardDisk
+#menu2043#=Import form U disk
+#menu2044#=Import form the hard disk
+#menu2045#=Export to U disk
+#menu2046#=Export to the hard disk
+#menu2047#=Unknown Err
+#menu2048#=The current path length overrun
+#menu2049#=The current number of file folder overrun
+#menu2050#=Dust partition 1 Y axis coordinate
+#menu2051#=Dust partition 2 Y axis coordinate
+#menu2052#=F7
+Misc
+#menu2053#=Dust partition 1 output
+#menu2054#=Dust partition 2 output
+#menu2055#=Dust partition 3 output
+#menu2056#=F8
+SeekZero
+#menu2057#=SeekZero
+#menu2058#=Return to Stop
+#menu2059#=Zero
+#menu2060#=Demo Torch Output Port
+#menu629#=DrillMode
+#menu631#=F4
+Z axis
+#menu2061#=Turn on debugging
+#menu2062#=Open Laser
+#menu2063#=Plasma Flame Mode Sel
+#menu2064#=F6
+OpenLaser
+#menu2065#=Disable Output
+#menu2066#=Enable Output
+#menu2067#=Marker Open Time
+#menu2068#=Marker Close Time
+#menu2069#=Flame Marker Horizontal Offset
+#menu2070#=Flame Marker Vertical Offset
+#menu2071#=Plasma Marker Horizontal Offset
+#menu2072#=Plasma Marker Vertical Offset
+#menu2073#=Flame Drill Horizontal Offset
+#menu2074#=Flame Drill Vertical Offset
+#menu2075#=Plasma Drill Horizontal Offset
+#menu2076#=Plasma Drill Vertical Offset
+#menu2077#=Pipe tube cut
+#menu2078#=Rec tube cut
+#menu2079#=Plane cut
+#menu2080#=System Mode
+#menu2081#=Confirm switching system mode?
+#menu2082#=After switching modes need to restart!
+#menu2083#=Mode switch successfully, reboot the system!
+#menu2084#=Mode switch failed
+#menu2085#=Error Code
+#menu2086#=Axis 1 Direction
+#menu2087#=Axis 2 Direction
+#menu2088#=Axis 3 Direction
+#menu2089#=Axis 4 Direction
+#menu2090#=Linear axis X
+#menu2091#=Linear axis Y
+#menu2092#=Unused
+#menu2095#=Motor1
+#menu2096#=Motor2
+#menu2097#=Motor3
+#menu2098#=Motor4
+#menu2099#=Plane
+#menu2100#=Marker Ignition
+#menu2101#=Load 1.TXT Code
+#menu2102#=Load 2.TXT Code
+#menu2103#=Drill Decelerate Input
+#menu2104#=F4
+Laser Back
+#menu2105#=Cutting Complete
+#menu2106#=Backlash is too large!
+#menu2107#=Stop input is valid!
+#menu2108#=Return back to reference after complete
+#menu2109#=hint
+#menu2110#=X Axis Backlash
+#menu2111#=Y Axis Backlash
+#menu2112#=Dot Time
+#menu2113#=F1 - Copy Current File
+#menu2114#=F2 - Copy Current Folder
+#menu2115#=F3 - Copy All Files
+#menu2116#=F2-Input Rotation Angle
+#menu2117#=F3-Input Steel plates Adjust Angle
+#menu2118#=Please Input Steel plates Adjust Angle
+#menu2119#=Allow Output In Emergency Stop
+#menu2120#=Optimization THC Algorithm
+#menu2121#=Cutting Running
+#menu2122#=IHS Dectect (No Torch Down)
+#menu2123#=Kerf too large
+#menu2124#=Forced to add kerf may be wrong!!!
+#menu2125#=Whether to continue add kerf?
+#menu2126#=Arc radius is too small
+#menu2127#=Laser Offset Enable
+#menu2128#=Off
+#menu2129#=Arc
+#menu2130#=Mark
+#menu2131#=Ign
+#menu2132#=LH
+#menu2133#=Oxy
+#menu2134#=THC
+#menu2135#=Circle Pipe Shape Lib Line Axis Mirror
+#menu2136#=Show Hole Num
+#menu2137#=Arc Successful Detect Mode
+#menu2138#=Arc Voltage
+#menu2139#=Input Port
+#menu2140#=ALL
+#menu2141#=Off Arc Mode
+#menu2142#=Time
+#menu2143#=Distance
+#menu2144#=Arc Radius Error Too Large
+#menu2145#=Arc Radius Error
+#menu1222#=null
+#menu1223#=right cut
+#menu1224#=left cut
+#menu1225#=right end
+#menu1226#=left end
+#menu1227#=cut hole
+#menu1228#=riding style
+#menu1229#=plug-in
+#menu1234#=F1
+para edit
+#menu1235#=F2
+delete
+#menu1236#=F3
+add
+#menu1237#=F8
+Enter
+#menu1267#=Pipe diameter 1
+#menu1268#=wall thickness2
+#menu1269#=Cut off angle 3
+#menu1270#=Rotation angle
+#menu1271#=Cut off length
+#menu1272#=Groove angle
+#menu1273#=Lead In angle
+#menu1274#=Lead In length
+#menu1275#=Lead Out length
+#menu1276#=Branch pipe D1
+#menu1277#=Branch Pipe T2
+#menu1278#=mother pipe D1
+#menu1279#=Angle
+#menu1280#=Eccentricity
+#menu1281#=mother pipe D3
+#menu1282#=mother Pipe T6
+#menu1283#=Branch pipe D1
+#menu1284#=Cut off length
+#menu1285#=Branch Pipe T2
+#menu1286#=Cancel
+ESC
+#menu1287#=please set pipe diameter and thickness
+#menu1288#=please set the first Graphical parameters
+#menu1289#=please set the selected Graphical parameters
+#menu1296#=F8
+Enter
+#menu2146#=Total Length
+#menu2147#=Total Width
+#menu2148#=Step Distance
+#menu2149#=Step Width
+#menu2150#=horizantla width
+#menu2151#=Tube Diameter
+#menu2152#=Total Width
+#menu2153#=Tube Length
+#menu2154#=Size L
+#menu2155#=Taille A
+#menu2156#=Taille B
+#menu2157#=Taille C
+#menu2158#=Taille ¦Â
+#menu2159#=Size W
+#menu2160#=Please set the cut off angele
+#menu2161#=F9-Open All IO
+#menu2162#=F10-Close All IO
+#menu2163#=Graphics display switching signal K1
+#menu2164#=Graphics display switching signal K2
+#menu2165#=F6
+Previous
+#menu2166#=F7
+Next
+#menu2167#=Show arranged G code

@@ -1,0 +1,584 @@
+UCCodeEncode=UTF8
+#menu1#=Atualizar. Confirma?
+#menu2#=ENTER: Sim - ESC: Cancela
+#menu3#=Tipo de Arq desconhecido
+#menu4#=Sucesso, favor Resetar
+#menu5#=Sem Atualiz de arquivo 
+#menu6#=Favor colocar disco U
+#menu7#=Atualiz de sistema falhou
+#menu8#=Atualizando...
+#menu9#=Aguardar alguns minutos
+#menu10#=Arquivo muito grande
+#menu11#=F1 Atualiz
+#menu12#=F2 Atualiz Boas Vindas
+#menu13#=F3 Atualiz Mov
+#menu14#=F4 Recuperação de sistema
+#menu15#=F1 Recup Parametro
+#menu16#=F2 Pressetar Parametro
+#menu17#=F3 Excluir todos os Arq
+#menu18#=Inserir senha
+#menu19#=Excluir finalizado
+#menu20#=Excluir não Finalizado
+#menu21#=Sucesso na recup de Param
+#menu174#=Tecla para retornar
+#menu22#=Falha Recuper Paramentro
+#menu23#=Sucesso Presset Param Padrao
+#menu24#=Falha Presset Param Padrao
+#menu25#=Entre com Login
+#menu26#=Tipo de Codigo
+#menu27#=Dias
+#menu28#=Vezes
+#menu29#=Sem Codigo
+#menu30#=Quant Codigo
+#menu31#=Codigo 1
+#menu32#=Codigo 2
+#menu33#=Codigo 3
+#menu34#=Ultimo Codigo
+#menu35#=Recontar
+#menu36#=Salvar
+#menu37#=Pode ser usado por  %d dias
+#menu38#=Pode ser usado por  %d vezes
+#menu39#=Usuario nao Restrito
+#menu40#=Falha ao Codificar
+#menu41#=Sucesso!
+#menu42#=Tecle ENTER p/ trocar coordenada
+#menu43#=Salvo com sucesso!
+#menu44#=Erro na Config de Arquivo
+#menu45#=Duplic de Porta. Reinicie
+#menu46#=Direcao horizontal
+#menu47#=Direcao vertical
+#menu48#=Sentido horario
+#menu49#=Sentido anti-horario
+#menu50#=Aperte ENTER para trocar
+#menu51#=Definicao de Entrada
+#menu52#=S↑/S↓: Porta -  ENTER: Tipo
+#menu53#=Porta
+#menu54#=Tipo
+#menu55#=Definicao de saída
+#menu56#=Abandonar Corte?
+#menu57#=ENTER: Sair
+#menu58#=ESC: Continue cortando
+#menu59#=Retornar. Confirma?
+#menu60#=Valor do Chanfro
+#menu61#=Antes, parar o corte
+#menu62#=Ir para novo Furo?
+#menu63#=Oxicorte
+#menu64#=Plasma
+#menu65#=Simula
+#menu66#=VelCorte
+#menu244#=VelCorte
+#menu68#=Manual
+#menu69#=MovFix
+#menu70#=MovCon
+#menu71#=MovPas
+#menu72#=PassDist
+#menu73#=Pare
+#menu74#=Pause
+#menu75#=Corte
+#menu76#=Perfure
+#menu77#=Ensaio
+#menu78#=Retorno
+#menu79#=Manual
+#menu80#=Borda
+#menu81#=Arco
+#menu82#=Entre Passo de Distancia
+#menu83#=Fora dos limites, Redefinir
+#menu88#=Entre Veloc de Corte
+#menu89#=Entre Valor do Chanfro
+#menu90#=Entre Veloc Manual
+#menu91#=[G] Retorna ao Corte
+#menu92#=[X] Continua o Corte
+#menu93#=[Y] Retorna ao Pause
+#menu94#=[X] Compensar Cordenadas
+#menu95#=Alto Preaq
+#menu96#=Baixo Preaq
+#menu97#=Perfuracao 1
+#menu98#=Perfuracao 2
+#menu99#=Perfuracao 3
+#menu100#=Modo Operacao
+#menu101#=Ignicao
+#menu102#=Oxygenio
+#menu95#=Alto Preaq
+#menu103#=Perfuracao 1
+#menu104#=Perfuracao 2
+#menu105#=Perfuracao 3
+#menu106#=Tempo do Arco
+#menu107#=TempoPosicion
+#menu108#=Perfuracao
+#menu109#=Manter Tocha
+#menu110#=Ativar THC
+#menu111#=Esgotar
+#menu112#=Retorno Arco
+#menu113#=Atraso Arco
+#menu114#=DetecPosicao
+#menu115#=Simular
+#menu116#=Erro de Parametro
+#menu117#=Erro de Codigo
+#menu118#=Erro do Arco
+#menu119#=Codigo muito Largo
+#menu120#=Limite rigido de Alarme
+#menu121#=Limite suave de Alarme
+#menu122#=Erro de Divisao
+#menu123#=Alarme de Emergencia
+#menu124#=Alarme Parada de Arco
+#menu125#=Colisao do Plasma
+#menu126#=Erro DualRam
+#menu127#=Erro DSP Ram
+#menu128#=Retornar. Confirma?
+#menu129#=ENTER: Retorna
+#menu130#=ESC: Cancela
+#menu131#=BackUp Paramet Primeiro
+#menu132#=Perda Ponto de Interrup
+#menu133#=Reiniciar apos Autodiag
+#menu134#=Confirma?
+#menu135#=Entrada
+#menu136#=Limite de Avanco
+#menu137#=Limite de Retorno
+#menu138#=Limite a Direita
+#menu139#=Limite a Esquerda
+#menu140#=Parada de Emergencia
+#menu141#=Retorno Arco Ok
+#menu142#=Posicao Original
+#menu143#=Colisao do Plasma
+#menu144#=Saida
+#menu145#=Ignicao
+#menu146#=Baixo Preaqec
+#menu95#=Alto Preaquec
+#menu147#=Baixo Oxigenio
+#menu148#=Medio Oxigenio
+#menu149#=Alto Oxigenio
+#menu150#=Sobe Tocha
+#menu151#=Desce Tocha
+#menu152#=Esgotar
+#menu153#=THC Ativo
+#menu154#=Posicao Padrao
+#menu155#=Inicio Plasma
+#menu156#=Mantem Tocha
+#menu157#=Valvula
+#menu158#=Servo Ligado
+#menu159#=Pulver Po
+#menu160#=Misturar Po
+#menu161#=Po Preaq
+#menu162#=Senha
+#menu163#=Ano Mes Dia Semana
+#menu164#=Aperte Up/Down para mudar
+#menu165#=Nenhum Arquivo
+#menu166#=Nenhum disco U
+#menu167#=Falha ao abrir Arquivo
+#menu168#=Falha ao abrir Arquivo
+#menu169#=Pasta nao pode ser editada
+#menu170#=Arquivo sem suporte
+#menu171#=Confirma Excluir Arquivo?
+#menu172#=Arquivo existente, substituir?
+#menu173#=Arquivo criado com sucesso
+#menu175#=A copia falhou, Tecla
+#menu176#=Copia completada
+#menu2#=ENTER: Sim    ESC: Cancela
+#menu179#=Salvando....
+#menu170#=Arquivo nao suportado
+#menu180#=Valor do Chanfro errado
+#menu181#=Zerar Valor do Chanfro
+#menu182#=Compilacao Ok
+#menu183#=Codigo muito comprido
+#menu184#=Entre nome de Arquivo
+#menu186#=ENTER: Substituir arquivo
+#menu187#=ESC: Retornar
+#menu188#=Salvando... Aguarde.
+#menu191#=Falha ao ler arquivo
+#menu192#=Processando...
+#menu193#=Salvar falhou
+#menu194#=Entre um Angulo
+#menu195#=min: -360 max: 360
+#menu196#=Angulo:
+#menu197#=Entre um parametro (mm)
+#menu198#=Linhas
+#menu199#=Colunas
+#menu200#=Linha Espec
+#menu201#=Coluna Espec
+#menu202#=Poucas Linhas ou Colunas
+#menu203#=Selecione Tipo de Arranjo
+#menu204#=F1: Matriz
+#menu205#=F2: Balanceada
+#menu206#=F3: Ninho
+#menu207#=AninharLinha
+#menu208#=AninharColun
+#menu209#=F8: Ok
+#menu210#=Entre Proporcao
+#menu211#=Nao Menor que Zero
+#menu212#=F1: Ajuste a Chapa
+#menu213#=F2: Entre com o Angulo
+#menu214#=X: Iníciar - Y: Ok - ESC: Sair
+#menu215#=Ajuste X:
+#menu216#=Ajuste Y:
+#menu217#=Angulo
+#menu218#=ENTER: Retornar
+#menu219#=ESC: Nao Retornar
+#menu221#=Falha ao Conectar
+#menu222#=Abra antes o Arquivo
+#menu223#=Cortar. Confirma?
+#menu224#=ENTER: Cortar  ESC: Sair
+#menu225#=Simular. Confirma?
+#menu226#=ENTER: Simula - ESC: Retorna
+#menu227#=Opcao Peca
+#menu228#=Modelo Produto: F2500
+#menu229#=Arquivo USB
+#menu230#=Sair do Corte ou Abrir Arq antes
+#menu232#=USB Disponivel
+#menu233#=Erro USB
+#menu234#=Sistema expirou
+#menu235#=Contactar fornecedor
+#menu236#=Erro de Codigo
+#menu237#=Tecle para retornar
+#menu238#=Erro de Codigo
+#menu239#=Porta Ram dual ok
+#menu240#=Porta Ram Dual nao ok
+#menu241#=Erro, sem flash
+#menu242#=Falha ao iniciar flash
+#menu243#=Flash esta ok
+#menu245#=Chanfro
+#menu246#=Status
+#menu247#=Arquivo:
+#menu248#=Velocidade:
+#menu249#=FLSK F2500
+#menu250#=Versao
+#menu251#=VelocManual
+#menu252#=Linha/Furo Atual
+#menu253#=F1
+Biblio
+#menu254#=F2
+Arquiv
+#menu255#=F3
+Op Peca
+#menu256#=F4
+Config
+#menu257#=F5
+Diagn
+#menu258#=F6
++Zoom
+#menu259#=F7
+MovMan
+#menu260#=F8
+Zero
+#menu261#=F8
++ Zoom
+#menu262#=F1
+Interno
+#menu263#=F2
+Externo
+#menu264#=F1
+ArqDisco
+#menu265#=F2
+DiscoU
+#menu266#=F3
+Busca
+#menu267#=F4
+EditArq
+#menu268#=F5
+ExclArq
+#menu269#=F7
+Visualiz
+#menu270#=F1
+Comum
+#menu271#=F2
+Chama
+#menu272#=F3
+Plasma
+#menu273#=F4
+Po
+#menu274#=F5
+Sistema
+#menu275#=F6
+Importar
+#menu276#=F7
+Exportar
+#menu277#=F8
+Salvar
+#menu278#=F1
+Entrar
+#menu279#=F2
+Sair
+#menu280#=F3
+AbriSaida
+#menu281#=F4
+ParaSaida
+#menu282#=F5
+Teclado
+#menu283#=F6
+AutoVerif
+#menu284#=F7
+Data
+#menu285#=F8
+Def Sistema
+#menu286#=RecpParam
+#menu287#=BckpParam
+#menu288#=F3
+Define
+#menu289#=F4
+Codific
+#menu290#=F5
+Descodif
+#menu291#=F6
+Lingua
+#menu292#=Atualizar
+#menu293#=F1
+Volta
+#menu294#=F2
+Simula
+#menu295#=F3
+VoltaZero
+#menu296#=F6
+RedPreaq
+#menu297#=F7
+AumPreaq
+#menu298#=F8
+SelPerfur
+#menu299#=F2
+Angulo
+#menu300#=F3
+Arranjo
+#menu301#=F4
+Escala
+#menu302#=F5
+Sel Linh
+#menu303#=F6
+Ed Arquiv
+#menu304#=F7
+Restaurar
+#menu305#=F8
+Ok
+#menu306#=F1
+Compilar
+#menu307#=F2
+Ad Linha
+#menu308#=F3
+Ret Linha
+#menu309#=F4
+Novo Arq
+#menu277#=F8
+Salvar
+#menu310#=F1
+Entrar
+#menu311#=F2
+Sair
+#menu312#=F3
+Coord
+#menu313#=F4
+Motor
+#menu314#=F5
+pções
+#menu277#=F8
+Salvar
+#menu315#=F1
+MovFixo
+#menu316#=F2
+MovCont
+#menu317#=F3
+MovPasso
+#menu318#=F4
+Desacel
+#menu319#=F5
+Aceler
+#menu320#=F7
+Recup
+#menu321#=F6
+CopPUSB
+#menu322#=Digite Sequenc Entrada
+#menu323#=Arquivo nao Corresponde
+#menu324#=Insira o Passo de Distancia
+#menu325#=Frances
+#menu326#=Chines
+#menu327#=Ingles
+#menu328#=Veloc Corte
+#menu329#=Veloc Mov Manual
+#menu330#=Veloc Mov G00
+#menu331#=Valor do Chanfro
+#menu332#=Veloc no Canto (1-100)
+#menu333#=Tipo de Corte
+#menu334#=Sim
+#menu335#=Nao
+#menu336#=Veloc Simul/Ret
+#menu337#=Veloc Po
+#menu338#=Veloc de Simulacao
+#menu67#=Veloc de Simulacao
+#menu339#=Tempo de Ignicao
+#menu340#=Baixo Tempo Preaquec
+#menu341#=Alto Tempo Preaquec
+#menu342#=Furar 1 vez
+#menu343#=Furar 2 vezes
+#menu344#=Furar 3 vezes
+#menu345#=Tempo de Esgotam
+#menu346#=Tempo Desc Tocha
+#menu347#=Tempo Subida Perf
+#menu348#=Tempo Desc Perf
+#menu349#=THC Ativo
+#menu350#=Manter Preaquecimento
+#menu351#=Corte Ponta Ativo
+#menu352#=Veloc Rampa
+#menu353#=Tempo Rampa
+#menu354#=Tempo do Arco
+#menu355#=Tempo de Perfuracao
+#menu356#=Tempo Subida Tocha
+#menu357#=Verific Tempo Arco
+#menu358#=Verific Tempo Posic
+#menu359#=Tempo Posic em Cima
+#menu360#=Fechar Arco
+#menu361#=Permite Assistir Arco
+#menu362#=Distancia Fechamento do Arco
+#menu363#=Perda de Atraso do Arco
+#menu365#=Tempo Ignicao de Po
+#menu366#=Tempo Preaq Po
+#menu367#=Tempo Abert Mix Po
+#menu368#=Tempo Fech Mix Po
+#menu369#=Sobe Tempo Po
+#menu370#=Desce Tempo Po
+#menu371#=Desloc Horiz Po
+#menu372#=Desloc Vert Po
+#menu373#=Pulso Eixo Horizontal
+#menu374#=Pulso Eixo Vertical
+#menu375#=Max Veloc Corte
+#menu376#=Max Veloc G00
+#menu377#=Limite Arco Menor
+#menu379#=Acelerar Tempo na Chama
+#menu381#=Tempo Parada de Emergencia
+#menu382#=Tempo de Inicio
+#menu383#=Max +X
+#menu384#=Max +Y
+#menu385#=Min -X
+#menu386#=Min -Y
+#menu380#=Acelerar tempo Plasma
+#menu387#=Veloc Max Manual
+#menu388#=Import de Parametro Ok
+#menu389#=Falha na Import de Parametro
+#menu390#=Arquivo No F2300.DAT
+#menu391#=Reiniciar para Ativar
+#menu392#=Importar Parametro. Confirma?
+#menu393#=Arquiv de Parametro e F2300.DAT
+#menu394#=Export de Paramentro Ok
+#menu395#=Falha ao Exportar Parametro
+#menu396#=Falha ao Abrir arq de Parametro
+#menu397#=Arquivo esta no USB, remova-o antes
+#menu398#=Exportar Parametro. Confirma?
+#menu399#=Parametro Ok
+#menu400#=Perda de Parametros, Carregue Padrao.
+#menu401#=parametro Corrompido. Favor revisar parametro
+#menu402#=Recuperacao de Parametro Ok
+#menu403#=Erro Veloc de Corte
+#menu404#=Erro Veloc Mov Manual
+#menu405#=Erro Veloc Mov G00
+#menu406#=Erro Valor do Chanfro
+#menu407#=Erro Veloc Corte em Curva
+#menu408#=Erro Fechamento do Arco
+#menu409#=Veloc de Corte Muito Rap
+#menu410#=Veloc Mov Man Muito Rap
+#menu411#=Veloc Mov G00 Muito Rap
+#menu412#=Veloc Simul/Retor Muito Rap
+#menu413#=Veloc Po Muito Rap
+#menu414#=Veloc Simulacao  Muito Rap
+#menu415#=Diminui Pulso / Aument Veloc
+#menu416#=Parametros Salvos
+#menu417#=Alterar Parametro. Confirma?
+#menu407#=Erro Veloc de Canto
+#menu418#=Chama
+#menu419#=Plasma
+#menu420#=Espelhar em X
+#menu421#=Espelhar em Y
+#menu422#=F1 Selecione Linha
+#menu423#=F2 Selecione Furo
+#menu424#=Entre No de Linhas
+#menu425#=←→ Selecionar Linhas
+#menu426#=F8 Ok
+#menu427#=F1_Origem
+#menu428#=F2_Esquerda&Abaixo
+#menu429#=F3_Esquerda&Acima
+#menu430#=F4_Direito&Abaixo
+#menu431#=F5_Direito&Acima
+#menu432#=Entre No de Furos
+#menu433#=←→ Selec No. Furo
+#menu434#=Tipo de Controle Remoto
+#menu435#=Cop.Disco
+#menu436#=Entrada
+#menu437#=Saida
+#menu438#=Tamanho
+#menu439#=Quantidade
+#menu440#=Favor inserir Nome da Pasta
+#menu441#=Sucesso na criacao da Pasta
+#menu442#=Falha ao criar Pasta
+#menu443#=Muita Pasta. Apague Primeiro
+#menu444#=Apagar Pasta. Confirma?
+#menu445#=Apagar Pasta
+#menu446#=Digite Corridata
+#menu447#=Absoluto
+#menu448#=Relativo
+#menu449#=Aparte←→para mudar
+#menu450#=Deixe teste de borda
+#menu451#=F3
+Borda
+#menu461#=Unidade
+#menu452#=Métrico
+#menu453#=Polegad
+#menu454#=Reinicie para mudar unidade
+#menu455#=IJ coordenam tipo
+#menu456#=Pasta atual
+#menu457#=NúmAbert
+#menu458#=Parâmetro
+#menu459#=SP(0X1Y)
+#menu460#=No
+#menu455#=IJ coordenada
+#menu461#=Unidade
+#menu462#=Ajust linha corta
+#menu463#=Armaze. Ângulo prato
+#menu464#=F1
+PontComeç
+#menu465#=F5
+PastaNova
+#menu466#=Salvar backup
+#menu467#=Carregar backup
+#menu378#=Rádio para velocidade de limite
+#menu468#=Nota1):
+#menu469#=>0, Girar sent. anti-horário
+#menu470#=Nota2):<0, Girar sent. horário
+#menu471#=Nota3):=0, Girar 0 grau
+#menu472#=An
+#menu473#=Mes
+#menu474#=Dia
+#menu475#=Semana
+#menu476#=Seg
+#menu477#=Ter
+#menu478#=Qua
+#menu479#=Qui
+#menu480#=Sex
+#menu481#=Sab
+#menu482#=Dom
+#menu525#=Utilizar mandrel
+#menu526#=Pulso mandrel
+#menu527#=Modo de sistema
+#menu528#=Corte Prato
+#menu529#=Corte Tubo
+#menu530#=Diâmetro não é fixo
+#menu531#=Modo de Corte Tubo
+#menu537#=Laser
+#menu538#=Tempo de ajuste a Laser
+#menu539#=Tempo de purga antes do Laser ON
+#menu540#=Tempo depois do Laser ON
+#menu541#=Tempo THC
+#menu542#=Manter purga
+#menu543#=Laser On
+#menu544#=Purga
+#menu545#=Corte Laser
+#menu546#=THC habilit.
+#menu547#=Distância para Laser Off
+#menu548#=Distância para Purga Off
+#menu554#=●
+#menu220#=Nao pode abrir Arquivo
+#menu576#=F8
+VoltaZero
+#menu600#=F1
+RecpParam
+#menu601#=F2
+BckpParam
+#menu602#=F8
+Atualizar
+#menu621#=#menu620#
+#menu640#=Cerra detecção de colisão
+#menu641#=Depois de concluir o corte, não feche o oxigênio de pré-aquecimento
+#menu729#=Suporte para os nomes de arquivo longos do U disco

@@ -1,0 +1,843 @@
+UCCodeEncode=UTF8
+#menu1#=Aktualizowac?
+#menu2#=ENTER: Tak / ESC: Anuluj
+#menu3#=Nieznany typ pliku
+#menu4#=Aktualizacja zakonczona pomyslnie. Uruchom ponownie.
+#menu5#=Nie mozna znalezc pliku aktualizacji.
+#menu6#=Prosze podlaczyc USB
+#menu7#=Aktualizacja nieudana
+#menu8#=Aktualizacja w toku
+#menu9#=Prosze czekac
+#menu10#=Zbyt duzy rozmiar pliku
+#menu11#=F1 Aktualizacja systemu
+#menu12#=F2 Aktualizacja ekranu startowego
+#menu13#=F3 Aktualizacja parametru sterującego
+#menu14#=F4 Przywracanie systemu
+#menu15#=F1 Przywracanie parametru
+#menu16#=F2 Inicjalizacja parametru
+#menu17#=F3 Wyczysc wszystkie pliki
+#menu18#=Wprowadz haslo
+#menu19#=Czyszczenie zakonczone powodzeniem
+#menu20#=Nie mozna wyczyscic
+#menu21#=Przywracanie parametru zakonczone powodzeniem
+#menu174#=Nacisnij dowolny klawisz, aby powrocic
+#menu22#=Nie mozna przywrocic parametru
+#menu23#=Pomyslna inicjalizacja parametru
+#menu24#=Nie mozna zainicjalizowac parametru
+#menu25#=Login haslo 
+#menu26#=Zabezpieczenia
+#menu27#=Dni
+#menu28#=Godziny
+#menu29#=Brak zabezpieczen
+#menu30#=Poziom zabezpieczen
+#menu31#=Odblokuj 1
+#menu32#=Odblokuj 2
+#menu33#=Odblokuj 3 
+#menu34#=Odblokowywanie zakonczone 
+#menu35#=Przelicz ponownie
+#menu36#=Zapisz
+#menu37#=Dostępny przez %d dni 
+#menu38#=Dostępny przez okres %d 
+#menu39#=Biezacy uzytkownik bez ograniczen
+#menu40#=Odblokowanie nieudane
+#menu41#=Odblokowywanie zakonczone powodzeniem
+#menu42#=Nacisnac Enter, by dokonac zmiany
+#menu43#=Zapisano pomyslnie
+#menu44#=Blad ustawien  pliku
+#menu45#=Nr powtarza sie. Prosze wpisac inny nr
+#menu46#=Kierunek poprzeczny
+#menu47#=Kierunek wzdluzny
+#menu48#=CW
+#menu49#=CCW
+#menu50#=Nacisnac Enter, by dokonac zmiany
+#menu51#=Okreslenie danych wejsciowych
+#menu52#=PgUp/PgDn: Zmien port, Enter: Zmien typ
+#menu53#=Port
+#menu54#=Typ
+#menu55#=Okreslenie danej wyjsciowej
+#menu56#=Zakonczyc ciecie?
+#menu57#=Enter: Zakoncz
+#menu58#=ESC: Kontynuuj ciecie
+#menu59#=Powrot?
+#menu60#=Prosze wprowadzic wartosc rzaz:
+#menu61#=Zakoncz ciecie i ponownie wprowadz rzaz.
+#menu62#=Przejsc do kolejnego punktu naklucia?
+#menu63#=Mieszanka tlenowo-spalinowa
+#menu64#=Plazma
+#menu65#=Symulacja
+#menu66#=Ciecie SP
+#menu244#=Ciecie SP
+#menu68#=Tryb reczny
+#menu69#=ChwiloweMV
+#menu70#=CiagleMV
+#menu71#=KrokMV
+#menu72#=Dlugosc kroku
+#menu73#=Stop
+#menu74#=Pauza
+#menu75#=Wytnij
+#menu76#=Przebicie
+#menu77#=Symulacja
+#menu78#=Wstecz
+#menu79#=Tryb reczny
+#menu80#=Krawedz
+#menu81#=Luk wlaczony
+#menu82#=Wprowadz dlugosc posuwu 
+#menu83#=Zbyt dlugi numer, uruchom ponownie
+#menu88#=Wprowadz predkosc ciecia
+#menu89#=Wprowadz wartosc szczeliny
+#menu90#=Wprowadz predkosc trybu recznego
+#menu91#=[G] Powrot do wycinania
+#menu92#=[X] Przesuniecie ciecia
+#menu93#=[Y] Powrot
+#menu94#=[X] Przesuniecie wspolrzednej
+#menu95#=Podgrzewanie do wysokiej temperatury
+#menu96#=Podgrzewanie do niskiej temperatury
+#menu97#=Przebicie 1
+#menu98#=Przebicie 2
+#menu99#=Przebicie 3
+#menu100#=Tryb pracy:
+#menu101#=Zaplon
+#menu102#=Tlen
+#menu95#=Podgrzej do wysokiej temperatury
+#menu103#=Przebicie 1
+#menu104#=Przebicie 2
+#menu105#=Przebicie 3
+#menu106#=Czas lukowy 
+#menu107#=Czas pozycji
+#menu108#=Przebicie
+#menu109#=Dezaktywowanie THC 
+#menu110#=Aktywowanie THC 
+#menu111#=Nadmuch
+#menu112#=Detekcja luku
+#menu113#=Opoznienie przebicia 
+#menu114#=Pozycja 
+#menu115#=Symulacja
+#menu116#=Blad parametru
+#menu117#=Kod niestandardowy
+#menu118#=Blad luku 
+#menu119#=Zbyt dlugi kod
+#menu120#=Ograniczenie mechaniczne przejazdu
+#menu121#=Ograniczenie programowe przejazdu 
+#menu122#=Blad podzialu
+#menu123#=Alarm kryrtyczny
+#menu124#=Alarm luku wylaczony
+#menu125#=Kolizja palnika
+#menu126#=Blad portu Dual RAM 
+#menu127#=Blad DSP RAM 
+#menu128#=Powrocic?
+#menu129#=ENTER: Powrot
+#menu130#=ESC: Anuluj
+#menu131#=1. Prosze stworzyc kopie zapasowa parametru
+#menu132#=2. Po autotescie, zwolnic punkt wstrzymania
+#menu133#=3. Ponownie uruchomić komputer po autotescie
+#menu134#=Wykonac autotest?
+#menu135#=Wprowadz dane wejsciowe
+#menu136#=Granica przednia(+Y)
+#menu137#=Granica tylna(-Y)
+#menu138#=Granica prawa(+X)
+#menu139#=Granica lewa(-X)
+#menu140#=Zatrzymywanie awaryjne
+#menu141#=Luk
+#menu142#=Pozycja palnika
+#menu143#=Kolizja palnika
+#menu144#=Dane wyjsciowe
+#menu145#=Zaplon
+#menu146#=Podgrzewanie do niskiej temperatury
+#menu95#=Podgrzewanie do wysokiej temperatury
+#menu147#=Nisko tnacy tlenu
+#menu148#=Srednio tnacy tlen
+#menu149#=Wysoko tnacy tlen
+#menu150#=Palnik w gore
+#menu151#=Palnik w dol
+#menu152#=Nadmuch 
+#menu153#=Aktywowanie kontrolera wysokosci palnika (THC) 
+#menu154#=Wykrywanie polozenia
+#menu155#=Uruchomienie luku
+#menu156#=Przytrzymywanie palnika
+#menu157#=Zawor
+#menu158#=Serwomechanizm wlaczony
+#menu159#=Znakowanie proszkiem 1
+#menu160#=Znakowanie proszkiem 2
+#menu161#=Znakowanie podgrzewania
+#menu162#=Kod klawiatury:
+#menu163#=Rok Miesiac Dzien Tydzien
+#menu164#=Nacisnac klawisz W gorę/W dol, aby zmienic date i godzine
+#menu165#=Nie znaleziono pliku
+#menu166#=Nie znaleziono USB 
+#menu167#=Nie udalo sie otworzyc pliku
+#menu168#=Nie udalo sie otworzyc pliku
+#menu169#=Nie mozna edytowac folderu
+#menu170#=Plik nieobslugiwany
+#menu171#=Usunac plik?
+#menu172#=Taki plik już istnieje. Zastąpic?
+#menu173#=Tworzenie pliku zakonczone powodzeniem
+#menu175#=Nie udalo sie skopiowac. Nacisnac dowolny klawisz, aby wrocic
+#menu176#=Kopiowanie zakonczone
+#menu2#=Enter: tak / ESC: anuluj
+#menu179#=Zapisywanie...
+#menu170#=Plik nieobslugiwany
+#menu180#=Rzaz(szczelina) jest nieprawidlowy
+#menu181#=Wyzerowac rzaz (szczeline)
+#menu182#=Kompilacja ukonczona
+#menu183#=Zbyt dlugi kod
+#menu184#=Prosze wprowadzic nazwe pliku:
+#menu186#=Enter: Zastap plik
+#menu187#=ESC: Powrot
+#menu188#=Zapisywanie…, Prosze czekac
+#menu191#=Nie udalo sie zaladowac pliku
+#menu192#=Przetwarzanie...
+#menu193#=Zapisywanie nie powiodlo się
+#menu194#=Prosze wprowadzic kat
+#menu195#=Min: -360, Maks: 360
+#menu196#=Kat:
+#menu197#=Prosze wprowadzic parametr (jednostka: mm)
+#menu198#=Wiersze
+#menu199#=Kolumny
+#menu200#=Dlugosc wiersza
+#menu201#=Dlugosc kolumny
+#menu202#=Za malo wierszy lub kolumn
+#menu203#=Prosze wybrac typ tablicy 
+#menu204#=F1: Matrycowa
+#menu205#=F2: Schodkowa
+#menu206#=F3: Warstwowa
+#menu207#=Warstwa wierszy
+#menu208#=Warstwa kolumn
+#menu209#=F8: OK.
+#menu210#=Prosze wprowadzic proporcje:
+#menu211#=Proporcja musi byc wieksza od zera
+#menu212#=F1 Regulacja kata plyty
+#menu213#=F2 Wprowadz kat
+#menu214#=X-Start / Y-Koniec / ESC-Wyjscie
+#menu215#=Dostosuj X:
+#menu216#=Dostosuj Y:
+#menu217#=Kat
+#menu218#=Enter: Powrot do punktu poczatkowego
+#menu219#=ESC: Nie wracaj do punktu poczatkowego
+#menu221#=Blad polaczenia
+#menu222#=Prosze wybrac parametry ciecia
+#menu223#=Rozpoczac ciecie?
+#menu224#=Enter: Rozpocznij ciecie / ESC: Powrot
+#menu225#=Rozpoczac symulacje?
+#menu226#=Enter: Rozpocznij symulacje / ESC: Powrot
+#menu227#=Edytuj fragment
+#menu228#=Model: F2500
+#menu229#=Plik USB
+#menu230#=Zakoncz ciecie lub otworz plik
+#menu232#=USB jest podlaczone
+#menu233#=Blad USB!
+#menu234#=Kod bledu 0
+#menu235#=Prosze skontaktowac sie z dostawca
+#menu236#=Kod bledu 1%xD
+#menu237#=Nacisnij dowolny klawisz, aby wrocic
+#menu238#=Kod bledu 2%xT
+#menu239#=Port DUAL RAM dziala poprawnie
+#menu240#=Blad DUAL RAM
+#menu241#=Blad krytyczny! Nie udalo się odnalezc urzadzenia magazynujacego.
+#menu242#=Blad krytyczny! Nie udalo sie uruchomic
+#menu243#=Urzadzenie magazynujace uruchomione z powodzeniem
+#menu245#=Szczelina/Rzaz
+#menu246#=Status:
+#menu247#=Plik:
+#menu248#=Predkosc biezaca:
+#menu249#=FLSK F2500
+#menu250#=Wersja:
+#menu251#=Predkosc uruchomienia
+#menu252#=Linia biezaca/Przebicie
+#menu253#=F1
+Szablony
+#menu254#=F2
+Pliki
+#menu255#=F3
+Czesci
+#menu256#=F4
+Parametr
+#menu257#=F5
+Diagnostyka
+#menu258#=F6
+Zblizenie
+#menu259#=F7
+Uruchomienie
+#menu260#=F8
+0 Reset
+#menu261#=F8
+Zblizenie
+#menu262#=F1
+Zewnetrzny
+#menu263#=F2
+Wewnetrzny
+#menu264#=F1
+HDD plik
+#menu265#=F2
+USB plik
+#menu266#=F3
+Szukaj
+#menu267#=F4
+Edycja pliku
+#menu268#=F5
+Usun Plik
+#menu269#=F7
+Podglad
+#menu270#=F1
+Wspolny
+#menu271#=F2
+Powietrzno-Paliwowy
+#menu272#=F3
+Plazma
+#menu273#=F4
+Znakowanie
+#menu274#=F5
+System
+#menu275#=F6
+Import
+#menu276#=F7
+Export
+#menu277#=F8
+Zapisz
+#menu278#=F1
+Import IO
+#menu279#=F2
+Edytuj IO
+#menu280#=F3
+Port zalaczony
+#menu281#=F4
+Port wylaczony
+#menu282#=F5
+Klawiatura
+#menu283#=F6
+Sprawdzenie(Autotest)
+#menu284#=F7
+Data i godzina
+#menu285#=F8
+SystemDef
+#menu286#=Przywracanie parametru
+#menu287#=Kopia zapasowa PM 
+#menu288#=F3
+Definiowanie
+#menu289#=F4
+Bezpieczenstwo
+#menu290#=F5
+Odblokuj
+#menu291#=F6
+Jezyk
+#menu292#=Aktualizuj
+#menu293#=F1
+Wstecz
+#menu294#=F2
+Symulacja
+#menu295#=F3
+0 Powrot
+#menu296#=F6
+Zmniejszyc podgrzewanie
+#menu297#=F7
+Zwiekszyc podgrzewanie
+#menu298#=F8
+WybierzPrzebicie
+#menu299#=F2
+Obrot
+#menu300#=F3
+Szyk
+#menu301#=F4
+Skala
+#menu302#=F5
+Linia startu
+#menu303#=F6
+Edycja Pliku
+#menu304#=F7
+Anuluj
+#menu305#=F8
+OK
+#menu306#=F1
+Kompiluj
+#menu307#=F2
+Dodaj Linie
+#menu308#=F3
+Usun Linie 
+#menu309#=F4
+Nowy Plik
+#menu277#=F8
+Zapisz
+#menu310#=F1
+Wejscie IO 
+#menu311#=F2
+Wyjscie IO 
+#menu312#=F3
+Osie
+#menu313#=F4
+Silnik
+#menu314#=F5
+Opcje
+#menu277#=F8
+Zapisz
+#menu315#=F1
+MmtryMV 
+#menu316#=F2
+Conti. MV 
+#menu317#=F3
+Skok MV 
+#menu318#=F4
+Zmniejsz predkosc
+#menu319#=F5
+Zwieksz predkosc
+#menu320#=F7
+Przywroc
+#menu321#=F6
+Zapis USB
+#menu322#=Wpisz tekst aby wyszukac
+#menu323#=Nie znaleziono pliku
+#menu324#=Prosze wprowadzic długosc posuwu
+#menu325#=Francuski
+#menu326#=Chinski
+#menu327#=Angielski
+#menu328#=Predkosc ciecia
+#menu329#=Predkosc trybu recznego
+#menu330#=Posuw szybki
+#menu331#=Wartosc szczeliny
+#menu332#=Predkosc skretu (1-100)
+#menu333#=Metody ciecia
+#menu334#=Tak
+#menu335#=Nie
+#menu336#=Symulacja / predkosc cofania
+#menu337#=Oznaczenie predkosci
+#menu338#=Szybkosc ruchu probnego
+#menu67#=Predkosc symulacji SP
+#menu339#=Czas zaplonu
+#menu340#=Czas podgrzewania do niskiej temperatury 
+#menu341#=Czas podgrzewania do wysokiej temperatury 
+#menu342#=Czas przebicia 1 
+#menu343#=Czas przebicia 2 
+#menu344#=Czas przebicia 3 
+#menu345#=Czas nadmuchu 
+#menu346#=Czas opuszczania palnika w dol
+#menu347#=Czas przebicia do gory
+#menu348#=Czas przebicia w dol 
+#menu349#=Aktywowanie THC
+#menu350#=Utrzymac podgrzewanie
+#menu351#=Uruchomienie ostrza
+#menu352#=Predkosc pelzania
+#menu353#=Czas pelzania
+#menu354#=Czas lukowy
+#menu355#=Czas przebicia 
+#menu356#=Czas podnoszenia palnika (po wylaczeniu luku)
+#menu357#=Czas detekcji luku 
+#menu358#=Czas wykrywania wysokosci poczatkowej 
+#menu359#=Czas zmiany pozycji do gory (po IHS)
+#menu360#=Predkosc do podtrzymania THC
+#menu361#=Luk glowny
+#menu362#=Wysokosc podtrzymujaca  THC
+#menu363#=Opoznienie wylaczenia luku 
+#menu365#=Oznaczenie czasu zaplonu
+#menu366#=Oznaczenie czasu podgrzewania
+#menu367#=Oznaczenie czasu rozpoczecia
+#menu368#=Oznaczenie czasu zakonczenia
+#menu369#=Oznaczenie czasu podnoszenia palnika
+#menu370#=Oznaczenie czasu palnika w dol
+#menu371#=Oznaczenie poziomego przesuniecia palnika
+#menu372#=Oznaczenie pionowego przesunięcia palnika
+#menu373#=Impuls osi poprzecznej
+#menu374#=Impuls osi wzdluznej
+#menu375#=Maks. predkosc ciecia
+#menu376#=Maks. Szybka predkosc 
+#menu377#=Predkosc obrotowa malego kola
+#menu379#=Czas przyspieszenia w mieszance tlenowo-paliwowej 
+#menu381#=Czas zatrzymania awaryjnego 
+#menu382#=Predkosc poczatkowa
+#menu383#=Maks. +X
+#menu384#=Maks. +Y
+#menu385#=Min. -X
+#menu386#=Min. -Y
+#menu380#=Czas przyspieszenia plazmy
+#menu387#=Maks. predkosc trybu recznego
+#menu388#=Parametr zaimportowany pomyslnie
+#menu389#=Nie udalo sie zaimportowac parametru
+#menu390#=Nie znaleziono pliku F2300.DAT
+#menu391#=Uruchom ponownie, by zainicjowac parametr
+#menu392#=Importowac parametr?
+#menu393#=Plik parametryzacji to F2300D.DAT
+#menu394#=Pomyslny eksport parametru 
+#menu395#=Nie mozna eksportowac parametru
+#menu396#=Nie można otworzyc pliku parametryzacji
+#menu397#=Prosze usunac plik parametryzacji na USB
+#menu398#=Eksportowac parametr?
+#menu399#=Pomyslny import parametru
+#menu400#=Zla wartosc parametru. Zaladuj dane domyslne
+#menu401#=Zla wartosc parametru. Sprawdz je ponownie
+#menu402#=Parametr odzyskany pomyslnie
+#menu403#=Blad predkosci ciecia
+#menu404#=Blad predkosci trybu recznego
+#menu405#=Blad  predkosci szybkiej 
+#menu406#=Blad rzazu (szczeliny)
+#menu407#=Blad predkosci skretu
+#menu408#=Blad predkosci obrotowej malego kola
+#menu409#=Zbyt duza predkosc ciecia
+#menu410#=Zbyt duza predkosc trybu recznego
+#menu411#=Zbyt szybki posuw
+#menu412#=Zbyt duza predkosc symulacji/cofania 
+#menu413#=Zbyt duza predkosc oznaczania
+#menu414#=Zbyt duza predkosc symulacji 
+#menu415#=Zredukuj impulsowanie, zwieksz predkosc
+#menu416#=Parametr zapisany pomyslnie
+#menu417#=Zmienic parametry systemu?
+#menu407#=Blad predkosci skretu
+#menu418#=Ox-Fl
+#menu419#=Plazma
+#menu420#=Lustro X
+#menu421#=Lustro Y 
+#menu422#=F1 Wybierz linie
+#menu423#=F2 Wybierz przebicie
+#menu424#=Wprowadz nr linii
+#menu425#=Nacisnij ←→ Wybierz linie
+#menu426#=F8 OK
+#menu427#=F1: Srodek
+#menu428#=F2: U dolu po lewej
+#menu429#=F3: U gory po lewej
+#menu430#=F4: U dolu po prawej
+#menu431#=F5: U gory po prawej
+#menu432#=Wprowadz liczbe przebic:
+#menu433#=Nacisnij←→Wybierz liczbe przebic
+#menu434#=Rodzaj pilota zdalnego sterowania
+#menu435#=F6
+Kopia HDD
+#menu436#=Wejscie
+#menu437#=Wyjscie
+#menu438#=Rozmiar
+#menu439#=Ilosc
+#menu440#=Prosze wprowadzic nazwe folderu
+#menu441#=Folder utworzony pomyslnie
+#menu442#=Nie udalo sie utworzyc folderu
+#menu443#=Zbyt duzo folderow. Prosze usunac
+#menu444#=Usunac folder?
+#menu445#=Wyczysc plik
+#menu446#=Wspolrzedna
+#menu447#=ABS
+#menu448#=REL
+#menu449#=Nacisnij ←→ by zmienic
+#menu450#=Koniec testu granicznego
+#menu451#=F3
+Granica
+#menu461#=Jednostka
+#menu452#=Uklad metryczny
+#menu453#=Ilosc cali
+#menu454#=Uruchom ponownie, by zmienic jednostke
+#menu455#=Typ wspolrzednej IJ 
+#menu456#=Biezacy folder
+#menu457#=Nr otworu
+#menu458#=Parametr
+#menu459#=SP(0X1Y)
+#menu460#=Nie
+#menu455#=Typ wspolrzednej IJ 
+#menu461#=Jednostka:
+#menu462#=Dopasowanie przewodu krotkiego
+#menu463#=Zapamietaj kat plyty
+#menu464#=F1
+Start Pnt
+#menu465#=F5
+NowyFolder
+#menu466#=Utworz kopie zapasowa danych
+#menu467#=Załaduj kopie danych zapasowych
+#menu378#=Promien do ograniczenia predkosci
+#menu468#=Uwaga1):
+#menu469#=>0, Obrot przeciw do ruch wskaz zeg
+#menu470#=Uwaga2): <0, Obrot zgod z ruch wskaz zegara
+#menu471#=Uwaga3): =0, obrót 0 stopni
+#menu472#=Rok
+#menu473#=Miesiac
+#menu474#=Dzien
+#menu475#=Tydzien
+#menu476#=Pon
+#menu477#=Wt
+#menu478#=Sr
+#menu479#=Czw
+#menu480#=Pt
+#menu481#=Sob
+#menu482#=Niedz
+#menu525#=Uzyj zacisku
+#menu526#=Impulsowanie zacisku
+#menu527#=Tryb pracy
+#menu528#=Ciecie plyty
+#menu529#=Ciecie rury
+#menu530#=Nie ustawiono srednicy
+#menu531#=Tryb ciecia rur
+#menu537#=Laser
+#menu538#=Czas regulacji lasera 
+#menu539#=Opoznienie nadmuchu przed zalaczeniem lasera
+#menu540#=Opoznienie po zalaczeniu lasera
+#menu541#=Czas THC 
+#menu542#=Zawieszenie nadmuchu
+#menu543#=Laser w pozycji On (wlaczony)
+#menu544#=Nadmuch
+#menu545#=Ciecie laserowe
+#menu546#=Aktywowanie THC 
+#menu547#=Odleglosc do wyl lasera
+#menu548#=Odleglosc do wyl nadmuchu
+#menu554#=●
+#menu483#=Przesun do gory
+#menu484#=Przesun w dol
+#menu485#=Przesun w lewo
+#menu486#=Przesun w prawo
+#menu487#=Zaplon 
+#menu488#=Odetnij tlen
+#menu489#=Przyspieszenie 
+#menu490#=Zwalnianie 
+#menu491#=Start 
+#menu492#=Stop 
+#menu493#=Palnik do gory
+#menu494#=Palnik w dol
+#menu495#=Bieżący język: ang
+#menu496#=Dodaj pliki językowe
+#menu497#=Ustawienia zaawansowane
+#menu498#=Aluminium (ALU)
+#menu499#=Prosze zachowac ostroznosc 
+Zmien zaawansowane ustawienia
+#menu500#=Wartosc domyslna
+#menu501#=Wyczyscic wszystkie pliki?
+#menu502#=Nieprawidlowe haslo
+#menu503#=Test ramki
+#menu505#=Zachowaj dane kata jako kata stali
+#menu506#=Rozmiar 1
+#menu507#=Rozmiar 2
+#menu508#=Rozmiar 3
+#menu509#=Rozmiar 4
+#menu510#=Rozmiar 5
+#menu511#=Rozmiar 6
+#menu512#=Rozmiar 7
+#menu513#=Rozmiar 8
+#menu514#=Rozmiar 9
+#menu515#=Rozmiar 10
+#menu516#=Sprawdz, czy pliki jezykowe znajduja się na USB
+#menu517#=Zamiana XY 
+#menu518#=Ilosc 1
+#menu519#=Ilosc 2
+#menu520#=Zabronione F
+#menu532#=Rura glowna D
+#menu533#=Rura odgaleziona D
+#menu534#=Dlugosc przepalenia
+#menu551#=Plik jezykowy nie istnieje
+#menu552#=Prosze dodac najpierw pliki jezykowe
+#menu553#=Pomyslnie zaimportowane pliki jezykowe %d
+#menu84#=Zbyt duza odleglosc pomiedzy krokami (poza zakresem)
+#menu85#=Zbyt duza predkosc poza zakresem
+#menu86#=Zbyt duzy rzaz (szczelina) (poza zakresem)
+#menu87#=Zbyt duza predkosc manualna (poza zakresem)
+#menu220#=Nie mozna otworzyc pliku
+#menu364#=Czas odblokowania THC przed M08
+#menu576#=F8
+0 Powrot
+#menu600#=F1 Parametr
+Przywroc
+#menu601#=F2
+PM Utworzyc kopie zapasowa
+#menu602#=F8
+Aktualizowac
+#menu610#=Uzyj cylindra THC
+#menu611#=Ustaw napiecie luku
+#menu612#=Ustaw calkowite napiecie luku
+#menu613#=Ustaw wydajnosc napiecia
+#menu614#=Ustaw calkowita wydajnosc napiecia
+#menu615#=Awaria komunikacji urzadzenia Modbus!
+#menu616#=Napiecie luku w czasie rzeczywistym
+#menu617#=Wydajnosc napiecia w czasie rzeczywistym
+#menu618#=Nie udalo sie zapisac danych
+#menu619#=Czas przebijania dynamicznego
+#menu620#=Opoznienie przebijania
+#menu621#=Pozycjonowanie w czasie narastania 
+#menu622#=Zastosowac pelzanie podczas przebijania
+#menu623#=Tryb „master-slaveurządzenia Modbus
+#menu624#=Szybkosc transmisji urzadzenia Modbus 
+#menu625#=Główny
+#menu626#=Podporzadkowany
+#menu627#=Zlimit w gore
+#menu628#=Zlimit w dol
+#menu565#=F6
+Zmniejszyc Luk
+#menu566#=F7
+Zwiekszyc Luk
+#menu567#=F6
+Zakoncz podgrzewanie
+#menu568#=F7
+Zwieksz podgrzewanie
+#menu569#=Ustaw napiecie luku
+#menu570#=Wartosc zabezpieczenia lukowego
+#menu571#=Czulosc  kontrolera THC 
+#menu572#=Ustawienie wartosci skoku luku
+#menu573#=Automatyczne THC
+#menu574#=Reczne THC
+#menu575#=Blad ustawien napiecia luku
+#menu577#=Blad wartosci zabezpieczenia luku
+#menu578#=Blad wartosci czulosci kontrolera THC 
+#menu579#=Blad Ustawienia wartosci skoku luku
+#menu580#=Ustawienia Luku
+#menu581#=LukRzeczy
+#menu582#=Czas szybkiego pozycjonowania IHS
+#menu584#=Blad czasu szybkiego IHS
+#menu586#=Zrodło sygnalu powodzienia luku 
+#menu587#=Wewnatrz
+#menu588#=Na zewnatrz
+#menu700#=Blad korekty AD
+#menu701#=Wartosc przykladowa luku
+#menu640#=Brak kontroli styku plazmy ze stala
+#menu641#=Kontynuuj podgrzewanie po ukonczeniu ciecia
+#menu555#=Kat osi poziomej 
+#menu562#=Oblicz kat nachylenia osi poziomej 
+#menu556#=Dlugosc po lewej stronie
+#menu557#=Dlugosc po prawej stronie
+#menu558#=Długosc u gory
+#menu559#=Długosc u dolu
+#menu560#=Dlugosc od LD do RU 
+#menu561#=Długosc od LP do RD 
+#menu563#=Pomyslnie obliczono kat nachylenia osi 
+#menu564#=Nie udalo się obliczyc kata osi
+#menu702#=Predkosc palnika plazmowego do gory/w dol 
+#menu703#=Zaplon znacznika
+#menu704#=Przedmuchaj
+#menu705#=F3 Laser
+GunOut
+#menu706#=F4
+StartPnt
+#menu707#=F5
+ZakonczPnt
+#menu708#=F7
+Anuluj
+#menu709#=Wybor palnika
+#menu710#=F1
+Bez kompensacji
+#menu711#=Przesuniecie poziome pistoletu laserowego w stosunku do pistoletu plomieniowego
+#menu712#=Przesuniecie pionowe pistoletu laserowego w stosunku do pistoletu plomieniowego
+#menu713#=Przesuniecie poziome pistoletu plazmowego w stosunku do pistoletu plomieniowego
+#menu714#=Przesuniecie pionowe pistoletu plazmowego w stosunku do pistoletu plomieniowego
+#menu715#=Prosze wybrac palnik
+#menu716#=Ostrzezenie: nie uzywac sterownika
+#menu717#=Wskaznik pracy 
+#menu718#=Tryb PIPE (rura)
+#menu719#=Czas nadmuchu
+#menu720#=Maks. predkosc spawania 
+#menu721#=Czas przyspieszenia
+#menu722#=Pierwsze wyszukiwanie predkosci zerowej
+#menu723#=Drugie wyszukiwanie predkosci zerowej
+#menu724#=Odległosc X po ustawieniu punktu zerowego
+#menu725#=Odległosc Y po ustawieniu punktu zerowego
+#menu726#=F4
+Maszyna
+#menu727#=Wykorzystany silownik pneumatyczny
+#menu729#=Obsluga dlugich nazw plikow
+#menu730#=Czas otwarcia silownika pneumatycznego
+#menu731#=Czas zamkniecia silownika pneumatycznego
+#menu732#=F2
+Ciecie plomieniem
+#menu733#=F3
+Ciecie plazmowe
+#menu734#=Wyb. palnika
+#menu800#=Stan wiercenia
+#menu801#=Gwintowanie
+#menu802#=Unies
+#menu803#=Obniz
+#menu804#=Polozenie
+#menu178#=Plik już istnieje, zastąpic?
+#menu805#=F4
+Laser Offsetowy
+#menu806#=F5
+Powrot Lasera
+#menu807#=Kontrola wydajnosci spawania 
+#menu808#=Czas spoczynku luku plazmowego
+#menu809#=Czas pracy luku plazmowego
+#menu810#=Gorna granica w THC
+#menu811#=Dolna granica w THC
+#menu812#=Urzadzenia peryferyjne
+#menu813#=Poz. zero w poblizu stali wiertla lufowego 
+#menu814#=Czas gwintowania jednego otworu
+#menu815#=Wysokosc po zakonczeniu wiercenia
+#menu816#=Przekroczona dlugosc calkowita pliku G-code 
+#menu817#=Zbyt dlugi pojedynczy plik G-code 
+#menu818#=Blad posuwu szybkiego/predkosci cofania 
+#menu819#=Blad predkosci oznaczania
+#menu820#=Calkowita liczba wierszy pliku G-Code przekracza limit
+#menu821#=Znieksztalcony plik G-code
+#menu822#=Plik inny, niz G-code 
+#menu823#=Plik pusty
+#menu824#=Urzadzenie peryferyjne gotowe
+#menu825#=Czas obnizenia palnika po wyladowaniu lukowym 
+#menu826#=Wyjscie palnika plomieniowego
+#menu827#=Wyjscie palnika plazmowego
+#menu828#=Licznik przebic
+#menu829#=Licznik sztuk
+#menu830#=Dlugosc ciecia
+#menu831#=Czas dzialania
+#menu832#=Wyczysc
+#menu833#=Na pewno wyczyscic?
+#menu834#=Przebij
+#menu835#=Material
+#menu836#=Dlugosc
+#menu837#=Czas dzialania 
+#menu838#=Powielenie funkcji, prosze uruchomic ponownie
+#menu839#=Brak
+#menu840#=Funkcja
+#menu841#=8421 Bit0
+#menu842#=8421 Bit1
+#menu843#=8421 Bit2
+#menu844#=8421 Bit3
+#menu845#=8421 Bit4
+#menu846#=8421 Bit5
+#menu847#=8421 Bit6
+#menu848#=8421 Bit7
+#menu849#=Symulacja
+#menu850#=Wstecz
+#menu851#=Czas ciecia
+#menu852#=Predkosc plomienia Do gory/w dol 
+#menu853#=Predkosc plazmy Do gory/w dol
+#menu854#=Na pewno skopiowac wszystkie pliki w folderze na dysk twardy?
+#menu2002#=Odleglosc X po ustawieniu punktu zerowego
+#menu2003#=Odleglosc Y po ustawieniu punktu zerowego
+#menu2004#=Przesuniecie punktu zerowego osi X 
+#menu2005#=Przesuniecie punktu zerowego osi Y
+#menu2006#=Pozycja maszyny odstawionej X
+#menu2007#=Pozycja maszyny odstawionej Y
+#menu2008#=Kazdorazowo zamykac silnik palnika
+#menu2009#=Blad czasu przyspieszenia w przypadku plomienia
+#menu2010#=Blad czasu przyspieszenia w przypadku plazmy
+#menu2011#=Blad czasu wylaczenia awaryjnego
+#menu2012#=Czas dezaktywacji THC po przebijaniu
+#menu2013#=Wybor osi
+#menu2014#=Odleglosc po ustawieniu punktu zerowego
+#menu2015#=Przesuniecie punktu zerowego
+#menu2016#=Pozycja maszyny odstawionej
+#menu2017#=Sekwencja zerowania
+#menu2018#=Wlacz sekwencje zerowania
+#menu2019#=Kierunek sekwencji zerowania dodatni
+#menu2020#=Wstecz
+#menu2021#=Do przodu
+#menu2022#=Os X
+#menu2023#=Os Y
+#menu2024#=Os Z
+#menu2025#=Ustawic wszystkie aktywne osie w punkcie zero 
+#menu2026#=Wybierz os
+#menu2027#=Duza liczba plikow, kopiowanie zajmie dluzsza  chwile, prosze zachowac cierpliwosc!
+#menu2028#=Przesuniecie punktu zerowego poza granice
+#menu2029#=Pozycja maszyny poza granica
+#menu2030#=Powrot do skladowej zerowej, prosze ponownie uruchomic urzadzenie
+#menu2031#=Prosze wprowadzic czas (s) w pozycji „Do gory
+#menu2032#=Zmiana wartosci procentowej predkosci (%)
+#menu2033#=Na pewno cofnac?
+#menu2034#=Na pewno usunac?
+#menu630#=Otworz PistoletWiertla
+#menu2035#=Przekroczona liczba plikow, usun pliki
+#menu2036#=F1-Usun Plik
+#menu2037#=F2-Usun Folder
+#menu2038#=F3-Usun wszystkie pliki
+#menu2039#=F6
+Usun Wszystko
+#menu2040#=Biezaca sciezka
+#menu2041#=Udysk
+#menu2042#=Dysk Twardy
+#menu2043#=Importuj z dysku U 
+#menu2044#=Importuj z dysku twardego
+#menu2045#=Eksportuj na dysk U
+#menu2046#=Eksportuj na dysk twardy
+#menu2047#=Nieznany blad
+#menu2048#=Przekroczona dlugosc biezacej sciezki
+#menu2049#=Przekroczona liczba folderow plikow
+#menu2050#=Partycja 1 wspolrzedna osi Y 
+#menu2051#=Partycja 2 wspolrzedna osi Y 
+#menu2052#=F7
+Misc
+#menu2053#=Partycja 1 wyjscie
+#menu2054#=Partycja 2 wyjscie
+#menu2055#=Partycja 3 wyjscie

@@ -1,0 +1,761 @@
+UCCodeEncode=UTF8
+#menu1#=Update, sicher?
+#menu2#=Enter:Ja / ESC:abbrechen
+#menu3#=Unbekannter Dateityp
+#menu4#=Erfolgreich, bitte Reset
+#menu5#=Keine Update Datei
+#menu6#=USB-Disc einlegen
+#menu7#=Update Systemfehler
+#menu8#=Updating…
+#menu9#=Bitte einige Minuten warten
+#menu10#=Zu große Datei
+#menu11#=F1
+Funktion Update
+#menu12#=F2
+Welcome Update
+#menu13#=F3
+Bewegung Update
+#menu14#=F4
+System Wiederherstellung
+#menu15#=F1-Parameter wiederherstellen
+#menu16#=F2-Set voreingestellte Parameter
+#menu17#=F3-Alle Dateien löschen
+#menu18#=Bitte Passwort eingeben
+#menu19#=Löschen beendet
+#menu20#=Löschen nicht beendet
+#menu21#=Parameter erfolgr. wiederhergest.
+#menu174#=beliebige Taste drücken z. Rückkehr
+#menu22#=Parameter wiederherst. fehlgeschlag
+#menu23#=DefaultParameter einstellen erfolgr.
+#menu24#=DefaultParameter einst. fehlgeschl.
+#menu25#=Login Passwort
+#menu26#=Verschlüsselungstyp
+#menu27#=Tage
+#menu28#=Zeiten
+#menu29#=Keine Sicherheit
+#menu30#=Sicherheitsstufe
+#menu31#=Verschlüsselung eins
+#menu32#=Verschlüsselung zwei
+#menu33#=Verschlüsselung drei
+#menu34#=Entriegeln fertig
+#menu35#=Nachzählen
+#menu36#=Speichern
+#menu37#=%d Tage für Nutzung der Steuerung
+#menu38#=%d mal Nutzung der Steuerung
+#menu39#=Aktueller User nicht beschränkt
+#menu40#=nicht zu Entsperren
+#menu41#=Entsperren erfolgreich
+#menu42#=Enter drücken zur Änderung
+#menu43#=Erfolgreich gespeichert
+#menu44#=Konfigurierung Datei Error
+#menu45#=Port Duplizierung, bitte Reset
+#menu46#=Horizontale Richtung
+#menu47#=Vertikale Richtung
+#menu48#=im Uhrzeigersinn
+#menu49#=gegen den Uhrzeigersinn
+#menu50#=Enter drücken für Änderung
+#menu51#=Definition Input
+#menu52#=PgUp drücken / PgDn Typ-Enter drücken
+#menu53#=Port
+#menu54#=Typ
+#menu55#=Definition Output
+#menu56#=Schneiden beenden?
+#menu57#=Enter: Beenden
+#menu58#=ESC: Weiter schneiden
+#menu59#=Return, sicher?
+#menu60#=Wert Schnittfuge eingeben
+#menu61#=Bitte Schneiden beend., Schnitfuge eingeb.
+#menu62#=Zu neuer Bohrung springen?
+#menu63#=FlamSchn
+#menu64#=PlasSchn
+#menu65#=Demo AN
+#menu66#=SchnGesc
+#menu244#=SchnGesc
+#menu68#=Manuell
+#menu69#=Bewhal
+#menu70#=Bewfor
+#menu71#=StepBe
+#menu72#=StepAbst
+#menu73#=Stop
+#menu74#=Pause
+#menu75#=Schneid
+#menu76#=Bohrung
+#menu77#=Demo   
+#menu78#=Zurück
+#menu79#=Manuell
+#menu80#=Kante
+#menu81#=Lichtb.
+#menu82#=Eingabe Step Abstand
+#menu83#=Überlauf, Reset
+#menu88#=Eingabe Schneidegeschwindigkeit
+#menu89#=Eingabe Schnittfuge
+#menu90#=Eingabe manuelle Geschwindigkeit
+#menu91#=[G] Schneiden return
+#menu92#=[X] Versatz Schneiden
+#menu93#=[Y] Nur Return
+#menu94#=[X] Versatz koordinieren
+#menu95#=Vorheiz. Hoch
+#menu96#=Vorh. niedr.
+#menu97#=Bohrung 1
+#menu98#=Bohrung 2
+#menu99#=Bohrung 3
+#menu100#=Bedienungsmodus:
+#menu101#=Zündung
+#menu102#=Sauerstoff
+#menu95#=Vorh. hoch
+#menu103#=Bohrung 1
+#menu104#=Bohrung 2
+#menu105#=Bohrung 3
+#menu106#=Lichtb. Zeit
+#menu107#=Pos. Zeit
+#menu108#=Bohrung
+#menu109#=THC deaktivi.
+#menu110#=THC aktivier
+#menu111#=Abgas
+#menu112#=Arc detektieren
+#menu113#=Pierce Verzög
+#menu114#=in Position
+#menu115#=Demo
+#menu116#=Parameter Error 
+#menu117#=Kein Standardcode
+#menu118#=Lichtbogen Error
+#menu119#=Code zu lang
+#menu120#=Hard Limit Alarm
+#menu121#=Soft Limit Alarm
+#menu122#=Division Error
+#menu123#=Notfall Alarm
+#menu124#=Lichtbogenbruch Alarm
+#menu125#=Plasma Crash
+#menu126#=Dualram Error
+#menu127#=Dsp Ram Error
+#menu128#=Return-Sind Sie sicher?
+#menu129#=ENTER: Return
+#menu130#=ESC: Abbrechen
+#menu131#=1.Backup Hauptparameter
+#menu132#=2.Haltepunkt verlieren
+#menu133#=3.Restart nach Selbstcheck
+#menu134#=Selbstüberprüfung OK?
+#menu135#=Eingabe
+#menu136#=Limit vorwärts
+#menu137#=Limit rückwärts
+#menu138#=Limit rechts
+#menu139#=Limit links
+#menu140#=Not-Aus
+#menu141#=Arc Feedback
+#menu142#=PosFeedback
+#menu143#=PlasmaCrash
+#menu144#=Ausgabe
+#menu145#=Zündung
+#menu146#=Vorheizen niedrig
+#menu95#=Vorheizen hoch
+#menu147#=Sauerstoffniedrig
+#menu148#=Sauerstoff mittel
+#menu149#=Sauerstoff hoch
+#menu150#=Brenner nach Oben
+#menu151#=Brenner nach unten
+#menu152#=Abgas
+#menu153#=THC aktivieren
+#menu154#=Positionserkennung
+#menu155#=Lichtbogen Start
+#menu156#=halten Torch
+#menu157#=Ventil
+#menu158#=Servo an
+#menu159#=Pulver-Kennzeichn. 1
+#menu160#=Pulver-Kennzeichn. 2
+#menu161#=Kennzeichnung vorheizen
+#menu162#=Tastatur Code:
+#menu163#=Jahr Monat Tag Woche
+#menu164#=für Änderung auf oder ab drücken
+#menu165#=Keine Datei
+#menu166#=Keine USB-Disk
+#menu167#=Datei kann nicht geöffnet werden
+#menu168#=Datei öffnen fehlgeschlagen
+#menu169#=Ordner kann nicht bearbeitet werden
+#menu170#=Datei nicht unterstützt
+#menu171#=Datei löschen bestätigen?
+#menu172#=Datei existiert, Überschr bestätig?
+#menu173#=Datei erfolgreich erstellen
+#menu175#=Kopie fehlgeschl, bel Taste z Rückk
+#menu176#=Kopieren fertig
+#menu2#=Enter:Ja/ESC:Abbrechen
+#menu179#=Speichern…
+#menu170#=Nicht unterstützte Datei
+#menu180#=Schnittfugenwert falsch
+#menu181#=Schnittfugenwert auf Null zurückset
+#menu182#=Kompilation OK
+#menu183#=Zu langer Code
+#menu184#=Dateiname eingeben:
+#menu186#=Enter: Datei ersetzen
+#menu187#=ESC: Zurück
+#menu188#=Speichert, bitte warten
+#menu191#=Speichern fehlgeschlagen
+#menu192#=Prozess…
+#menu193#=Speichern fehlgeschlagen
+#menu194#=Bitte Winkel eingeben
+#menu195#=Min:-360 Max:360
+#menu196#=Winkel:
+#menu197#=Eingabe Parameter (Einheit mm)
+#menu198#=Zeilen
+#menu199#=Spalten
+#menu200#=ZeilLänge
+#menu201#=SpaltLange
+#menu202#=Zu wenig Zeilen oder Spalten
+#menu203#=Bitte wählen Sie Array-Typ
+#menu204#=F1: Gerade
+#menu205#=F2: Versetzt
+#menu206#=F3: Stapel
+#menu207#=Reihenstapel
+#menu208#=SpaltVersch
+#menu209#=F8: OK
+#menu210#=Proportion eingeben
+#menu211#=Nicht unter Null
+#menu212#=F1-Einstellung Stahlplatte
+#menu213#=F2-Winkel eingeben
+#menu214#=X-Start / Y-End / ESC-Beenden
+#menu215#=X einstellen:
+#menu216#=Y einstellen:
+#menu217#=Winkel  
+#menu218#=Enter: Rückkehr zum Startpunkt
+#menu219#=ESC: Nicht zurück zum Startpunkt
+#menu221#=Verbindung fehlgeschlagen
+#menu222#=Bitte zuerst Ordner öffnen
+#menu223#=Schneiden, sicher?
+#menu224#=Enter:Schneiden ESC:Zurück
+#menu225#=Demo-sicher?
+#menu226#=Enter:Demo ESC:Zurück
+#menu227#=PartOption
+#menu228#=Produkttyp: F2500
+#menu229#=USB-Disk Datei
+#menu230#=Schneid beend od erst Datei öffnen
+#menu232#=USB verfügbar
+#menu233#=USB Error
+#menu234#=System abgelaufen
+#menu235#=Lieferant kontaktieren
+#menu236#=Error Code
+#menu237#=Beliebige Taste drücken z. Rückkehr
+#menu238#=Error Code
+#menu239#=Dual Port Ram OK
+#menu240#=Dual Port Ram nicht OK
+#menu241#=Error, kein Flash
+#menu242#=Initialisierung Flash fehlgeschlagen
+#menu243#=Flash OK
+#menu245#=Schnittfug
+#menu246#=Status:
+#menu247#=Datei:
+#menu248#=Geschw.:
+#menu249#=FLSK F2500
+#menu250#=Version
+#menu251#=Man. Geschw.
+#menu252#=aktuel Linie/Loch:
+#menu253#=F1
+FormLib
+#menu254#=F2
+Dateien
+#menu255#=F3
+PartOption
+#menu256#=F4
+Setups
+#menu257#=F5
+Diagnose
+#menu258#=F6
+vergrößern
+#menu259#=F7
+ManBeweg
+#menu260#=F8
+Null
+#menu261#=F8
+Rauszoomen
+#menu262#=F1
+Innen
+#menu263#=F2
+Außen
+#menu264#=F1
+DiskDatei
+#menu265#=F2
+USB-Disk
+#menu266#=F3
+Suchen
+#menu267#=F4
+bearbeiten Datei
+#menu268#=F5
+Datlöschen
+#menu269#=F7
+Vorschau
+#menu270#=F1
+Normal
+#menu271#=F2
+Flamme
+#menu272#=F3
+Plasma
+#menu273#=F4
+Markierung
+#menu274#=F5
+System
+#menu275#=F6
+Import
+#menu276#=F7
+Export
+#menu277#=F8
+Speichern
+#menu278#=F1
+Input
+#menu279#=F2
+Output
+#menu280#=F3
+ÖffnenAus
+#menu281#=F4
+SchließAus
+#menu282#=F5
+Tastatur
+#menu283#=F6
+Selfcheck
+#menu284#=F7
+Datum&Zeit
+#menu285#=F8
+SystemDef
+#menu286#=ParaRückgewin
+#menu287#=ParaBackup
+#menu288#=F3
+Definition
+#menu289#=F4
+Sicherheit
+#menu290#=F5
+Entsperren
+#menu291#=F6
+Sprache
+#menu292#=F8
+Update
+#menu293#=F1
+Zurück
+#menu294#=F2
+Demo
+#menu295#=F3
+Zurückgehe
+#menu296#=F6
+Vorheizab
+#menu297#=F7
+Vorheizho
+#menu298#=F8
+SpringBohr
+#menu299#=F2
+Winkel
+#menu300#=F3
+Matrix
+#menu301#=F4
+Skala
+#menu302#=F5
+Line
+#menu303#=F6
+EditDatei
+#menu304#=F7
+Absagen
+#menu305#=F8
+OK
+#menu306#=F1
+Kompiliere
+#menu307#=F2
+ReihHinFüg
+#menu308#=F3
+Reihelösch
+#menu309#=F4
+NeueDatei
+#menu277#=F8
+Speichern
+#menu310#=F1
+Input
+#menu311#=F2
+Output
+#menu312#=F3
+Achsen
+#menu313#=F4
+Motor
+#menu314#=F5
+Option
+#menu277#=F8
+Speichern
+#menu315#=F1
+BewHalten
+#menu316#=F2
+BewFortset
+#menu317#=F3
+StepBew
+#menu318#=F4
+Geschw-
+#menu319#=F5
+Geschw+
+#menu320#=F7
+Wiederhers
+#menu321#=F6
+AufUkopier
+#menu322#=Eingabe gesuchte Zeichenfolge
+#menu323#=Keine übereinstimmende Datei
+#menu324#=Step Abstand eingeben
+#menu325#=Französisch
+#menu326#=Chinesisch
+#menu327#=Englisch
+#menu328#=Schneidegeschwindigkeit
+#menu329#=Manuelle Geschwindigkeit
+#menu330#=G00 Geschwindigkeit
+#menu331#=Schnittfugenwert
+#menu332#=Winkelgeschw. (1-100)
+#menu333#=Schneidetyp
+#menu334#=Ja
+#menu335#=Nein
+#menu336#=Geschw. Demo/zurück
+#menu337#=Markiergeschwindigkeit
+#menu338#=Demo geschwindigkeit
+#menu67#=Demo geschwindigkeit
+#menu339#=Zündung Zeit
+#menu340#=Vorheizzeit niedrig
+#menu341#=Vorheizzeit hoch
+#menu342#=Bohrungszeit 1
+#menu343#=Bohrungszeit 2
+#menu344#=Bohrungszeit 3
+#menu345#=Abgas Zeit
+#menu346#=Brenner hoch Zeit
+#menu347#=Bohrung hoch Zeit
+#menu348#=Bohrung ab Zeit
+#menu349#=THC aktivieren
+#menu350#=Vorheizung behalten
+#menu351#=Kantenschneiden aktivieren
+#menu352#=Kriechgeschwindigkeit
+#menu353#=Kriechzeit
+#menu354#=Lichtbogen Zeit
+#menu355#=Bohrung Zeit
+#menu356#=Brenner hoch Zeit
+#menu357#=Lichtbogen Check Zeit
+#menu358#=Position Check Zeit
+#menu359#=Position hoch Zeit
+#menu360#=Geschwindigkeit auf THC halten
+#menu361#=Überwachung Lichtb.aktivierung
+#menu362#=Höhe THC halten
+#menu363#=Arc Ausschaltverzögerung
+#menu365#=Kennzeichnung Zündzeitpunkt
+#menu366#=Kennzeichnung Vorheizzeit
+#menu367#=Kennzeichnung Startzeit
+#menu368#=Kennzeichnung Stoppzeit
+#menu369#=Pulver Betriebszeit
+#menu370#=Pulverstillstandzeit
+#menu371#=Pulver Horizontalversatz
+#menu372#=Pulver Vertikalversatz
+#menu373#=Horizontaler Achspuls
+#menu374#=Vertikaler Achspuls
+#menu375#=Max. Schneidegeschwindigkeit
+#menu376#=Max. G00 Geschwindigkeit
+#menu377#=Kleiner Kreis Klammergeschwindigkeit
+#menu379#=Flamme Beschleunigungszeit
+#menu381#=Notaus Zeit
+#menu382#=Startgeschwindigkeit
+#menu383#=Max +X
+#menu384#=Max +Y
+#menu385#=Min -X
+#menu386#=Min -Y
+#menu380#=Plasma Beschleunigungszeit
+#menu387#=Max. manuelle Geschwindigkeit
+#menu388#=Parameter erfolgreich importiert
+#menu389#=Parameter import. fehlgeschlagen
+#menu390#=No F2300.DAT Datei
+#menu391#=Neustart Aktivierung
+#menu392#=Parameter importieren-sicher?
+#menu393#=Parameterdatei:F2300D.DAT
+#menu394#=Parameter erfolgreich exportiert
+#menu395#=Parameter export. Fehlgeschlagen
+#menu396#=Parameterdatei öff. fehlgeschlagen
+#menu397#=Bitte löschen Parameter-Datei im USB
+#menu398#=Parameter exportieren OK?
+#menu399#=Parameter ok
+#menu400#=Schlechtere Param. Load default Daten
+#menu401#=Schlechtere Parameter Bitte Püfen
+#menu402#=Param. erfolgr. wiederhergestellt
+#menu403#=Fehler Schneidegeschwindigkeit
+#menu404#=Fehler manuelle BewGeschwindigkeit
+#menu405#=Fehler G00 Geschwindigkeit
+#menu406#=Schnittfugenwert Fehler
+#menu407#=Ecke Drehzahlfehler
+#menu408#=Kleiner Kreis Drehzahlfehler
+#menu409#=Schneidegeschwindigkeit zu hoch
+#menu410#=Man. BewGeschwindigkeit zu hoch
+#menu411#=Zu schnell Eilgang
+#menu412#= Trockenlauf Zu schnell / Rückwärtsgeschw.
+#menu413#= Markiergeschwindigkeit Zu schnell
+#menu414#=Trockenlauf Zu schnell
+#menu415#=Verringern Impuls, Erhöhung der Geschw.
+#menu416#=Parameter erfolgreich gespeichert
+#menu417#=Systemparameter wirklich ändern?
+#menu407#=Ecke Drehzahlfehler
+#menu418#=Flamme
+#menu419#=Plasma  
+#menu420#=X Spiegel
+#menu421#=Y Spiegel
+#menu422#=F1 Linie auswählen
+#menu423#=F2 Bohrung auswählen
+#menu424#=Eingabe Anzahl Reihen:
+#menu425#=←→drücken, Reihen auswählen
+#menu426#=F8 OK
+#menu427#=F1 Ursprung
+#menu428#=F2 Unten links
+#menu429#=F3 Vorne links
+#menu430#=F4 Hinten rechts
+#menu431#=F5 Vorne rechts
+#menu432#=Eingabe Anzahl Bohrungen:
+#menu433#=←→drücken, Anz. Bohrungen ausw.
+#menu434#=Typ Fernbedienung
+#menu435#=F6
+Copy Festplatte
+#menu436#=Einführen
+#menu437#=Hinausführen
+#menu438#=Größe
+#menu439#=Menge
+#menu440#=Bitte Ordnername eingeben
+#menu441#=Ordner erfolgreich erstellt
+#menu442#=Ordner erstellen fehlgeschlagen
+#menu443#=Zu viele Ordner, erst löschen
+#menu444#=Ordner löschen bestätigen?
+#menu445#=DateiLösch
+#menu446#=Koordinate
+#menu447#=Absolut
+#menu448#=Relativ
+#menu449#=←→drücken f. Änderung
+#menu450#=Beenden border Test
+#menu451#=F3
+Border
+#menu461#=Einheit
+#menu452#=Metrisch
+#menu453#=Inch
+#menu454#=Neu starten, um Einheit zu ändern
+#menu455#=Y-Koordinatentyp
+#menu456#=Aktueller Ordner
+#menu457#=Slot No.
+#menu458#=Parameter
+#menu459#=StrtP0X1Y
+#menu460#=Nein
+#menu455#=Y-Koordinatentyp
+#menu461#=Einheit:
+#menu462#=AnpassungKurzeLinie
+#menu463#=Shopscheibenwinkel
+#menu464#=F1
+StartPunkt
+#menu465#=F5
+OrdnerNeu
+#menu466#=Speichern Backup datei
+#menu467#=Laden Backup datei
+#menu378#=Radius to limit speed
+#menu468#=Note1): 
+#menu469#=>0, Drehen CCW
+#menu470#=Note2): <0, Drehen CW
+#menu471#=Note3): =0, Drehen 0 degree
+#menu472#=Jahr
+#menu473#=Monat
+#menu474#=Tag
+#menu475#=Woche
+#menu476#=Montag
+#menu477#=Dienstag
+#menu478#=Mittwoch
+#menu479#=Donnerstag
+#menu480#=Freitag
+#menu481#=Samstag
+#menu482#=Sontag
+#menu525#=Spannfutter benutzen
+#menu526#=Spannfutter Puls
+#menu527#=Systemmodus
+#menu528#=Blechschnitt
+#menu529#=Rohrschnitt
+#menu530#=Kein Durchmesser eingestellt
+#menu531#=Rohr Modus
+#menu537#=Laser
+#menu538#=Laser Einstellungszeit
+#menu539#=Blasverzögerung vor Laseröffnung
+#menu540#=Verzögerung nach Laseröffnung
+#menu541#=THC Einrichtzeit
+#menu542#=Blasen halten
+#menu543#=Laser An
+#menu544#=Blasen
+#menu545#=Laserschnit
+#menu546#=THC Aktiviert
+#menu547#=Entfernung zum Laser OFF
+#menu548#=Entfernung zum Blaser OFF
+#menu554#=●
+#menu483#=Eingabe Bew. links
+#menu484#=Eingabe Bew. Rechts
+#menu485#=Eingabe Beschleunig links
+#menu486#=Eingabe Verlangsamung rechts
+#menu487#=Zündeingabe
+#menu488#=Eingabe CutOxygen
+#menu489#=Beschleunigungseingabe
+#menu490#=Deacceleration Eingabe
+#menu491#=Starteingang
+#menu492#=StopEingabe
+#menu493#=Fackel nach oben Eingabe
+#menu494#=Fackel nach unten Eingabe
+#menu495#=Aktuelle Sprache: Eng
+#menu496#=Hinzufügen Sprachdateien
+#menu497#=Advanced Setup
+#menu498#=Aluminium (ALU)
+#menu499#=Vorsicht, Sie Ändern Advanced Setup
+#menu500#=Standardwert
+#menu501#=Löschen Sie alle Dateien?
+#menu502#=Passwort falsch
+#menu503#=Frame-Test
+#menu505#=Speichern Eingangswink. wie der Stahlwink
+#menu506#=Größe 1
+#menu507#=Größe 2
+#menu508#=Größe 3
+#menu509#=Größe 4
+#menu510#=Größe 5
+#menu511#=Größe 6
+#menu512#=Größe 7
+#menu513#=Größe 8
+#menu514#=Größe 9
+#menu515#=Größe 10
+#menu516#=Stellen Sie sicher Sprachdateien im USB
+#menu517#=XY Austausch
+#menu518#=Menge 1
+#menu519#=Menge 2
+#menu520#=Verboten F
+#menu532#=Hauptleitung D
+#menu533#=Zweigrohr D
+#menu534#=Über Brennlänge
+#menu551#=Sprache Datei ist nicht vorhanden
+#menu552#=Bitte fügen Sie Sprachdateien zuerst
+#menu553#=Sprachdateien% d erfolgreich zu importieren
+#menu84#=Schritt Entfernung wird aus Limitierte
+#menu85#=Geschwindigkeit wird aus Limitierte
+#menu86#=Kerf ist aus Limitierte
+#menu87#=Manuelle Geschwindigkeit aus Limitierte
+#menu220#=Datei kann nicht geöffnet werden
+#menu364#=Zeit um THC vor M08 Sperren
+#menu576#=F8
+Zurück
+#menu600#=F1
+Parameter Rückgewinnung
+#menu601#=F2
+Sicherungskopie
+#menu602#=F8
+Aktualisierung
+#menu610#=Verwenden Sie Zylinder THC
+#menu611#=Lichtbogenspannung einstellen
+#menu612#=Toten Bogenspannung einstellen
+#menu613#=Kapazität Spannung einstellen
+#menu614#=Toten Kapazität Spann. einstellen
+#menu615#=Modbus Kommunikationsfehler
+#menu616#=Echtzeit-Lichtbogenspannung
+#menu617#=Echtzeit-Kapazitätsspannung
+#menu618#=Daten konnten nicht speichern
+#menu619#=Dynamische Piercing Zeit
+#menu620#=Pierce Verzögerung
+#menu621#=Anfängliche Anstiegszeit Position.
+#menu622#=Verwenden Crawl in Piercing
+#menu623#=Modbus-Master-Slave Betrieb
+#menu624#=Modbus Baudrate
+#menu625#=master
+#menu626#=slave
+#menu627#=Zlimit hoch
+#menu628#=Zlimit noch oben
+#menu565#=F6
+Narc Reducieren
+#menu566#=F7
+arc Hinzufügen
+#menu567#=F6
+PreheatEnd
+#menu568#=F7
+PreheatAdd
+#menu569#=Lichtbogenspannung einstellen
+#menu570#=Arc Schutzwerte
+#menu571#=THC-Empfindlichkeit
+#menu572#=Arc Set Schrittwert
+#menu573#=AutoTHC
+#menu574#=Manuelle THC
+#menu575#=Stellen Lichtbogenspannung Fehler
+#menu577#=Lichtbogenschutzwerte Fehler
+#menu578#=THC-Empfindlichkeitwerte
+#menu579#=Arc Set Step werte Fehler
+#menu580#=Stellen Arc
+#menu581#=tatsächliche Arc
+#menu582#=schnelle IHSTime
+#menu584#=Schnelle IHS Zeitfehler
+#menu586#=Arc Success Signalquelle
+#menu587#=innen
+#menu588#=Außerhalb
+#menu700#=AD Korrekturfehler
+#menu701#=Sampling Arc Wert
+#menu640#=Kein Plasma und Kontaktprüfung
+#menu641#=festhalten vorheizen, Schneiden Ende
+#menu555#=Horizontale Achse unten
+#menu562#=Berechnen Horizontalachse unten
+#menu556#=Länge links 
+#menu557#=Länge rechts
+#menu558#=Länge Oberer
+#menu559#=Länge Untere
+#menu560#=LD to RU Länge
+#menu561#=LP to RD Länge
+#menu563#=Calc. Achsenwinkel Erfolgreich
+#menu564#=Calc Achsenwinkel gescheitert
+#menu702#=Plasmakanone Hubgeschwindigkeit
+#menu703#=Abstauben Zündung
+#menu704#=Säuberungsaktion
+#menu705#=F3
+Laservorstrom zurück
+#menu706#=F4
+bestätigen den Startpunkt
+#menu707#=F5
+Ende Bestätigen
+#menu708#=F7
+Abbrechen
+#menu709#=Wählen Sie die Kanone
+#menu710#=F1
+nicht ausgewählt
+#menu711#=Laserpositionierung Pistole seitlich versetzt
+#menu712#=Laserpositionierung gun Längsverschiebung
+#menu713#=Plasmakanone seitlich versetzt
+#menu714#=Plasmakanone Längsverschiebung
+#menu715#=Bitte wählen Sie die Kanone
+#menu716#=Fahrverbot Alarm
+#menu717#=Laufanzeige
+#menu718#=Chuck mit Welle
+#menu719#=Spülzeit
+#menu720#=Schweiß Höchstgeschwindigkeit
+#menu721#=Beschleunigungszeit
+#menu722#=Das erste Mal wieder auf Drehzahl Null
+#menu723#=Zweiten Referenzgeschwindigkeit
+#menu724#=Referenzfahrt wieder Abstand X
+#menu725#=Referenzfahrt wieder Abstand Y
+#menu726#=F4
+Maschinen
+#menu727#=Verwenden Sie Zylinderbohrungen
+#menu729#=USB-Unterstützung für lange Dateinamen
+#menu730#=Zylinderöffnungszeit
+#menu731#=Zylinderschließzeit
+#menu732#=F2
+Flamme gun
+#menu733#=F3
+Plasmakanone
+#menu734#=Spritzpistole
+#menu800#=Drilling-Status
+#menu801#=Gewindebohren
+#menu802#=Steigen
+#menu803#=Tropfen
+#menu804#=Bohrstelle
+#menu178#=Datei bereits vorhanden ist, ersetzen Sie es?
+#menu805#=F4
+Laser-Offset
+#menu806#=F5
+Laservorstrom zurück
+#menu807#=Schweißfunktionssteuerung
+#menu808#=Crater Zeit
+#menu809#=Lichtbogenzeit
+#menu810#=THC Obergrenze
+#menu811#=THC Endlage
+#menu812#=Peripheriegeräte
+#menu813#=Bohrspindel Nullposition nahe Stahl
+#menu814#=Jedes Loch Klopfen Schrittfrequenz
+#menu815#=Stoppen Höhe Nach dem Bohren
+#menu816#=Gesamtlänge G-Code-Datei den Grenzwert überschreitet
+#menu817#=Single-Line-G-Code-Länge überschreitet den Grenzwert!
+#menu818#=Leerlauf / Rückwärts-Drehzahlfehler
+#menu819#=Abstauben Drehzahlfehler
+#menu820#=G-Code Gesamtzahl der Zeilen überschreitet den Grenzwert!
+#menu821#=Presence verstümmelt G-Code-Dateien!
+#menu822#=Nicht die G-Code-Dateien!
+#menu823#=Leere Datei!
+#menu824#=Peripheren bereit
+#menu825#=Nach dem Fall der Lichtbogenzeit

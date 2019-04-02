@@ -1,0 +1,937 @@
+UCCodeEncode=UTF8
+#menu1#=Cập nhật. O.K.?
+#menu2#=Enter:OK  ESC:Hủy
+#menu3#=Không hiểu file
+#menu4#=Thành công. Khởi động lại
+#menu5#=Không thấy file
+#menu6#=Lắp USB vào
+#menu7#=Cập nhật lỗi
+#menu8#=Đang cập nhật…
+#menu9#=Chờ ít phút
+#menu10#=File quá lớn
+#menu11#=F1 Cập nhật hệ thống
+#menu12#=F2 Bắt đầu cập nhật
+#menu13#=F3 Cập nhật thông số
+#menu14#=F4 Phục hồi hệ thống
+#menu15#=F1 Phục hồi thông số
+#menu16#=F2 Khởi tạo thông số
+#menu17#=F3 Xóa hết
+#menu18#=Nhập mật khẩu
+#menu19#=Xóa xong
+#menu20#=Xóa thất bại
+#menu21#=Phục hồi thành công
+#menu174#=Nhấn phím bất kỳ trở về
+#menu22#=Phục hồi thất bại
+#menu23#=Khởi tạo thành công
+#menu24#=Khởi tạo  thất bại
+#menu25#=Nhập mật khẩu
+#menu26#=Bảo mật
+#menu27#=Ngày
+#menu28#=Thời gian
+#menu29#=Không bảo vệ
+#menu30#=Mức bảo vệ
+#menu31#=Mở khóa 1
+#menu32#=Mở khóa 2
+#menu33#=Mở khóa 3
+#menu34#=Mở khóa xong
+#menu35#=Đếm lại
+#menu36#=Lưu
+#menu37#=Sẵn có cho %d ngày
+#menu38#=Sẵn có cho %d giờ
+#menu39#=Không hạn chế người dùng
+#menu40#=Mở khóa thất bại
+#menu41#=Mở khóa thành công
+#menu42#=Nhấn Enter thay đổi
+#menu43#=Lưu thành công
+#menu44#=File cài đặt lỗi
+#menu45#=Trùng File. Tạo mới?
+#menu46#=Trục X
+#menu47#=Trục Y
+#menu48#=Cùng chiều
+#menu49#=Ngược chiều
+#menu50#=Nhấn Enter thay đổi
+#menu51#=Định dạng ngõ vào
+#menu52#=PgUp/PgDn : Chọn cổng, Enter :Chọn
+#menu53#=Cổng
+#menu54#=Loại
+#menu55#=Định dạng ngõ ra
+#menu56#=Thoát cắt.O.K?
+#menu57#=Enter:Thoát
+#menu58#=ESC: Cắt tiếp
+#menu59#=Trở về .O.K.?
+#menu60#=Nhập bù rãnh cắt
+#menu61#=Thoát cắt, nhập lại.
+#menu62#=Nhảy điểm đục kế tiếp?
+#menu63#=Gas
+#menu64#=Plasma
+#menu65#=Demo
+#menu66#=Cut SP
+#menu244#=Cut SP
+#menu68#=Kiểu
+#menu69#=Giữ
+#menu70#=Liên tục
+#menu71#=Bước
+#menu72#=Đoạn
+#menu73#=Dừng
+#menu74#=Pause
+#menu75#=Cắt
+#menu76#=Đục
+#menu77#=Demo
+#menu78#=Lùi
+#menu79#=CHẠY
+#menu80#=Biên
+#menu81#=Arc ON
+#menu82#=Nhập chiều dài
+#menu83#=Số lớn, nhập lại
+#menu88#=Nhập tốc độ cắt
+#menu89#=Nhập bù rãnh cắt
+#menu90#=Nhập tốc độ chạy tay
+#menu91#=[G] Cắt trở về
+#menu92#=[X] Di chuyển hình cắt
+#menu93#=[Y] Trở về
+#menu94#=[X] Di chuyển tọa độ cắt
+#menu95#=Gia nhiệt cao
+#menu96#=Gia nhiệt thấp
+#menu97#=Bước 1
+#menu98#=Bước 2
+#menu99#=Bước 3
+#menu100#=Chế độ hoạt động:
+#menu101#=Đánh lửa
+#menu102#=Xả Oxy
+#menu95#=Gia nhiệt cao
+#menu103#=Bước 1
+#menu104#=Bước 2
+#menu105#=Bước 3
+#menu106#=Chờ hồ quang
+#menu107#=Chờ vị trí
+#menu108#=Đục lỗ
+#menu109#=Tắt đo cao
+#menu110#=Mở đo cao
+#menu111#=Chờ tắt Gas
+#menu112#=Dò hồ quang
+#menu113#=Chờ đục lỗ
+#menu114#=Dò vị trí
+#menu115#=Demo
+#menu116#=Lỗi cài đặt
+#menu117#=Mã code lỗi
+#menu118#=Mất hồ quang
+#menu119#=Dòng lệnh quá dài
+#menu120#=Giới hạn cứng
+#menu121#=Giới hạn mềm
+#menu122#=Lỗi bộ tách áp
+#menu123#=Báo nguy hiểm
+#menu124#=Báo hồ quang tắt
+#menu125#=Va chạm mỏ
+#menu126#=Lỗi Ram
+#menu127#=Lỗi Chip DSP
+#menu128#=Trở về.O.K.?
+#menu129#=ENTER: Trở về
+#menu130#=ESC: Hủy bỏ
+#menu131#=1. Sao lưu thông số?
+#menu132#=2. Tự sửa lỗi
+#menu133#=3. Khởi động lại
+#menu134#=Kiểm tra. O.K.?
+#menu135#=Cổng vào
+#menu136#=Giới hạn trước
+#menu137#=Giới hạn sau
+#menu138#=Giới hạn phải
+#menu139#=Giới hạn trái
+#menu140#=Dừng khẩn cấp
+#menu141#=Mở hồ quang
+#menu142#=Dò vị trí mỏ
+#menu143#=Đã chạm mỏ
+#menu144#=Cổng ra
+#menu145#=Đánh lửa
+#menu146#=Gia nhiệt thấp
+#menu95#=Gia nhiệt cao
+#menu147#=Xả Oxy thấp
+#menu148#=Xả Oxy vừa
+#menu149#=Xả Oxy cao
+#menu150#=Nâng mỏ
+#menu151#=Hạ mỏ
+#menu152#=Chờ tắt Gas
+#menu153#=Mở THC
+#menu154#=Dò vị trí
+#menu155#=Mở hồ quang
+#menu156#=Tắt đo cao vào góc
+#menu157#=Van khí
+#menu158#=Mở Servo
+#menu159#=Bước 1
+#menu160#=Bước 2
+#menu161#=Gia nhiệt lấy dấu
+#menu162#=Mã khóa
+#menu163#=Năm Tháng Ngày Tuần
+#menu164#=Nhấn Up/Down đổi ngày giờ  
+#menu165#=Không tìm thấy file
+#menu166#=Không tìm thấy USB
+#menu167#=Lỗi mở file
+#menu168#=Lỗi mở file
+#menu169#=Không sửa được thư mục
+#menu170#=Không hỗ trợ file
+#menu171#=Xóa file. O.K.?
+#menu172#=Trùng file. Thay thế?
+#menu173#=Tạo file thành công
+#menu175#=Lỗi sao chép. Nhấn bất kỳ trở về
+#menu176#=Chép xong
+#menu2#=Enter:OK  ESC:Hủy
+#menu179#=Đang lưu
+#menu170#=Không hỗ trợ file
+#menu180#=Lỗi giá trị bù
+#menu181#=Cho bù rãnh cắt về 0
+#menu182#=Sửa xong
+#menu183#=Dòng lệnh quá dài
+#menu184#=Nhập tên file
+#menu186#=Enter: Thay thế file
+#menu187#=ESC: Trở về
+#menu188#=Đang lưu…
+#menu191#=Không tải được file
+#menu192#=Đang xử lý…
+#menu193#=Lưu thất bại
+#menu194#=Nhập góc
+#menu195#=Min: -360, Max: 360
+#menu196#=Góc:
+#menu197#=Nhập thông số (unit: mm)
+#menu198#=Hàng
+#menu199#=Cột
+#menu200#=Số hàng
+#menu201#=Số cột
+#menu202#=Quá số hàng hoặc cột
+#menu203#=Chọn kiểu nhân hình
+#menu204#=F1: Ma trận
+#menu205#=F2: So le
+#menu206#=F3: Đảo đầu
+#menu207#=Đảo theo hàng
+#menu208#=Đảo theo cột
+#menu209#=F8: OK
+#menu210#=Nhập tỉ lệ: 
+#menu211#=Tỉ lệ phải lớn hơn 0
+#menu212#=F1 Căn góc tấm tole
+#menu213#=F2 Nhập góc
+#menu214#=X-Bắt đầu Y-Kết thúc ESC-Thoát
+#menu215#=Vị trí X: 
+#menu216#=Vị trí Y: 
+#menu217#=Góc nghiêng:
+#menu218#=Enter: Về lại điểm đầu
+#menu219#=ESC: Không về điểm đầu
+#menu221#=Kết nối thất bại
+#menu222#=Chọn dữ liệu cắt
+#menu223#=Bắt đầu cắt. O.K.?
+#menu224#=Enter: Cắt  ESC: Trở về
+#menu225#=Chạy thử. O.K.?
+#menu226#=Enter: Chạy thử  ESC: Trở về
+#menu227#=Tùy chọn:
+#menu228#=Model: F2500
+#menu229#=Mở USB
+#menu230#=Thoát cắt hoặc mở 1 file
+#menu232#=Đã kết nối USB
+#menu233#=Lỗi USB!
+#menu234#=Lỗi mã 0
+#menu235#=Xin liên hệ với TDL
+#menu236#=Lỗi mã 1%xD
+#menu237#=Nhấn phím bất kỳ trở về
+#menu238#=Lỗi mã 2%xT
+#menu239#=Dual RAM is O.K.
+#menu240#=Dual RAM bị lỗi
+#menu241#=Lỗi nghiêm trọng! Không tìm được bộ lưu trữ 
+#menu242#=Lỗi nghiêm trọng! Không tạo được bộ lưu trữ 
+#menu243#=Tạo bộ lưu trữ thành công
+#menu245#=Bù cắt
+#menu246#=Trạng thái:
+#menu247#=Tập tin:
+#menu248#=Tốc độ:
+#menu249#=FLSK F2500
+#menu250#=Phiên bản:
+#menu251#=Chạy tay
+#menu252#=Dòng lệnh/Lỗ
+#menu253#=F1
+Thư viện
+#menu254#=F2
+Tập tin
+#menu255#=F3
+Tùy chọn
+#menu256#=F4
+Cài đặt
+#menu257#=F5
+Chuẩn đoán
+#menu258#=F6
+Phóng to
+#menu259#=F7
+Menu
+#menu260#=F8
+Zero
+#menu261#=F8
+Phóng to
+#menu262#=F1
+Cắt ngoài
+#menu263#=F2
+Cắt trong
+#menu264#=F1
+Ổ cứng
+#menu265#=F2
+USB
+#menu266#=F3
+Tìm kiếm
+#menu267#=F4
+Sửa file
+#menu268#=F5
+Xóa File
+#menu269#=F7
+Xem hình
+#menu270#=F1
+Chung
+#menu271#=F2
+Gas
+#menu272#=F3
+Plasma
+#menu273#=F4
+Lấy dấu
+#menu274#=F5
+Hệ thống
+#menu275#=F6
+Nhập
+#menu276#=F7
+Xuất 
+#menu277#=F8
+Lưu
+#menu278#=F1
+Nhập IO
+#menu279#=F2
+Sửa IO
+#menu280#=F3
+Mở cổng
+#menu281#=F4
+Đóng cổng
+#menu282#=F5
+Bàn phím
+#menu283#=F6
+Kiểm tra
+#menu284#=F7
+Ngày&Giờ
+#menu285#=F8
+Hệ thống
+#menu286#=Phục hồi 
+#menu287#=Sao lưu
+#menu288#=F3
+Định nghĩa
+#menu289#=F4
+Bảo mật
+#menu290#=F5
+Mở khóa
+#menu291#=F6
+Ngôn ngữ
+#menu292#=Cập nhật
+#menu293#=F1
+Lùi
+#menu294#=F2
+Chạy thử
+#menu295#=F3
+Trở về
+#menu296#=F6
+Tắt nung
+#menu297#=F7
+Tăng nung
+#menu298#=F8
+Nhảy điểm
+#menu299#=F2
+Xoay hình
+#menu300#=F3
+Nhân hình
+#menu301#=F4
+Tỉ lệ
+#menu302#=F5
+Nhảy điểm
+#menu303#=F6
+Sửa File
+#menu304#=F7
+Hủy bỏ
+#menu305#=F8
+OK
+#menu306#=F1
+Xong
+#menu307#=F2
+Thêm hàng
+#menu308#=F3
+Xóa hàng
+#menu309#=F4
+File mới
+#menu277#=F8
+Lưu
+#menu310#=F1
+IO vào
+#menu311#=F2
+IO ra
+#menu312#=F3
+Trục
+#menu313#=F4
+Motor
+#menu314#=F5
+Tùy chọn
+#menu277#=F8
+Lưu
+#menu315#=F1
+Giữ
+#menu316#=F2
+Liên tục
+#menu317#=F3
+Từng bước
+#menu318#=F4
+Giảm tốc 
+#menu319#=F5
+Tăng tốc
+#menu320#=F7
+Phục hồi
+#menu321#=F6
+Lưu USB
+#menu322#=Nhập kí tự tìm kiếm
+#menu323#=Không tìm thấy file
+#menu324#=Nhập thông số 
+#menu325#=Tiếng pháp
+#menu326#=Tiếng Trung
+#menu327#=Tiếng Anh
+#menu328#=Tốc độ cắt
+#menu329#=Tốc độ chạy tay
+#menu330#=Tốc độ không tải
+#menu331#=Bù rãnh
+#menu332#=Tốc độ vào góc (1-100)
+#menu333#=Lựa chọn cắt
+#menu334#=OK
+#menu335#=No
+#menu336#=Tốc độ Demo
+#menu337#=Tốc độ lấy dấu
+#menu338#=Tốc độ Demo
+#menu67#=Demo SP
+#menu339#=Thời gian đánh lửa
+#menu340#=Thời gian gia nhiệt thấp
+#menu341#=Thời giannhiệt cao
+#menu342#=Thời gian bước 1
+#menu343#=Thời gian bước 2
+#menu344#=Thời gian bước 3
+#menu345#=Thời gian tắt gas
+#menu346#=Thời gian hạ mỏ
+#menu347#=Thời gian nâng mỏ để đục
+#menu348#=Thời gian hạ mỏ để đục
+#menu349#=Kích hoạt THC
+#menu350#=Giữ lửa
+#menu351#=Cắt từ biên
+#menu352#=Phản hồi tốc độ
+#menu353#=Thời gian chờ phản hồi
+#menu354#=Thời gian trễ ra khí
+#menu355#=Thời gian đục lỗ
+#menu356#=Thời gian nâng mỏ (HQ đẵ tắt)
+#menu357#=Thời gian chờ kiểm tra HQ
+#menu358#=Thời gian chờ kiểm tra vị trí
+#menu359#=Chiều cao đục lỗ
+#menu360#=Tắt đo cao khi giảm tốc
+#menu361#=Đã nhận hồ quang 
+#menu362#=Chiều cao tối thiểu tắt đo cao
+#menu363#=Thời gian trễ ngắt hồ quang
+#menu365#=Thời gian đánh lửa lấy dấu
+#menu366#=Thời gian gia nhiệt lấy dấu
+#menu367#=Thời gian bắt đầu lấy dấu
+#menu368#=Thời gian kết thúc lấy dấu
+#menu369#=Thời gian nâng mỏ lấy dấu
+#menu370#=Thời gian hạ mỏ lấy dấu
+#menu371#=khoảng mỏ lấy dấu ngang
+#menu372#=khoảng mỏ lấy dấu dọc
+#menu373#=Trục X
+#menu374#=Trục Y
+#menu375#=Tốc độ cắt lớn nhất
+#menu376#=Tốc không tải lớn nhất
+#menu377#=Giới hạn tốc độ cung tròn nhỏ
+#menu379#=Gia tốc khi cắt gas
+#menu381#=Thời gian dừng khẩn cấp
+#menu382#=Tốc độ bắt đầu
+#menu383#=Max. +X
+#menu384#=Max. +Y
+#menu385#=Min. -X
+#menu386#=Min. -Y
+#menu380#=Gia tốc khi cắt Plasma
+#menu387#=Tốc độ chạy tay cao nhất
+#menu388#=Nhập cài đặt thành công
+#menu389#=Nhập cài đặt thất bại
+#menu390#=Không tìm thấy file F2300.DAT
+#menu391#=Khởi động lại
+#menu392#=Nhập thông số. O.K.?
+#menu393#=File cài đặt là F2300D.DAT
+#menu394#=Xuất file thành công
+#menu395#=Xuất file thất bại
+#menu396#=Mở file thất bại
+#menu397#=Xóa file ở USB
+#menu398#=Xuất cài đặt. O.K.?
+#menu399#=Nhập thành công
+#menu400#=Nhập thất bại. Chạy mặc định
+#menu401#=Nhập thất bại. Kiểm tra lại
+#menu402#=Phục hồi thành công
+#menu403#=Lỗi tốc độ cắt
+#menu404#=Lỗi tốc độ chạy tay
+#menu405#=Lỗi tốc độ không tải
+#menu406#=Lỗi bù rãnh cắt
+#menu407#=Lỗi tốc độ vào góc
+#menu408#=Lỗi tốc độ chạy cung nhỏ
+#menu409#=Tốc độ cắt quá nhanh
+#menu410#=Tốc độ chạy tay quá nhanh
+#menu411#=Tốc độ không tải quá nhanh
+#menu412#=Tốc độ Demo quá nhanh
+#menu413#=Tốc độ lấy dấu quá nhanh
+#menu414#=Tốc độ Demo quá nhanh
+#menu415#=Giảm số xung tăng tốc
+#menu416#=Lưu thành công
+#menu417#=Thay đổi cài đặt. O.K.?
+#menu407#=Lỗi tốc độ vào góc
+#menu418#=Gas
+#menu419#=Plasma
+#menu420#=X Đối xứng
+#menu421#=Y Đối xứng
+#menu422#=F1 Chọn theo dòng lệnh
+#menu423#=F2 Chọn điểm đục
+#menu424#=Nhập số dòng.:
+#menu425#=Nhấn←→Chọn dòng
+#menu426#=F8 OK
+#menu427#=F1: Trung tâm
+#menu428#=F2: Dưới bên trái
+#menu429#=F3: Trên bên trái
+#menu430#=F4: Dưới bên phải
+#menu431#=F5: Trên bên phải
+#menu432#=Nhập thứ tự điểm đục:
+#menu433#=Nhấn←→chọn điểm đục lỗ
+#menu434#=Mã nhận Remote
+#menu435#=F6
+Copy HDD
+#menu436#=Đường vào
+#menu437#=Đường ra
+#menu438#=Kích cỡ
+#menu439#=Số lượng
+#menu440#=Nhập tên thư mục
+#menu441#=Tạo thư mục thành công
+#menu442#=Tạo thư mục thất bại
+#menu443#=Quá nhiều thư mục. Xóa
+#menu444#=Xóa thư mục. OK?
+#menu445#=Xóa file
+#menu446#=Tọa độ mặc định
+#menu447#=ABS
+#menu448#=REL
+#menu449#=Nhấn ←→ để thay đổi
+#menu450#=Thoát kiểm tra biên
+#menu451#=F3
+Ra biên
+#menu461#=Đơn vị
+#menu452#=Met
+#menu453#=Inches
+#menu454#=Khởi động lại để thay đổi
+#menu455#=Tọa độ cung tròn IJ
+#menu456#=Thư mục hiện hành
+#menu457#=Số khe.
+#menu458#=Thông số
+#menu459#=SP(0X1Y)
+#menu460#=No
+#menu455#=Tọa độ cung tròn IJ
+#menu461#=Đơn vị:
+#menu462#=Ghép lệnh ngắn
+#menu463#=Nhớ góc căn tôn
+#menu464#=F1
+Điểm đầu
+#menu465#=F5
+Tạo mục
+#menu466#=Lưu file phục hồi
+#menu467#=Mở file phục hồi
+#menu378#=Giảm tốc khi vào cung 
+#menu468#=Ghi chú 1): 
+#menu469#=>0, Ngược chiều
+#menu470#=Ghi chú 2): <0, Cùng chiều
+#menu471#=Ghi chú 3): =0, Góc xoay 0
+#menu472#=Năm
+#menu473#=Month
+#menu474#=Ngày
+#menu475#=Tuần
+#menu476#=Hai
+#menu477#=ba
+#menu478#=tư
+#menu479#=năm
+#menu480#=sáu
+#menu481#=bảy
+#menu482#=CN
+#menu525#=Dùng mâm cặp
+#menu526#=Xung mâm cặp
+#menu527#=Mô hình hệ thống
+#menu528#=Cắt tấm
+#menu529#=Cắt ống
+#menu530#=Đường kính không được tạo
+#menu531#=Cắt ống
+#menu537#=Laser
+#menu538#=Chỉnh thời gian phát laser
+#menu539#=Thời gian trễ trước mở Laser
+#menu540#=Thời gian trễ sau mở Laser
+#menu541#=Thời gian trễ mở đo cao
+#menu542#=Thời gian trễ dừng chờ tắt
+#menu543#=Bật Laser
+#menu544#=Dừng chờ
+#menu545#=Cắt Laser
+#menu546#=Mở đo cao
+#menu547#=Khoảng dừng trước tắt Laser
+#menu548#=Khoảng dừng chờ tắt Laser
+#menu554#=●
+#menu483#=Tín hiệu Lên
+#menu484#=Tín hiệu Xuống
+#menu485#=Tín hiệu Trái
+#menu486#=Tín hiệu Phải
+#menu487#=Tín hiệu Đánh lửa
+#menu488#=Tín hiệu Xả Oxy
+#menu489#=Tín hiệu Tăng gia tốc
+#menu490#=Tín hiệu Giảm giảm tốc
+#menu491#=Tín hiệu Chạy
+#menu492#=Tín hiệu Dừng
+#menu493#=Tín hiệu Nâng mỏ
+#menu494#=Tín hiệu Hạ mỏ
+#menu495#=Ngôn ngữ hiện hành: Eng
+#menu496#=Chèn file ngôn ngữ
+#menu497#=Cài đặt nâng cao
+#menu498#=Nhôm (ALU)
+#menu499#=Cẩn thận, Bạn sẽ 
+Đổi cài nâng cao
+#menu500#=Giá trị mặc định
+#menu501#=Xóa tất cả file?
+#menu502#=Lỗi mật khẩu
+#menu503#=K.tra biên
+#menu505#=Lưu cài đặt góc căn tole
+#menu506#=Size 1
+#menu507#=Size 2
+#menu508#=Size 3
+#menu509#=Size 4
+#menu510#=Size 5
+#menu511#=Size 6
+#menu512#=Size 7
+#menu513#=Size 8
+#menu514#=Size 9
+#menu515#=Size 10
+#menu516#=Đảm bảo file ngôn ngữ  trong USB
+#menu517#=Hoán đổi chiều XY
+#menu518#=Số lượng 1
+#menu519#=Số lượng 2
+#menu520#=Ẩn các F
+#menu532#=Ống chính D
+#menu533#=Ống nhánh D
+#menu534#=Ống quá dài
+#menu551#=Không có File ngôn ngữ
+#menu552#=Thêm file ngôn ngữ
+#menu553#=Nhập thành công ngôn ngữ %d
+#menu84#=Chiều dài quá lớn
+#menu85#=Tốc độ quá giới hạn
+#menu86#=Bù rãnh cắt quá giới hạn
+#menu87#=Tốc độ chạy tay quá giới hạn
+#menu220#=Không thể mở file
+#menu364#=Tắt đo cao trước khi ngắt van M08
+#menu576#=F8
+Trở về
+#menu600#=F1 Thông số
+phục hồi
+#menu601#=F2
+PM Saolưu
+#menu602#=F8
+Cập nhật
+#menu610#=Dùng ben hơi
+#menu611#=Đặt điện áp đo cao
+#menu612#=Đặt điệp áp tắt đo cao
+#menu613#=Đặt điện áp đo cao mỏ Gas
+#menu614#=Đặt điệp áp tắt đo cao mỏ gas
+#menu615#=Giao tiếp Modbus bị lỗi!
+#menu616#=Thời gian đoc điện áp plasma
+#menu617#=Thời gian đọc điện áp mỏ gas
+#menu618#=Không lưu được dữ liệu
+#menu619#=Đục lỗ nâng cao
+#menu620#=Thời gian trễ đục lỗ
+#menu621#=Tăng thời gian chờ dò vị trí
+#menu622#=Hồi tiếp kiểm tra đục lỗ
+#menu623#=Định dạng Máy chủ-Máy con trong Modbus
+#menu624#=Tốc độ truyền Modbus
+#menu625#=Máy chủ
+#menu626#=Máy con
+#menu627#=Giới hạn trên trục Z
+#menu628#=Giới hạn dưới trục Z
+#menu565#=F6
+Giảm dòng
+#menu566#=F7
+Tăng dòng
+#menu567#=F6
+Tắt nung
+#menu568#=F7
+Tăng nung
+#menu569#=Cài đặt điện áp đo cao
+#menu570#=Cài đặt điện áp bảo vệ
+#menu571#=Độ nhạy đo cao
+#menu572#=Bước tăng giá trị đo cao
+#menu573#=AutoTHC
+#menu574#=ManualTHC
+#menu575#=Cài đặt điện áp báo lỗi
+#menu577#=Giá trị cài điện áp lỗi
+#menu578#=Giá trị cài độ nhạy lỗi
+#menu579#=Bước tăng giá trị lỗi
+#menu580#=SetArc
+#menu581#=ActualArc
+#menu582#=Thời gian mỏ xuống nhanh
+#menu584#=Đặt thời gian mỏ xuống nhanh lỗi
+#menu586#=Đã nhận hồ quang 
+#menu587#=Cắt trong
+#menu588#=Cắt ngoài
+#menu700#=Lỗi giải mã ADC
+#menu701#=Giá trị lấy mẫu đo cao
+#menu640#=Không mở được plasma
+#menu641#=Giữ lửa khi kết thúc cắt
+#menu555#=Góc nghiêng ngang
+#menu562#=Tính góc nghiêng ngang
+#menu556#=Cự ly trái
+#menu557#=Cự ly phải
+#menu558#=Cự ly trên
+#menu559#=Cự ly dưới
+#menu560#=LD to RU length
+#menu561#=LP to RD length
+#menu563#=Tính góc căn thành công
+#menu564#=Tính góc căn bị lỗi
+#menu702#=Tốc độ lên xuống mỏ plasma
+#menu703#=Đánh lửa lấy dấu
+#menu704#=Tắt
+#menu705#=F3 Laser
+GunOut
+#menu706#=F4
+StartPnt
+#menu707#=F5
+EndPnt
+#menu708#=F7
+Cancel
+#menu709#=Sel Gun
+#menu710#=F1
+No Offset
+#menu711#=Khoảng cách ngang Laser-Gas
+#menu712#=Khoảng cách dọc Laser-Gas
+#menu713#=Khoảng cách ngang plasma-Gas
+#menu714#=Khoảng cách dọc Plasma-Gas
+#menu715#=Lựa chọn mỏ cắt
+#menu716#=Cảnh báo: Servo lỗi
+#menu717#=Chỉ báo chạy
+#menu718#=Kiểu ống
+#menu719#=Thời gian tắt
+#menu720#=Tốc độ hàn lớn nhất
+#menu721#=Thời gian gia tốc
+#menu722#=Giảm tốc trước khi về gốc
+#menu723#=Giảm tốc sau khi về gốc
+#menu724#=Khoảng dừng trước giới hạn X
+#menu725#=Khoảng dừng trước giới hạn Y
+#menu726#=F4
+Hệ máy
+#menu727#=Dùng xilanh khí
+#menu729#=Hỗ trợ tên dài
+#menu730#=Thời gian mở khí
+#menu731#=thời gian đóng khí
+#menu732#=F2
+Gas
+#menu733#=F3
+Plasma
+#menu734#=Phun sơn
+#menu800#=Trạng thái khoan
+#menu801#=Ta rô
+#menu802#=Nâng
+#menu803#=Hạ
+#menu804#=Vị trí
+#menu178#=Tập tin đã tồn tại, thay thế?
+#menu805#=F4
+Laser Offset
+#menu806#=F5
+Laser Back
+#menu807#=kiểm soát máy hàn
+#menu808#=Tắt plasma
+#menu809#=Mở plasma
+#menu810#=Giới hạn trên 
+#menu811#=Giới hạn dưới
+#menu812#=Kết nối ngoại vi
+#menu813#=Cài vị trí chạm tôn là 0.0
+#menu814#=Thời gian chờ khoan lỗ
+#menu815#=Độ cao sau khi khoan
+#menu816#=File G-code quá dài
+#menu817#=Một dòng G-code quá dài
+#menu818#=Lỗi tốc độ Demo
+#menu819#=Lỗi tốc độ lấy dấu
+#menu820#=Tổng số dòng G-code quá lớn
+#menu821#=File G-code bị thiếu
+#menu822#=Không có file G-code
+#menu823#=Thư mục trống
+#menu824#=Đọc giao tiếp ngoài
+#menu825#=Hạ mỏ sau khi phóng plasma
+#menu826#=Ngõ ra mỏ Gas
+#menu827#=Ngõ ra mỏ Plasma
+#menu828#=Số điểm đục
+#menu829#=Số phôi cắt
+#menu830#=Chiều dài cắt
+#menu831#=Thời gian chạy
+#menu832#=Xóa
+#menu833#=Đồng ý xóa?
+#menu834#=Đục lỗ
+#menu835#=Số phôi
+#menu836#=Độ dài
+#menu837#=Thời gian
+#menu838#=Trùng chức năng, phục hồi lại
+#menu839#=Bỏ trống
+#menu840#=Chức năng
+#menu841#=8422 Bit0
+#menu842#=8422 Bit1
+#menu843#=8422 Bit2
+#menu844#=8422 Bit3
+#menu845#=8422 Bit4
+#menu846#=8422 Bit5
+#menu847#=8422 Bit6
+#menu848#=8422 Bit7
+#menu849#=Chạy thử
+#menu850#=Lùi về
+#menu851#=Cut Time
+#menu852#=Tốc độ nâng hạ mỏ Gas
+#menu853#=Tốc độ nâng hạ mỏ Plasma
+#menu854#=Sao chép tất cả các file vào ổ cứng của bạn?
+#menu2002#=Khoảng dừng trước giới hạn X
+#menu2003#=Khoảng dừng trước giới hạn Y
+#menu2004#=Cài trục X = 0.0
+#menu2005#=Cài trục Y = 0.0
+#menu2006#=Vị trí tuyệt đối trục X
+#menu2007#=Vị trí tuyệt đối trục Y
+#menu2008#=Tắt motor mỗi lần khoan xong
+#menu2009#=Gia tốc mỏ Gas lỗi
+#menu2010#=Gia tốc mỏ Plasma lỗi
+#menu2011#=Thời gian dừng khẩn cấp lỗi
+#menu2012#=Thời gian tắt đo cao sau đục lỗ
+#menu2013#=Lựa chọn trục
+#menu2014#=Khoảng cách sau khi về gốc
+#menu2015#=Khoảng cách gốc
+#menu2016#=Ví trí máy dừng
+#menu2017#=Chọn vị trí về gốc
+#menu2018#=Tự động về gốc
+#menu2019#=Đảo vị trí về gốc
+#menu2020#=Chiều
+#menu2021#=Vị trí
+#menu2022#=Trục X
+#menu2023#=Trục Y
+#menu2024#=Trục Z
+#menu2025#=Các trục cùng chạy về gốc
+#menu2026#=Trục xoay
+#menu2027#=File quá dài, sao chép lâu, Đợi!
+#menu2028#=Khoảng bù gốc quá lớn
+#menu2029#=Khoảng vị trí dừng quá lớn
+#menu2030#=Đang chạy về tọa độ gốc
+#menu2031#=Nhập thời gian nâng mỏ (s)
+#menu2032#=Mức thay đổi tốc độ(%)
+#menu2033#=Lùi về?
+#menu2034#=Xóa hết?
+#menu630#=Mở máy khoan
+#menu2035#=Tập tin quá nhiều,xóa bớt
+#menu2036#=F1-xóa tập tin
+#menu2037#=F2-Xóa thư mục
+#menu2038#=F3-Xóa hết tập tin
+#menu2039#=F6
+Xóa sạch
+#menu2040#=Đường dẫn hiện tại
+#menu2041#=USB
+#menu2042#=Ổ cứng
+#menu2043#=Nhập từ USB
+#menu2044#=Nhập từ ổ cứng
+#menu2045#=Xuất ra USB
+#menu2046#=Xuất ra ổ cứng
+#menu2047#=Lỗi không xác định
+#menu2048#=Đường dẫn quá dài
+#menu2049#=Nhiều File trong thư mục
+#menu2050#=Hút bụi trục Y1
+#menu2051#=Hút bụi trục Y2
+#menu2052#=F7
+Nước
+#menu2053#=Cổng ra hút bụi 1
+#menu2054#=Cổng ra hút bụi 2
+#menu2055#=Cổng ra hút bụi 3
+#menu2056#=F8
+về 0.0
+#menu2057#=Quay về 0.0
+#menu2058#=Quay về điểm đầu
+#menu2059#=Zero
+#menu2060#=Cổng Demo
+#menu629#=Định dạng khoan
+#menu631#=F4
+ Trục Z
+#menu2061#=Bật gỡ lỗi
+#menu2062#=Mở Laser
+#menu2063#=Lựa chọn plasma/Gas
+#menu2064#=F6
+Mở laser
+#menu2065#=Đóng ngõ ra
+#menu2066#=Mở ngõ ra
+#menu2067#=Thời gian mở lấy dấu
+#menu2068#=Thời gian tắt lấy dấu
+#menu2069#=Khoảng cách ngang Laser-Gas
+#menu2070#=Khoảng cách dọc Laser-Gas
+#menu2071#=Khoảng cách ngang plasma-Gas
+#menu2072#=Khoảng cách dọc Plasma-Gas
+#menu2073#=Khoảng cách ngang Khoan-Gas
+#menu2074#=Khoảng cách dọc Khoan-Gas
+#menu2075#=Khoảng cách ngang plasma-Khoan
+#menu2076#=Khoảng cách dọc Plasma-Khoan
+#menu2077#=Cắt tròn
+#menu2078#=Cắt vuông
+#menu2079#=Cắt phẳng
+#menu2080#=Chế độ hệ thống
+#menu2081#=Đổi chế độ hệ thống?
+#menu2082#=Khởi động đổi hệ thống!
+#menu2083#=Đổi thành công,Khởi động lại!
+#menu2084#=Chuyển đổi thất bại
+#menu2085#=Lỗi G-code
+#menu2086#=Hướng trục 1
+#menu2087#=Hướng trục 2
+#menu2088#=Hướng trục 3
+#menu2089#=Hướng trục 4
+#menu2090#=Mã code theo X(G/X)
+#menu2091#=Mã code theo Y(G/Y)
+#menu2092#=không dùng
+#menu2095#=Motor1
+#menu2096#=Motor2
+#menu2097#=Motor3
+#menu2098#=Motor4
+#menu2099#=Mặt phẳng
+#menu2100#=Mồi lửa lấy dấu
+#menu2101#=Tải 1.TXT Code
+#menu2102#=Tải 2.TXT Code
+#menu2103#=Giảm tốc khoan
+#menu2104#=F4
+Laser Back
+#menu2105#=Cắt xong
+#menu2106#=Đảo chiều motor quá nhanh!
+#menu2107#=Ngõ vào báo dừng!
+#menu2108#=Cắt xong quay về vị trí cũ
+#menu2109#=Đánh dấu
+#menu2110#=Đảo trục X
+#menu2111#=Đảo trục Y
+#menu2112#=QL Giờ
+#menu2113#=F1 -Chép tập tin này
+#menu2114#=F2 - Chép thư mục
+#menu2115#=F3 - Chép hết tập tin
+#menu2116#=F2-Nhập góc xoay
+#menu2117#=F3-Nhập góc căn tôn
+#menu2118#=Nhập góc căn tôn
+#menu2119#=Cho phép ngõ ra báo khẩn cấp
+#menu2120#=Tối ưu hóa đo cao
+#menu2121#=Đang cắt...
+#menu2122#=Tắt dò vị trí đo cao
+#menu2123#=Bù rãnh quá lớn
+#menu2124#=Bù rãnh có thể làm cắt sai!!!
+#menu2125#=Tiếp tục bù rảnh cắt?
+#menu2126#=Cung tròn quá nhỏ
+#menu2127#=Cho phép cài Laser
+#menu2128#=Tắt
+#menu2129#=Arc
+#menu2130#=Mark
+#menu2131#=Ign
+#menu2132#=LH
+#menu2133#=Oxy
+#menu2134#=THC
+#menu2135#=Đối xứng hình theo trục
+#menu2136#=Hiện thị số lỗ
+#menu2137#=Phát hiện hồ quang OK
+#menu2138#=Điện áp
+#menu2139#=Ngõ vào
+#menu2140#=Tất cả
+#menu2141#=Tắt hồ quang
+#menu2142#=T.gian
+#menu2143#=K.cách
+#menu2144#=Cung tròn quá lớn
+#menu2145#=Lỗi cung tròn

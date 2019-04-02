@@ -1,0 +1,584 @@
+UCCodeEncode=UTF8
+#menu1#=Mise à jour, OK?
+#menu2#=Enter:Oui / ESC:Annuler
+#menu3#=Type de fichier inconnu
+#menu4#=Mise a jour effectuée.SVP reset
+#menu5#=Fichier de mise à jour introuvable
+#menu6#=Insérer cle USB, SVP
+#menu7#=Erreur mise à jour système
+#menu8#=Mise à jour…
+#menu9#=Veuillez patienter quelques minutes
+#menu10#=Fichier trop important
+#menu11#=F1_Mise à jour de fonction
+#menu12#=F2_Mise à jour écran
+#menu13#=F3_Mise à jour paramètre
+#menu14#=F4 Récupération systeme
+#menu15#=F1_Récupération paramètre
+#menu16#=F2_Paramètre par défaut
+#menu17#=F3_Effacer tout les fichiers
+#menu18#=Entrer mot de passe, SVP
+#menu19#=Effacement terminé
+#menu20#=Effacement inachevé
+#menu21#=Récupération paramètre réussie
+#menu174#=Une touche pour sortir
+#menu22#=Erreur récupération paramètre
+#menu23#=Initialisation parametre reussie
+#menu24#=Erreur initialisation paramétre
+#menu25#=Identifiant mot de passe
+#menu26#=Type de sécurité
+#menu27#=jours
+#menu28#=fois
+#menu29#=NoSécurité
+#menu30#=Niveau de sécurité
+#menu31#=Niveau 1
+#menu32#=Niveau 2
+#menu33#=Niveau 3
+#menu34#=Niveau ultime
+#menu35#=Recompter
+#menu36#=Enregistrer
+#menu37#=Abilitation  %d jours
+#menu38#=Abilitation  %d fois
+#menu39#=Lutilisateur en cours nest pas limité
+#menu40#=Dèverrouillage échoué
+#menu41#=Dèverrouillage réussi
+#menu42#=Press Enter pour changer coordonnées
+#menu43#=Sauvegarde réussie
+#menu44#=Erreur fichier de configuration
+#menu45#=Existe déjà , changer N° SVP
+#menu46#=Direction horizontale
+#menu47#=Direction verticale
+#menu48#=CW
+#menu49#=CCW
+#menu50#=Presser Enter pour changer
+#menu51#=Entrer définition
+#menu52#=PgUp/PgDn change Nombre,Enter change Type
+#menu53#=Port
+#menu54#=Type
+#menu55#=Définition de sortie
+#menu56#=Quitter la coupe?
+#menu57#=Enter = Quitter
+#menu58#=ESC = Continuer coupe
+#menu59#=Retour O.K. ?
+#menu60#=Entrer Compens saignée:
+#menu61#=SVP Quit coupe/entr nouv. Saigné
+#menu62#=Aller au percage suivant?
+#menu63#=Oxycoupe
+#menu64#=Plasma
+#menu65#=Essai
+#menu66#=VitCoup
+#menu244#=VitCoup
+#menu68#=Manuel
+#menu69#=MvtMai
+#menu70#=MvtCon
+#menu71#=MvtDis
+#menu72#=LongDis 
+#menu73#=Stop
+#menu74#=Pause
+#menu75#=Coupe
+#menu76#=Percage
+#menu77#=Essai
+#menu78#=Retour
+#menu79#=Manuel
+#menu80#=Bord
+#menu81#=Arc ON
+#menu82#=Entrer distance incrémentale
+#menu83#=Hors limite, réinitialiser
+#menu88#=Entrer vitesse de coupe
+#menu89#=Entrer compensation saignée
+#menu90#=Entrer vitesse manuelle
+#menu91#=[G] Retour vers coupe
+#menu92#=[X] Offset coupe
+#menu93#=[Y] Retour seul
+#menu94#=[X] Offset coordonnées
+#menu95#=Surchauffe
+#menu96#=Chauffe
+#menu97#=Percage 1
+#menu98#=Percage 2
+#menu99#=Percage 3
+#menu100#=Mode operatoire:
+#menu101#=Allumage
+#menu102#=Coupe
+#menu95#=Surchauffe
+#menu103#=Percage 1
+#menu104#=Percage 2
+#menu105#=Percage 3
+#menu106#=Temps darc
+#menu107#=Tps posi
+#menu108#=Percage 
+#menu109#=Maintien 
+#menu110#=THC actif
+#menu111#=Echappement
+#menu112#=Retour Arc 
+#menu113#=PerceDelai
+#menu114#=Détection
+#menu115#=Essai
+#menu116#=Erreur paramètre
+#menu117#=Code erroné
+#menu118#=Erreur arc
+#menu119#=Code trop long
+#menu120#=Alarme limite mécanique
+#menu121#=Alarme limite soft
+#menu122#=Erreur de division
+#menu123#=Alarme durgence
+#menu124#=Alarme arc interrompu
+#menu125#=Collision torche Plasma
+#menu126#=Erreur DUAL RAM
+#menu127#=Erreur DSP RAM
+#menu128#=Retour ; OK ?
+#menu129#=ENTER = Retour
+#menu130#=ESC=annuler
+#menu131#=1.SVP sauvegarder  paramètres
+#menu132#=2.Perte POM après auto-diag
+#menu133#=3.SVP Redémar. après auto-diag
+#menu134#=Auto-diag OK?
+#menu135#=Entrer
+#menu136#=+Y limite
+#menu137#=-Y limite
+#menu138#=+X limite
+#menu139#=-X limite
+#menu140#=Arret durgence
+#menu141#=Retour arc 
+#menu142#=Retour Position
+#menu143#=CollisionTorche
+#menu144#=Sortie
+#menu145#=Allumage
+#menu146#=Préchauffe
+#menu95#=Surchauffe
+#menu147#=Oxygène bas
+#menu148#=Oxygène moyen
+#menu149#=Oxygène haut
+#menu150#=Torche monte
+#menu151#=Torche baisse
+#menu152#=Purge
+#menu153#=THC actif
+#menu154#=Défaut de position
+#menu155#=Démarrage plasma
+#menu156#=Maintien de torche
+#menu157#=Vanne
+#menu158#=Servo actif
+#menu159#=Marquage
+#menu160#=Mélange poudre
+#menu161#=Préchauffe marquage
+#menu162#=Code clavier:
+#menu163#=Année Mois Jour Semaine
+#menu164#=Press.Up/Down=Modif.Date/heure
+#menu165#=Fichier introuvable
+#menu166#=Clé USB introuvable
+#menu167#=Echec douverture fichier 
+#menu168#=Echec douverture fichier 
+#menu169#=Edition répertoire impossible
+#menu170#=Fichier non admis
+#menu171#=Suppression fichier; OK?
+#menu172#=Meme fichier.écrasement?
+#menu173#=Création fichier réussie
+#menu175#=Copie échouée,touche pour sortir
+#menu176#=Copie réussie
+#menu2#=Enter:Oui/ ESC:annuler
+#menu179#=Sauvegarde…
+#menu170#=Fichier non admis
+#menu180#=Valeur saignée incorrecte
+#menu181#=Réinitialiser saignée à zéro
+#menu182#=Compilation Ok
+#menu183#=Code trop long
+#menu184#=Entrée nom de fichier
+#menu186#=Enter: fichier remplaçant
+#menu187#=ESC:retour
+#menu188#=Sauvegarde, attendez SVP
+#menu191#=Lecture du fichier impossible
+#menu192#=En cours…
+#menu193#=Sauvegarde échouée
+#menu194#=Entrer angle SVP
+#menu195#=Min:-360 Max:360
+#menu196#=Angle:
+#menu197#=Entrer paramètre (unité : mm)
+#menu198#=Rangées
+#menu199#=Colonnes
+#menu200#=Esp Rang
+#menu201#=Esp Col
+#menu202#=Qt.Rangs ou colonnes trop faible
+#menu203#=Sélect. type répétition
+#menu204#=F1-Droit
+#menu205#=F2-Décalé
+#menu206#=F3-Imbriqué
+#menu207#=Qt Rangs
+#menu208#=Qt Colonnes
+#menu209#=F8-OK
+#menu210#=Entrer proportion
+#menu211#=Valeur mini = 0
+#menu212#=F1-Alignement Tole
+#menu213#=F2-Entrer angle
+#menu214#=X-Start Y-OK ESC-Sortie
+#menu215#=Réglage X: 
+#menu216#=Réglage Y: 
+#menu217#=Angle:
+#menu218#=Entrer=Retour Pt. départ
+#menu219#=ESC=Ne pas revenir Pt. départ
+#menu221#=Connection échouée
+#menu222#=Selection Programme
+#menu223#=Départ Coupe ?
+#menu224#=Enter:coupe ESC:retour
+#menu225#=Départ Essai ?
+#menu226#=Enter=Depart Essai/ESC=Retour
+#menu227#=Select piece
+#menu228#=Modele: F2500
+#menu229#=Fichier USB
+#menu230#=Quitter coupe ou ouvrir un fichier
+#menu232#=USB disponible
+#menu233#=Erreur USB
+#menu234#=Système expiré
+#menu235#=Contacter votre fournisseur
+#menu236#=Erreur code 1%xT
+#menu237#=Une touche pour sortir
+#menu238#=Erreur code 2%xT
+#menu239#=Dual Ram; OK
+#menu240#=Erreur Dual RAM
+#menu241#=Erreur;Carte Flash introuvable
+#menu242#=Echec; Init. Carte Flash
+#menu243#=Carte flash initialisée
+#menu245#=Saignée
+#menu246#=Etat:
+#menu247#=Fichier:
+#menu248#=Vitesse:
+#menu249#=FLSK F2500
+#menu250#=Version
+#menu251#=Vit.Manuel
+#menu252#=Ligne/Trou actuel:
+#menu253#=F1
+Librairie
+#menu254#=F2
+Fichiers
+#menu255#=F3
+OptPièces
+#menu256#=F4
+Réglages
+#menu257#=F5
+Diag
+#menu258#=F6
+Zoom Stat
+#menu259#=F7
+Dep Manu
+#menu260#=F8
+ZeroReset
+#menu261#=F8
+ZoomDina 
+#menu262#=F1
+externe
+#menu263#=F2
+Interne
+#menu264#=F1
+FichierHD
+#menu265#=F2
+Fich USB
+#menu266#=F3
+Recherche
+#menu267#=F4
+Edit.Fich
+#menu268#=F5
+Eff fich
+#menu269#=F7
+pré-Visu
+#menu270#=F1
+Commun
+#menu271#=F2
+Oxycoupe
+#menu272#=F3
+Plasma
+#menu273#=F4
+Marquage
+#menu274#=F5
+Systeme
+#menu275#=F6
+Importe
+#menu276#=F7
+Exporte
+#menu277#=F8
+Sauve
+#menu278#=F1
+Import IO
+#menu279#=F2
+Edit IO
+#menu280#=F3
+OuvrePort
+#menu281#=F4
+FermePort
+#menu282#=F5
+Clavier
+#menu283#=F6
+AutoDiag
+#menu284#=F7
+Dat/Heur
+#menu285#=F8
+DéfSystem
+#menu286#=RécupParm
+#menu287#=SauveParm
+#menu288#=F3
+Définir
+#menu289#=F4
+Securité
+#menu290#=F5
+Déverouil
+#menu291#=F6
+Langue
+#menu292#=MiseàJour
+#menu293#=F1
+Retour
+#menu294#=F2
+Demo
+#menu295#=F3
+Ret.Orig
+#menu296#=F6
+Préch -
+#menu297#=F7
+Préch +
+#menu298#=F8
+Percage
+#menu299#=F2
+Angle
+#menu300#=F3
+Rpétition
+#menu301#=F4
+Echelle
+#menu302#=F5
+Sel.Ligne
+#menu303#=F6
+EditFich
+#menu304#=F7
+Annuler
+#menu305#=F8
+OK
+#menu306#=F1
+Compile
+#menu307#=F2
+InserLign
+#menu308#=F3
+Sup.Ligne
+#menu309#=F4
+Nouv.Fich
+#menu277#=F8
+Sauve
+#menu310#=F1
+Entrée
+#menu311#=F2
+Sortie
+#menu312#=F3
+Axes
+#menu313#=F4
+Moteur
+#menu314#=F5
+Option
+#menu277#=F8
+Sauver
+#menu315#=F1
+DepMaint
+#menu316#=F2
+DepContin
+#menu317#=F3
+DepIncrém
+#menu318#=F4
+Vit -
+#menu319#=F5
+Vit +
+#menu320#=F7
+Récupér
+#menu321#=F6
+SauveUSB 
+#menu322#=Ent chainage recherché
+#menu323#=Fichier introuvable
+#menu324#=Entrer distance
+#menu325#=Francais
+#menu326#=Chinois
+#menu327#=Anglais
+#menu328#=Vitesse de coupe
+#menu329#=Vitesse manuel
+#menu330#=Vitesse G00
+#menu331#=Saignée
+#menu332#=Vitesse angle (1-100)
+#menu333#=Type de coupe
+#menu334#=Oui
+#menu335#=Non
+#menu336#=Vit. Retour/essai
+#menu337#=Vitesse Marquage
+#menu338#=Vitesse Essai trop rapide
+#menu67#=Vitesse Essai trop rapide
+#menu339#=Temps dallumage
+#menu340#=Temps de préchauffe basse
+#menu341#=Temps de préchauffe haute
+#menu342#=Temps de percage 1
+#menu343#=Temps de percage 2
+#menu344#=Temps de percage 3
+#menu345#=Temps dextinction
+#menu346#=Temps de descente
+#menu347#=Temps de montée percage
+#menu348#=Temps de descente percage
+#menu349#=THC actif
+#menu350#=Maintien Préchauffe
+#menu351#=Bord de coupe actif
+#menu352#=Rampe Vitesse
+#menu353#=Rampe des temps
+#menu354#=Temps darc
+#menu355#=Temps de percage
+#menu356#=Temps de remontée fin de coupe
+#menu357#=Temps de vérification Arc
+#menu358#=Temps de vérification Position
+#menu359#=Temps de position haute
+#menu360#=Coupure darc
+#menu361#=Surveillance darc actif
+#menu362#=Distance de coupure darc
+#menu363#=Délai perte arc
+#menu365#=Temps dallumage Poudre
+#menu366#=Temps de préchauffe poudre
+#menu367#=Temps ouverture du mélange poudre
+#menu368#=Temps fermeture du mélange poudre
+#menu369#=Temps de remontée poudre 
+#menu370#=Temps de descente poudre
+#menu371#=Offset poudre horizontal
+#menu372#=Offset poudre vertical
+#menu373#=Impulsion axe horizontal
+#menu374#=Impulsion axe vertical
+#menu375#=Vitesse de coupe maxi
+#menu376#=Vitesse G00 maxi
+#menu377#=Limite mini arc
+#menu379#=Temps Ajustement flamme
+#menu381#=Temps Arret dUrgence
+#menu382#=Vitesse initiale 
+#menu383#=Max X+
+#menu384#=Max Y+
+#menu385#=Min X-
+#menu386#=Min Y-
+#menu380#=Temps Ajustement  Arc
+#menu387#=Vit. maxi dépl. manuel
+#menu388#=Import paramètre réussi
+#menu389#=Echec dimport paramètre
+#menu390#=Aucun fichier F2300.DAT
+#menu391#=Redemar. pour activer param.
+#menu392#=Importer Paramètres; OK?
+#menu393#=Fichier paramètre : F2300D.DAT
+#menu394#=Export paramètre réussi
+#menu395#=Echec Export Paramètre
+#menu396#=Echec Ouvert fichier param
+#menu397#=Fichier existe dans USB, effacez
+#menu398#=Export paramètres; OK?
+#menu399#=Import parametres réussi
+#menu400#=Param dégradés:Charge Para/défault
+#menu401#=Paramtr dégradés: vérifier réglages
+#menu402#=Récupération paramètres réussie
+#menu403#=Erreur vitesse coupe
+#menu404#=Erreur vitesse déplac manuel
+#menu405#=Erreur vitesse déplace G00
+#menu406#=Erreur  valeur de saignée
+#menu407#=Erreur  vitesse dangle
+#menu408#=Erreur coupure darc
+#menu409#=Vitesse Coupe trop rapide
+#menu410#=Vitesse Manuelle trop rapide 
+#menu411#=Vitesse G00 trop rapide
+#menu412#=Vitesse Retour/essai trop rapide
+#menu413#=Vites Marquage trop rapide
+#menu414#=Vitesse Essai trop rapide
+#menu415#=Diminu Puls pour augment vites
+#menu416#=Sauvegarde paramètre réussite
+#menu417#=Changer paramètres système ?
+#menu407#=Erreur vitesse dangle
+#menu418#=Oxycut
+#menu419#=Plasma
+#menu420#=Miroir X
+#menu421#=Miroir Y 
+#menu422#=F1_Select lign
+#menu423#=F2_Select perce
+#menu424#=Entrer N° Ligne
+#menu425#=Presser ←→ select ligne
+#menu426#=F8-OK
+#menu427#=F1-Origine 
+#menu428#=F2-Bas/gauche
+#menu429#=F3-Haut/gauche
+#menu430#=F4-Bas/Droit
+#menu431#=F5_Bas/Gauche
+#menu432#=Entrer No. de percage
+#menu433#=presser ←→ select No. perce 
+#menu434#=Type controle
+#menu435#=Copie→HD
+#menu436#=Entrée
+#menu437#=Sortie
+#menu438#=Taille
+#menu439#=Quantité
+#menu440#=Entrer nom repertoire
+#menu441#=Crèation Répertoire reussie
+#menu442#=Crèation Répertoire èchouèe
+#menu443#=Trop de rèpertoires: Effacer
+#menu444#=Effacer rèpertoire: OK?
+#menu445#=EffacFich
+#menu446#=type coordonnées
+#menu447#=ABS
+#menu448#=REL
+#menu449#=Press ←→pour changer
+#menu450#=Quitter frame test
+#menu451#=F3
+Frame set
+#menu461#=Unité par default
+#menu452#=Metric
+#menu453#=Inches
+#menu454#=RedémarPourChangeUnit
+#menu455#=I.J val coordonnées
+#menu456#=Répertoire actuel
+#menu457#=Slot No.
+#menu458#=paramétre
+#menu459#=SP(0X1Y)
+#menu460#=N°
+#menu455#=I.J Type coordon
+#menu461#=Unité par default
+#menu462#=Verif ligne de coupe
+#menu463#=Steel angle storage
+#menu464#=F1
+Pt départ
+#menu465#=F5
+NouvReper
+#menu466#=Effectuer sauvegarde
+#menu467#=ChargeSauvegarde
+#menu378#=Val.Rayon limit/vit. 
+#menu468#=Note1): 
+#menu469#=>0 = AntHorair
+#menu470#=Note2): >0=Horaire
+#menu471#=Note3): =0, Rotation= 0 degré
+#menu472#=Année
+#menu473#=Mois
+#menu474#=Jour
+#menu475#=Semaine
+#menu476#=Lu
+#menu477#=Ma
+#menu478#=Me
+#menu479#=Je
+#menu480#=Ve
+#menu481#=Sa
+#menu482#=Di
+#menu525#=Mandrin
+#menu526#=Pulse mandrin
+#menu527#=Mode systeme
+#menu528#=Coupe tole
+#menu529#=Coupe tube
+#menu530#=Diametre non precisé
+#menu531#=Mode coupe tube
+#menu537#=Laser
+#menu538#=Ajust temps laser
+#menu539#=Blow avant laser ON
+#menu540#=Temps après laser ON
+#menu541#=Temp THC
+#menu542#=maintien Blow
+#menu543#=Laser On
+#menu544#=Blow
+#menu545#=Coupe Laser
+#menu546#=THC actif
+#menu547#=Dist. Laser OFF
+#menu548#=Dist. Blow OFF
+#menu554#=●
+#menu220#=Ouverture du fichier impossible 
+#menu576#=F8
+Ret.Orig
+#menu600#=F1
+RécupParm
+#menu601#=F2
+SauveParm
+#menu602#=F8
+MiseàJour
+#menu610#=Utilisez Cylindre THC
+#menu640#=Fermer la détection de collision
+#menu641#=Après lachèvement de la coupe, ne pas fermer loxygène préchauffé
+#menu729#=soutien du nom de fichier long USB

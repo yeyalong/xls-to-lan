@@ -1,0 +1,809 @@
+UCCodeEncode=UTF8
+#menu1#=AGGIORNARE?
+#menu2#=INVIO:SI/ ESC:annulla 
+#menu3#=Tipo di file sconosciuto
+#menu4#=Aggiornato con successo. Riavviare
+#menu5#=file di aggiornamento non è stato trovato
+#menu6#=Inserire USB
+#menu7#=Aggiornamento fallito
+#menu8#=Aggiornamento in corso
+#menu9#=Si prega di attendere per qualche minuto
+#menu10#=File troppo grande
+#menu11#=F1 Aggiornamento sistema
+#menu12#=F2 aggiornamento dello schermo di avvio
+#menu13#=F3 aggiornamento dei parametri di controllo
+#menu14#=F4 Ripristino del sistema
+#menu15#=F1 Recupero parametri 
+#menu16#=F2 inizializzare parametro
+#menu17#=F3-Cancella tutto
+#menu18#=Inserire password
+#menu19#=Cancellato
+#menu20#=Impossibile cancellare
+#menu21#=Parametro recuperato con successo
+#menu174#=Premere un tasto qualsiasi per tornare
+#menu22#=Fallito il recupero del parametro 
+#menu23#=Parametro inizializzato con successo
+#menu25#=Accetto password
+#menu26#=Sicurezza
+#menu27#=Giorni
+#menu28#=Volte
+#menu29#=Nessuna sicurezza
+#menu30#=Livello di sicurezza
+#menu31#=sbloccare 1
+#menu32#=sbloccare 2
+#menu33#=sbloccare 3
+#menu34#=sblocco finito
+#menu35#=Ravvia contatore
+#menu36#=Salva
+#menu37#=valido per % giorni 
+#menu38#=valido per % volte
+#menu39#=Lutente corrente non è limitato
+#menu40#=Sblocco fallito
+#menu41#=sbloccato con successo
+#menu42#=Premere Invio per cambiare
+#menu43#=Salvato con successo
+#menu44#=errore di impostazione file
+#menu45#=Codice ripetuto,impostare di nuovo
+#menu46#=Orizzontali
+#menu47#=Verticale
+#menu48#=Cw
+#menu49#=CCW
+#menu50#=Premere Invio per cambiare
+#menu51#=Impostazione entrata
+#menu52#=PgUp:Numero,PgDn:Cambia,Enter:Categoria
+#menu53#=serie
+#menu54#=Tipo 
+#menu55#=Impostazione uscita
+#menu56#=Uscire da taglio. OK.?
+#menu57#=Enter:Esci
+#menu58#=ESC: continua taglio
+#menu59#=Ritorno ok?
+#menu60#=Inserire dividente
+#menu61#=Esci taglio,inserire di nuovo
+#menu62#=Vai al successivo punto di perforazione?
+#menu63#=Ossigeno
+#menu64#=Plasma
+#menu65#=funzionamento a secco
+#menu66#=Ve.taglio
+#menu244#=Ve.taglio
+#menu68#=Modo. 
+#menu69#=Movi.
+#menu70#=ContMV
+#menu71#=Prol.
+#menu72#=DistProl
+#menu73#=Stop
+#menu74#=Pausa
+#menu75#=Taglia
+#menu76#=forare
+#menu77#=funzionamento a secco
+#menu78#=Dietro
+#menu79#=Manuale
+#menu80#=Bordo
+#menu81#=Arco on
+#menu82#=Inserire la distanza di movimento
+#menu83#=Numero troppo grande,reinserire
+#menu88#=Inserire velocità di taglio
+#menu89#=Inserire dividente
+#menu90#=Inserire la velocità di JOG
+#menu91#=[G] Ritorna per tagliare
+#menu92#=[X] Offset taglio
+#menu93#=[Y] Ritorna
+#menu94#=[X]  coordinate di offset
+#menu95#=alto preriscaldamento
+#menu96#=basso preriscaldamento
+#menu97#=forare 1
+#menu98#=forare 2
+#menu99#=forare 3
+#menu100#=Modello operazione
+#menu101#=Accensione
+#menu102#=Ossigeno
+#menu95#=alto preriscaldamento
+#menu103#=Pierce 1
+#menu104#=Pierce 2
+#menu105#=Pierce 3
+#menu106#=Arco tempo
+#menu107#=Pos.tempo
+#menu108#=Pierce
+#menu109#=THC disabilitare
+#menu110#=THC consentire
+#menu111#=Lotta contro
+#menu112#=individuare arco 
+#menu113#=Rit. Pierce
+#menu114#=In posizione
+#menu115#=Demo
+#menu116#=Parametri errata
+#menu117#=codice non corretto 
+#menu118#=Acro errore
+#menu119#=codice troppo grande 
+#menu120#=Duro limite di allarme
+#menu121#=Leggero limite di allarme
+#menu122#=errore di divisione
+#menu123#=allarme di emergenza
+#menu124#=Arco off allarme
+#menu125#=torcia collisione
+#menu126#=Dual ram errore
+#menu127#=Dio ram errore
+#menu128#=Ritorno ok?
+#menu129#=INVIO:ritorno
+#menu130#=ESC:cancella
+#menu131#=Parametri di backup
+#menu132#=Dopo lautocontrollo, si perde il breakpoint
+#menu133#=Riavvia dopo il self-check (autocontrollo)
+#menu134#=Individui ok?
+#menu135#=Inserire
+#menu136#=limite anteriore
+#menu137#=Limite Posteriore 
+#menu138#=Limite destro
+#menu139#=Limite sinistro 
+#menu140#=Emergenza smette
+#menu141#=Arco
+#menu142#=Posizione della torcia
+#menu143#=collisione della torcia
+#menu144#=Produzione
+#menu145#=Accensione
+#menu146#=Baso di preriscaldo
+#menu95#=Alto di preriscaldo
+#menu147#=Baso dossigeno tag.
+#menu148#=Med. dossigeno tag.
+#menu149#=Alto dossigeno tag.
+#menu150#=tocia sopra 
+#menu151#=torcia sotto 
+#menu152#=soffia, colpo ( ha tanti significati)
+#menu153#=abilita il THC
+#menu154#=rilevatore di posizione
+#menu155#=Avvia lArc
+#menu156#=tenere torcia
+#menu157#=Valvola
+#menu158#=Servo on
+#menu159#=In polvere mark 1
+#menu160#=In polvere mark 2
+#menu161#=Mark preriscaldo
+#menu162#=codice della tastiera:
+#menu163#=Anno mese giorno settimana
+#menu164#=Premere Su / Giù per cambiare data e ora
+#menu165#=file non  trovato
+#menu166#=USB non trovata
+#menu167#=Impossibile aprire il file
+#menu168#=Impossibile aprire il file
+#menu169#=il documento non puo essere modificato 
+#menu170#=file non supportato
+#menu171#=Cancella file ok?
+#menu172#=Il file esiste già. Sostituirlo?
+#menu173#=file creato con successo
+#menu175#=Copia non riuscita. Premere un tasto per tornare
+#menu176#=copia completata 
+#menu2#=Enter accetto/ Esc cancella
+#menu179#=salvataggio in corso 
+#menu170#=file non supportato 
+#menu180#=il Kerf (taglio) non è valido
+#menu181#=ripristinare il Kerf a zero
+#menu182#=Compilazione completa
+#menu183#=codice troppo lungo
+#menu184#=Si prega di inserire il nome del file:
+#menu186#=invio:   Sostituire file 
+#menu187#=ESC:Ritorno
+#menu188#=Salvataggio ..., Attendere
+#menu191#=Impossibile caricare il file
+#menu192#=Elaborazione in corso …
+#menu193#=salvataggio fallito 
+#menu194#=inserire langolo di ingresso 
+#menu195#=Min: -360, Max: 360
+#menu196#=angolo 
+#menu197#=Inserire parametri(Unità di mm)
+#menu198#=Righe
+#menu199#=Colonne
+#menu200#=Interlinea
+#menu201#=spaziatura Colonna
+#menu202#=NumeroDi righe o colonne troppopoco
+#menu203#=Seleziona tipo di ordine 
+#menu204#=F1:Matrice
+#menu205#=F2:Sfalsato
+#menu206#=F3:Impilato
+#menu207#=LineaManica
+#menu208#=ColonnaManica
+#menu209#=F8:Ok
+#menu210#=Si prega di inserire il rapporto:
+#menu211#=Rapporto deve essere maggiore di zero
+#menu212#=F1 regolazione dellangolo piatto
+#menu213#=F2 inserire angolo 
+#menu214#=X-Inizia Y-ConfermaESC-Uscita
+#menu215#=Regolare X:
+#menu216#=regolare Y:
+#menu217#=angolo 
+#menu218#=Invio: Ritorno al punto di partenza
+#menu219#=ESC: non ritornare al punto di partenza
+#menu221#=Connessione fallita
+#menu222#=Si prega di selezionare i dati di taglio
+#menu223#=Comincia taglio ok?
+#menu224#=Invio: Inizio taglio / ESC: ritorno
+#menu225#=iniziare il funzionamento a secco
+#menu226#=INVIO: Dimostrazione / ESC: annulla 
+#menu227#=Parte scelta 
+#menu228#=Modello:F2500
+#menu229#=USB file
+#menu230#=Uscire da taglio o aprire un file
+#menu232#=USB a è collegato
+#menu233#=USB errata
+#menu234#=Errore codice 0
+#menu235#=Si prega contatto il tuo fornitore
+#menu236#=Errore codice 1%xD
+#menu237#=Premere un tasto qualsiasi per tornare
+#menu238#=Errore codice 2%xD
+#menu239#=Dual ram è corretta
+#menu240#=Dual ram errata
+#menu241#=Errore fatale! Dispositivo di memorizzazione 
+#menu242#=Errore fatale! Impossibile inizializzare un 
+#menu243#=dispositivo di memorizzazione inizializzato
+#menu245#=Inquadra.
+#menu246#=Condizioni
+#menu247#=File
+#menu248#=attuale velocità:
+#menu249#=FLSK F2500
+#menu250#=versione:
+#menu251#=VelocitàManu.
+#menu252#=Riga / buco:
+#menu253#=F1
+ Grafica 
+#menu254#=F2
+File
+#menu255#=F3
+Parte
+#menu256#=F4
+parametri
+#menu257#=F5
+diagnosi
+#menu258#=F6
+amplificazione
+#menu259#=F7
+ sposa
+#menu260#=F8
+Coordinate
+#menu261#=F8
+Amplificazione
+#menu262#=F1
+ dimensioni
+#menu263#=F2
+DimensioneForo
+#menu264#=F1
+HDD file
+#menu265#=F2
+ USB file
+#menu266#=F3
+Trova file
+#menu267#=F4
+Editore file
+#menu268#=F5
+CancellaFile
+#menu269#=F7
+grafica
+#menu270#=F1
+Comune
+#menu271#=F2
+Ossigeno
+#menu272#=F3
+Plasma
+#menu273#=F4
+polvere
+#menu274#=F5
+sistema
+#menu275#=F6
+LIntroduzione
+#menu276#=F7
+Parametri
+#menu277#=F8
+ salva
+#menu278#=F1
+Inserire 
+#menu279#=F2
+Produzione
+#menu280#=F3
+Aprire
+#menu281#=F4
+Chiude
+#menu282#=F5
+tastiera
+#menu283#=F6
+autocontrollo
+#menu284#=F7
+Data ora
+#menu285#=F8
+Sistema
+#menu286#=recupero dei parametri
+#menu287#=Di riserva
+#menu288#=F3
+definizioni
+#menu289#=F4
+Sicurezza
+#menu290#=F5
+Sbloccare
+#menu291#=F6
+La Lingua
+#menu292#=aggiornamento
+#menu293#=F1
+Indietro
+#menu294#=F2
+funzionamento a secco
+#menu295#=F3
+Ritorno
+#menu296#=F6
+Precaldo -
+#menu297#=F7
+Precaldo + 
+#menu298#=F8
+ScegliePerforazione
+#menu299#=F2
+Ruotare
+#menu300#=F3
+ripetizione
+#menu301#=F4
+Scale
+#menu302#=F5
+linea di partenza
+#menu303#=F6
+File editore 
+#menu304#=F7
+Cancella
+#menu305#=F8
+Conferma
+#menu306#=F1
+compilatore
+#menu307#=F2
+Aumenta linee
+#menu308#=F3
+Cancella linea
+#menu309#=F4
+Nuovo File
+#menu277#=F8
+Salvato
+#menu310#=F1
+Inserire
+#menu311#=F2
+produzione
+#menu312#=F3
+assi
+#menu313#=F4
+Motore
+#menu314#=F5
+Opzioni
+#menu277#=F8
+Salvato
+#menu315#=F1
+Movimento
+#menu316#=F2
+Movi.
+#menu317#=F3
+Lungo movi.
+#menu318#=F4
+Velocità -
+#menu319#=F5
+Velocità +
+#menu320#=F7
+recupero
+#menu321#=F6
+USB salvato 
+#menu322#=Si prega di inserire un testo da ricercare
+#menu323#=File non trovato
+#menu324#=Inserire la distanza 
+#menu325#=IL Francese
+#menu326#=IL cinese
+#menu327#=Eng 
+#menu328#=La Velocità di taglio
+#menu329#=La Velocità di spostamento Manuale
+#menu330#=Velocità rapida 
+#menu331#=compensazione 
+#menu332#=Velocità angolo (1-100)
+#menu333#=IL tipo di taglio
+#menu334#=si
+#menu335#=NO
+#menu336#=La Velocità di / indietro Vuoto
+#menu337#=La polvere di Velocità
+#menu338#=velocità del funzionamento a secco
+#menu67#=Velocità
+#menu339#=Tempo di accensione
+#menu340#=Bassa tensione
+#menu341#=alta tensione
+#menu342#=Il Tempo di perforazione 1
+#menu343#=Secondo il Tempo di perforazione
+#menu344#=Il Tempo di perforazione 3
+#menu345#=Il Tempo di scarico
+#menu346#=La Fiamma ossidrica
+#menu347#=Aumento del Tempo di perforazione
+#menu348#=diminuzione del Tempo di perforazione
+#menu349#=THC consentire
+#menu350#=Mantenere il preriscaldamento
+#menu351#=LIMITE DI perforazione
+#menu352#=Velocità di scorrimento
+#menu353#=tempo di scorrimento 
+#menu354#=LArco di Tempo
+#menu355#=Il Tempo di perforazione
+#menu356#=Aumento del Tempo di Fiamma
+#menu357#=Individuazione di un Arco di Tempo
+#menu358#=Rilevamento e localizzazione
+#menu359#=Aumento del Tempo di posizionamento
+#menu360#=Chiude lArco a Bassa Velocità 
+#menu361#=NellArco di Rilevamento
+#menu362#=La Distanza Min Di Chiusura THC
+#menu363#=Ritardo OFF
+#menu365#=La polvere del Tempo di accensione
+#menu366#=La polvere del Tempo di preriscaldo
+#menu367#=Contrassegna il tempo di inizio
+#menu368#=Contrassegna il tempo di fine
+#menu369#=Contrassegna il tempo di accenzione torcia
+#menu370#=Contrassegna il tempo di spegnimento torcia
+#menu371#=La polvere di deviazione laterale
+#menu372#=polvere longitudinale
+#menu373#=impulso asse trasversale
+#menu374#=impulso asse longitudinale
+#menu375#=massima velocità di taglio
+#menu376#=massima velocità rapida (?)
+#menu377#=Piccolo Arco di Limiti di Velocità
+#menu379#=La Velocità di Fiamma di Tempo
+#menu381#=Temp di arresto di emergenza
+#menu382#=La Velocità iniziale
+#menu383#=IL Massimo coordinamento+X
+#menu384#=IL Massimo coordinamento+Y
+#menu385#=UN minimo di Coordinamento-X
+#menu386#=UN minimo di Coordinamento-Y
+#menu380#=La Velocità del Tempo di Plasma
+#menu387#=Maxi velocità 
+#menu388#=Inserire parametri successo 
+#menu389#=Fallito inserire 
+#menu390#=I parametri File non trovato
+#menu391#=Valido riaprire 
+#menu392#=Sicura inserire?
+#menu393#=il file del parametro è:
+#menu394#=Parametri esportati correttamente
+#menu395#=esportazione parametri fallita
+#menu396#=impossibile aprire il file del parametro
+#menu397#=Cancellare il file del parametro nel USB
+#menu398#=Esportare il parametro?
+#menu399#=parametro esportato con successo
+#menu400#=Parametro basso. Carica il dato di default
+#menu401#=Parametro basso, Controllarlo
+#menu402#=Parametro ripristinato correttamente
+#menu403#=errore velocità di taglio
+#menu404#=Errore velocità di JOG
+#menu405#=La Velocità del rapido errore 
+#menu406#=Errore compensazione
+#menu407#=Proporzionale allangolo errore 
+#menu408#=angolo di segnale
+#menu409#=La Velocità di taglio e troppo Grande
+#menu410#=il JOG è troppo veloce
+#menu411#=il Rapid è troppo veloce
+#menu412#=La Velocità è troppo Grande 
+#menu413#=La marcatura è troppo veloce
+#menu414#=La Velocita E troppo Grande
+#menu415#=Ridurre impulsi può accelerare
+#menu416#=Parametro salvato correttamente
+#menu417#=Conferma cambiare sistema 
+#menu407#=Tasso errato 
+#menu418#=Ossigeno
+#menu419#=Plasma
+#menu420#=X Lo specchio
+#menu421#=Y Lo specchio
+#menu422#=F1 Scegliere il numero di righe
+#menu423#=F2 La scelta di perforazione.
+#menu424#=Inserisci il numero di righe:
+#menu425#=Premi ←→ per La scelta di Riga
+#menu426#=F8Conferma
+#menu427#=F1 Di origine
+#menu428#=F2 in Basso a Sinistra
+#menu429#=in alto a sinistra
+#menu430#=F4 In Basso A destra
+#menu431#=F5 In Alto A destra
+#menu432#=IL contributo di perforazione:
+#menu433#=Premi←→per La scelta di perforazione
+#menu434#=IL tipo di telecomando.
+#menu435#=F6
+Copia HDD
+#menu436#=Portare a
+#menu437#=Portare fuori
+#menu438#=Dimensioni
+#menu439#=IL Numero di
+#menu440#= nome della cartella di input
+#menu441#=cartella creata con successo
+#menu442#=impossibile creare cartella
+#menu443#=troppe cartelle. Cancellarne qualcuna
+#menu444#=Cancellare cartella?
+#menu445#=Svuota file
+#menu446#=Le Coordinate di default
+#menu447#=ABS
+#menu448#=Rel
+#menu449#=Premi ←→ per cambiare
+#menu450#=Lasciare andare.
+#menu451#=F3
+Vai.
+#menu461#=Unità di default
+#menu452#=Metrico
+#menu453#=(unità di misura Inches)
+#menu454#=Riavvia per cambiare lunità
+#menu455#=Tipo di coordinate IJ
+#menu456#=Cartella corrente
+#menu457#=Stot numero:
+#menu458#=parametro
+#menu459#=SP (0X1Y)
+#menu460#=Senza
+#menu455#=Coordinate di L.J.
+#menu461#=Unità di default
+#menu462#=Linea di montaggio
+#menu463#=VistaMemoriaDiLamiere 
+#menu464#=SceltaInizia 
+#menu465#=F5
+Nuova file 
+#menu466#=Salva dati di backup
+#menu467#=Carica file di backup
+#menu378#=limitare la velocità del raggio
+#menu468#=Nota:
+#menu469#=ruotare CCW
+#menu470#=<0In rotate CW
+#menu471#=n=0Vista della ripresa di correzione
+#menu472#=Anni
+#menu473#=Mese
+#menu474#=Gior.
+#menu475#=Setti.
+#menu476#=Lunedi 
+#menu477#=Martedi 
+#menu478#=Mercoledì
+#menu479#=Giovedì
+#menu480#=Venerdi 
+#menu481#=Sabato
+#menu482#=La Domenica
+#menu525#=Usa il chuck
+#menu526#=IL Numero di impulsi di Chuck.
+#menu527#=IL modello del Sistema
+#menu528#=Taglio Piatto
+#menu529#=Taglio tubo
+#menu530#=Senza il diametro
+#menu531#=modello di tagliare
+#menu537#=Laser
+#menu538#=La Velocità del Tempo Laser
+#menu539#=Prima di far ritardare
+#menu540#=Ritardo dopo laccensione del Laser
+#menu541#=Seguace di ritardo
+#menu542#=Far mantenere
+#menu543#=Laser Acceso
+#menu544#=Huff
+#menu545#=TaglioLaser
+#menu546#=Seguace di
+#menu547#=Distanza laser OFF
+#menu548#=saltare a distanza di chiusura
+#menu554#=●
+#menu483#=Sposta sopra
+#menu484#=Sposta sotto
+#menu485#=Sposta a sinistra
+#menu486#=Sposta a destra
+#menu487#=input di accensione
+#menu488#=IL taglio allossigeno di Input
+#menu489#=input di accelerazione
+#menu490#=input di decelerazione
+#menu491#=avvia linput
+#menu492#=ferma linput
+#menu493#=La Fiamma ossidrica litri di Input
+#menu494#=IL contributo di Fiamma ossidrica.
+#menu495#=Linguaggio corrente: inglese
+#menu496#=Aggiungi file della lingua
+#menu497#=Setup avanzato
+#menu498#=La Lega di Alluminio
+#menu499#=La prudenza di modificare Parametri 
+#menu500#=Valori di default
+#menu501#=pulisci tutti i file
+#menu502#=Password sbagliata
+#menu503#=test del frame
+#menu505#=Salva langolo di input come angolo dacciaio
+#menu506#=Dimensione 1
+#menu507#=Dimensione 2
+#menu508#=Dimensione 3
+#menu509#=Dimensione 4
+#menu510#=Dimensione 5
+#menu511#=Dimensione 6
+#menu512#=Dimensione 7
+#menu513#=Dimensione 8
+#menu514#=Dimensione 9
+#menu515#=Dimensione10
+#menu516#=Assicurarsi che i file di lingua siano in USB
+#menu517#=Asse di Swap XY
+#menu518#=quantità 1
+#menu519#=quantità 2
+#menu520#=Disattivare F
+#menu532#=tubo di diametro
+#menu533#=diametro del tubo
+#menu534#=Lunghezza di over burn
+#menu551#=IL File di lingua non esiste
+#menu552#=aggiungere il file della lingua
+#menu553#=il file della lingua è stato importato correttamente
+#menu84#=La distanza dello step è oltre il limite
+#menu85#=la velocità è oltre il limite
+#menu86#=il kerf è oltre il limite
+#menu87#=la velocità manuale è oltre il limite
+#menu220#=impossibile aprire il file
+#menu364#=tempo di chiusura del THC prima del M08
+#menu576#=ritorno
+#menu600#=parametro/ripristino
+#menu601#=backup 
+#menu602#=F8
+aggiornamento
+#menu610#=usa il cilindro THC
+#menu611#=Setta la tensione dellArco
+#menu612#=Setta la tensione finale dellarco
+#menu613#=setta la capacità della tensione
+#menu614#=setta la capacità finale (massima) della tensione
+#menu615#=Comunicazione con Modbus non riuscita
+#menu616#=Tensione dellarco in tempo reale
+#menu617#=Capacità della tensione in tempo reale
+#menu618#=impossibile salvare il dato
+#menu619#=tempo di perforazione dinamico
+#menu620#=IL ritardo di perforazione
+#menu621#=Tempo di posizionamento iniziale
+#menu622#=Usa Crawl in Piercing
+#menu623#=Modbud in modalità master-slave
+#menu624#=Modbus Baud
+#menu625#=Master (padrone)
+#menu626#=Slave (schiavo)
+#menu627#=IL Limite Superiore di un Asse z
+#menu628#=IL Limite inferiore di un Asse z
+#menu565#=F6
+ArcoRid 
+#menu566#=F7
+ArcoAum
+#menu567#=F6
+ precaldoRid
+#menu568#=F7
+PrecaldoAum
+#menu569#=setta la tensione dellArco
+#menu570#=Valore di protezione dellarco
+#menu571#=Sensibilità del THC
+#menu572#=Auto sistema manuale 
+#menu573#=THC automatico
+#menu574#=THC manuale
+#menu575#=Setta lerrore di tensione dellarco
+#menu577#=Errore del valore di protezione dellarco
+#menu578#=errore del valore di sensibilità dellarco
+#menu579#=errore nel settaggio del valore dellarco
+#menu580#=SistemaArc 
+#menu581#=Arc reale
+#menu582#=La rapida localizzazione del Tempo
+#menu584#=Errore di posizionamento 
+#menu586#=Sorgente di segnale corretta
+#menu587#=Allinterno
+#menu588#=Esterno
+#menu700#=valore di correzione errori
+#menu701#=La pressione dellArco
+#menu640#=La chiusura di Rilevamento collisione
+#menu641#=Dopo il taglio di Non chiudere il preriscaldamento dellossigeno
+#menu555#=Langolo di inclinazione Asse trasversale
+#menu562#=Per calcolare langolo di inclinazione
+#menu556#=Lunghezza sinistra
+#menu557#=lunghezza destra
+#menu558#=lunghezza superiore
+#menu559#=lunghezza inferiore
+#menu560#=In Basso a Sinistra A destra sulla lunghezza
+#menu561#=La lunghezza di Sinistra in Basso A destra
+#menu563#=calcolato asse dellangolo con successo 
+#menu564#=impossibile calcolare lasse dellangolo 
+#menu702#=velocita su/ giu torcia plasma 
+#menu703#=marcatore accensione 
+#menu704#=spegnere
+#menu705#=F3 Laser
+GunOut
+#menu706#=F4
+StartPnt
+#menu707#=F5
+EndPnt
+#menu708#=F7
+Cancel
+#menu709#=seleziona pistola 
+#menu710#=F1
+No Offset
+#menu711#=laser Pistola offset orizzontale a Fiamma pistola
+#menu712#=laser Pistola offset verticale a Fiamma pistola
+#menu713#=Plasma Pistola offset orizzontale a Fiamma pistola
+#menu714#=Plasma Pistola offset verticale a Fiamma pistola
+#menu715#=selezionare pistola 
+#menu716#=Attenzione: Driver proibito
+#menu717#=Indicatore esecuzione
+#menu718#=modalità TUBO
+#menu719#=colpo tempo
+#menu720#=massima Velocità saldatura 
+#menu721#=accelerare i tempi
+#menu722#=La prima volta chiedere velocità zero
+#menu723#=La seconda volta chiedere velocità zero
+#menu724#=X Distanza dopo laccensione pari a zero
+#menu725#=Y Distanza dopo laccensione pari a zero
+#menu726#=F4
+Macchina
+#menu727#=Cilindro dellaria Usato
+#menu729#=supporto a lungo nome
+#menu730#=Cilindro dellaria aperto 
+#menu731#=Cilindro dellaria chiuso
+#menu732#=F2
+Fiamma di taglio 
+#menu733#=F3
+Plasma taglio 
+#menu734#=selezione pistola 
+#menu800#=Stato Trapano
+#menu801#=toccando
+#menu802#=Sollevamento
+#menu803#=Inferiore
+#menu804#=posizione 
+#menu178#=Il file esiste già, sostituire?
+#menu805#=F4
+Laser Offset
+#menu806#=F5
+laser indietro 
+#menu807#= controllo Di Prestazioni saldatura
+#menu808#=arco spento 
+#menu809#=arco acceso 
+#menu810#=Limite superiore in THC
+#menu811#=Limite inferiore di THC
+#menu812#=Attrezzatura periferica
+#menu813#=Zero pos is near steel In Drill Gun
+#menu814#=Tempi per maschiare un foro
+#menu815#=Fermare altezza dopo aver terminato perforazione
+#menu816#=lunghezza totale del file di g-code supera il limite
+#menu817#=lunghezza Linea-singola del G-code supera il limite
+#menu818#=errore di velocità rapido / indietro
+#menu819#=errore di velocità di marcatura
+#menu820#=Codice G numero totale di righe supera il limite
+#menu821#=presente file di codice G incomprensibili
+#menu822#=Non file di G-code
+#menu823#=file vuoto
+#menu824#=periferica pronta
+#menu825#=Torcia inattiva dopo effetto ad arco
+#menu826#=Fiamma Torcia Porta di uscita
+#menu827#=Torcia plasma Porta di uscita
+#menu828#=contare fori 
+#menu829#=numero di pezzi
+#menu830#=lunghezza di taglio 
+#menu831#=tempi di esecuzione
+#menu832#=cancellare
+#menu833#=Certo di cancellare?
+#menu834#=Forare
+#menu835#=pezzo
+#menu836#=Lunghezza
+#menu837#=tempi di esecuzione
+#menu838#=Funzione duplicazione, si prega di ripristinare
+#menu839#=Nessuna
+#menu840#=Funzione
+#menu841#=8421 Bit0
+#menu842#=8421 Bit1
+#menu843#=8421 Bit2
+#menu844#=8421 Bit3
+#menu845#=8421 Bit4
+#menu846#=8421 Bit5
+#menu847#=8421 Bit6
+#menu848#=8421 Bit7
+#menu849#=dimostrazione
+#menu850#=indietro 
+#menu851#=tempo di taglio 
+#menu852#=Fiamma su / giù Velocità
+#menu853#=Plasma su / giù Velocità
+#menu854#=Assicurarsi la copia di tutti i file nella cartella sul disco rigido?
+#menu2002#=X Distanza dopo laccensione pari a zero
+#menu2003#=Y Distanza dopo laccensione pari a zero
+#menu2004#=asse X offset pari a zero
+#menu2005#=asse Y offset pari a zero
+#menu2006#=Macchina posizione di parcheggio X
+#menu2007#=Macchina posizione di parcheggio Y
+#menu2008#=Chiudi Drill motore ogni volta
+#menu2009#=Accelerare il tempo in errore fiamma 
+#menu2010#=Accelerare il tempo in errore Plasma
+#menu2011#=di arresto di emergenza
+#menu2012#=disabilitare THC dopo la foratura 
+#menu2013#=seleziona assi 
+#menu2014#=distanza indietro dopo laccensione pari a zero
+#menu2015#=Zero offset
+#menu2016#=Macchina in posizione di parcheggio
+#menu2017#=torna a zero la sequenza 
+#menu2018#=Torna a zero consentire
+#menu2019#=Torna alla direzione zero è positivo
+#menu2020#=Inverso
+#menu2021#=Positivo
+#menu2022#=Axis X
+#menu2023#=Axis Y
+#menu2024#=Axis Z
+#menu2025#=Tutti gli assi abilitati indietro fino allo zero insieme
+#menu2026#=Chuck axis 
+#menu2027#=file grande, sara necessario molto tempo per copiare per favore sii paziente!  
+#menu2028#=Spostamento origine oltre il limite
+#menu2029#=posizione della macchina parcheggiata oltre il limite
+#menu2030#=Torna a ripetere la sequenza di zero, Si prega di resettare

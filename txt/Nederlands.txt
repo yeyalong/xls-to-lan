@@ -1,0 +1,581 @@
+UCCodeEncode=UTF8
+#menu1#=Update, ben je zeker ?
+#menu2#=Enter : Ja / Esc : annuleren
+#menu3#=Onbekend bestandstype
+#menu4#=Succesvol, reset aub
+#menu5#=Bestand niet bij te werken
+#menu6#=Plaats schijf U, aub
+#menu7#=Fout in update systeem
+#menu8#=Is aan het updaten….
+#menu9#=Moment geduld
+#menu10#=Te groot bestand
+#menu11#=Functiebijwerking 
+#menu12#=Opstartbijwerking
+#menu13#=Update tempo
+#menu14#=Systeem reset
+#menu15#=Herstellen parameters
+#menu16#=Standaardwaarden parameter
+#menu17#=Alle bestanden verwijderen
+#menu18#=Voer een paswoord in, aub
+#menu19#=Wissen  beëindigd
+#menu20#=Wissen niet beëindigd
+#menu21#=Herstel parameter succesvol
+#menu174#=Druk toets om terug te keren
+#menu22#=Fout tijdens herstel parameters
+#menu23#=Instellen parameters succesvol
+#menu24#=Instellen parameters mislukt
+#menu25#=Inloggen met paswoord
+#menu26#=Soort codering
+#menu27#=Dagen
+#menu28#=Keren
+#menu29#=Geen codering
+#menu30#=Aantal coderingen
+#menu31#=Codering één
+#menu32#=Codering twee
+#menu33#=Codering drie
+#menu34#=Laatste decodering
+#menu35#=Hertellen
+#menu36#=Bewaren
+#menu37#=Kan %d dagen gebruikt worden
+#menu38#=Kan %d keer gebruikt worden
+#menu39#=De huidige gebruiker is ongelimiteerd
+#menu40#=Falen van decodering
+#menu41#=Succesvol
+#menu42#=Druk Enter om de coördinaten te wijzigen
+#menu43#=Succesvol opgeslagen !
+#menu44#=Fout in configuratiebestand
+#menu45#=Poort duplicatie, reset aub
+#menu46#=Horizontale richting
+#menu47#=Verticale richting
+#menu48#=CW
+#menu49#=CCW
+#menu50#=Druk Enter om te wijzigen
+#menu51#=Definitie van invoer
+#menu52#=Port-press PgUp/PgDn Type-press Enter
+#menu53#=Poort
+#menu54#=Type
+#menu55#=Definitie van uitvoer
+#menu56#=Stoppen met snijden?
+#menu57#=Enter Stoppen
+#menu58#=Esc verder snijden
+#menu59#=Ben je zeker van terug te keren?
+#menu60#=Waarde zaagsnede invoeren
+#menu61#=Aub stop eerst met snijden
+#menu62#=Naar volgende boring?
+#menu63#=Vlam
+#menu64#=Plasma
+#menu65#=Demo aan
+#menu66#=SnijSnelh
+#menu244#=SnijSnelh
+#menu68#=Manueel
+#menu69#=HoudMV
+#menu70#=ContMV
+#menu71#=StepMV
+#menu72#=Afstand
+#menu73#=Stop
+#menu74#=Pauze
+#menu75#=Snijden
+#menu76#=Pierce
+#menu77#=Demo
+#menu78#=Terug
+#menu79#=Manueel
+#menu80#=Rand
+#menu81#=Boog
+#menu82#=Invoer Stapafstand
+#menu83#=Over limiet, reset
+#menu88#=Snijsnelheid invoeren
+#menu89#=Invoer zaagsnede
+#menu90#=Invoer manuele snelheid
+#menu91#=[G]Retour snijden
+#menu92#=[X]Snij Offset
+#menu93#=[Y]Alleen retour
+#menu94#=[X]Coördinaten Offset
+#menu95#=Voorverwarmen
+#menu96#=Lage warming
+#menu97#=Boring 1
+#menu98#=Boring 2
+#menu99#=Boring 3
+#menu100#=Handleiding
+#menu101#=Ontsteking
+#menu102#=Zuurstof
+#menu95#=Hoge voorverwarming
+#menu103#=Boring 1
+#menu104#=Boring 2
+#menu105#=Boring 3
+#menu106#=Boogtijd
+#menu107#=Positietijd
+#menu108#=Doorboring
+#menu109#=Toortshouder
+#menu110#=THC Aan
+#menu111#=Uitlaat
+#menu112#=ARC detectie
+#menu113#=Pierce vert
+#menu114#=In positie
+#menu115#=Demo
+#menu116#=Parameter fout
+#menu117#=Niet standaard code
+#menu118#=Arc fout
+#menu119#=Te grote code
+#menu120#=HardLimietalarm
+#menu121#=Soft Limietalarm
+#menu122#=Divisie fout
+#menu123#=Noodalarm
+#menu124#=Boogonderbrekingsalarm
+#menu125#=Plasma crash
+#menu126#=Dualram fout
+#menu127#=DSPram fout
+#menu128#=Ben je zeker van terug te keren?
+#menu129#=Enter : Ja
+#menu130#=Esc : annuleren
+#menu131#=Backup van alle eerste parameters
+#menu132#=Verlies breekpunt
+#menu133#=Herstarten na zelfdiagnose
+#menu134#=Ben je zeker?
+#menu135#=Invoer
+#menu136#=Voorste limiet
+#menu137#=Achterste limiet
+#menu138#=Rechtse limiet
+#menu139#=Linkse limiet
+#menu140#=Noodstop
+#menu141#=Terugkoppeling boog
+#menu142#=Detectie van positie
+#menu143#=Plasma crash
+#menu144#=Uitgang
+#menu145#=Ontsteking
+#menu146#=Lage voorverwarming
+#menu95#=Hoge voorverwarming
+#menu147#=Laag zuurstof
+#menu148#=Midden zuurstof
+#menu149#=Hoog zuurstof
+#menu150#=Toorts hoog
+#menu151#=Toorts laag
+#menu152#=Uitlaat
+#menu153#=THC mogelijk
+#menu154#=Detectie van positie
+#menu155#=Boogstart
+#menu156#=Toortsbehoud
+#menu157#=Klep
+#menu158#=Servo aan
+#menu159#=Markeren
+#menu160#=Mix poeder
+#menu161#=Vöörverwarming poeder
+#menu162#=Code toetsenbord
+#menu163#=Jaar Maand Dag Week
+#menu164#=Up of down drukken om te veranderen
+#menu165#=Geen bestand
+#menu166#=Geen U schijf
+#menu167#=Openen bestand mislukt
+#menu168#=Openen bestand mislukt
+#menu169#=Weergave bestand onmogelijk
+#menu170#=Geen ondersteuning van bestand
+#menu171#=Verwijderen bestand bevestigen?
+#menu172#=Bestand bestaat al, overschrijving bevestigen?
+#menu173#=Bestand succesvol gecreërd
+#menu175#=Kopiëren mislukt, willekeurige toets om terug te keren
+#menu176#=Kopiëren voltooid
+#menu2#=Enter : Ja / Esc : annuleren
+#menu179#=Bezig met opslaan…
+#menu170#=Niet ondersteund bestand
+#menu180#=Waarde zaagsnede is fout
+#menu181#=Terugzetten van zaagsnede op 0
+#menu182#=Compilatie ok
+#menu183#=Te  grote code
+#menu184#=Bestandsnaam invoeren
+#menu186#=Enter : bestand vervanen
+#menu187#=Esc : terug
+#menu188#=Bezig met opslaan, wachten aub...
+#menu191#=Lezen bestand onmogelijk
+#menu192#=Bezig…
+#menu193#=Opslaan  mislukt
+#menu194#=Hoek invoeren aub
+#menu195#=min : -360 max : 360
+#menu196#=hoek :
+#menu197#=Parameter invoeren ( eenheid : mm )
+#menu198#=Rijen
+#menu199#=Kolommen
+#menu200#=Afstand tussen rijen
+#menu201#=Afstand kolommen
+#menu202#=Te weinig rijen of kolommen
+#menu203#=Selecteer type reeks
+#menu204#=F1 Recht
+#menu205#=F2 Versprongen
+#menu206#=F3 Verzameling
+#menu207#=Verzamel kollom
+#menu208#=Opstappelen
+#menu209#=F8 : OK
+#menu210#=Voer verhouding in
+#menu211#=Niet minder dan 0
+#menu212#=F1 - regeling staalplaat
+#menu213#=F2 - invoer hoek
+#menu214#=x-start y-OK ESC - Uit
+#menu215#=Regeling X :
+#menu216#=Regeling Y :
+#menu217#=Hoek
+#menu218#=Enter : Terug
+#menu219#=Esc : Ga niet terug
+#menu221#=Verbinding mislukt
+#menu222#=Doe het bestand eerst open aub
+#menu223#=Zeker van te snijden?
+#menu224#=Enter : Snijden ESC : Terug
+#menu225#=Zeker voor demo
+#menu226#=Enter : Demo ESC : Terug
+#menu227#=OptieDeel
+#menu228#=Produkt Type : F2500
+#menu229#=USB bestand
+#menu230#=Stop snijden open bestand
+#menu232#=USB beschikbaar
+#menu233#=Fout in USB
+#menu234#=Systeem verlopen
+#menu235#=Contacteer leverancier
+#menu236#=Fout in code
+#menu237#=Druk toets om terug te keren
+#menu238#=Fout in code
+#menu239#=Dual ram is ok
+#menu240#=Dual ram is niet ok
+#menu241#=Fout, geen flash kaart
+#menu242#=Initialiseren flash kaart mislukt
+#menu243#=Flash kaart OK
+#menu245#=Zaagsnede
+#menu246#=Staat : 
+#menu247#=Bestand : 
+#menu248#=Snelheid
+#menu249#=FLSK F2500
+#menu250#=Versie
+#menu251#=Man.Snelheid
+#menu252#=Huidige lijn/open
+#menu253#=F1
+Vormen
+#menu254#=F2
+Bestanden
+#menu255#=F3
+OptieDeel
+#menu256#=F4
+parameter
+#menu257#=F5
+Diagnose
+#menu258#=F6
+Inzoomen
+#menu259#=F7verpl
+aatsen
+#menu260#=F8
+Nul
+#menu261#=F8
+inzoomen
+#menu262#=F1
+Binnen
+#menu263#=F2
+Buiten
+#menu264#=F1
+HDD File
+#menu265#=F2
+Bestand U
+#menu266#=F3
+Zoeken
+#menu267#=F4
+bewerken
+#menu268#=F5
+verwijderen
+#menu269#=F7
+bekijken
+#menu270#=F1
+Algemene
+#menu271#=F2
+Vlam
+#menu272#=F3
+Plasma
+#menu273#=F4
+Poeder
+#menu274#=F5
+Systeem
+#menu275#=F6
+Import
+#menu276#=F7
+Export
+#menu277#=F8
+Bewaren
+#menu278#=F1
+Invoer
+#menu279#=F2
+Uitvoer
+#menu280#=F3
+OpenOut
+#menu281#=F4
+SluitOut
+#menu282#=F5
+Keyboard
+#menu283#=F6
+Diagnose
+#menu284#=F7
+DatumTijd
+#menu285#=F8
+DefSysteem
+#menu286#=RecupParam
+#menu287#=ParaBackup
+#menu288#=Definiëren
+#menu289#=F4
+Coderen
+#menu290#=F5
+Decoderen
+#menu291#=F6
+Taal
+#menu292#=Update
+#menu293#=F1
+terug
+#menu294#=F2
+demo
+#menu295#=F3
+Gaterug
+#menu296#=F6
+Voorverwarm
+#menu297#=F7
+Voorverwarm +
+#menu298#=F8
+Selpierce
+#menu299#=F2
+Hoek
+#menu300#=F3
+Raster
+#menu301#=F4
+Schaal
+#menu302#=F5
+SelectLijn
+#menu303#=F6
+Weergave
+#menu304#=F7
+Herstellen
+#menu305#=F8
+OK
+#menu306#=F1
+Compileer
+#menu307#=F2
+ToevoegRij
+#menu308#=F3
+VerwijdRij
+#menu309#=F4 Nieuw
+Bestand
+#menu277#=F5
+Bewaren
+#menu310#=F1
+Invoer
+#menu311#=F2
+Uitvoer
+#menu312#=F3
+As
+#menu313#=F4
+Motor
+#menu277#=F8
+Bewaren
+#menu315#=F1
+AanhBeweg
+#menu316#=F2
+ContBeweg
+#menu317#=F3
+StapBeweg
+#menu318#=F4
+Vertragen
+#menu319#=F5
+Versnellen
+#menu320#=F7
+Herstellen
+#menu321#=F6
+KopieUSB
+#menu322#=Invoer gezochte string
+#menu323#=Geen overeenkomstig bestand
+#menu324#=Invoer stapafstand
+#menu325#=Frans
+#menu326#=Chinese
+#menu327#=Engels
+#menu328#=Snijsnelheid
+#menu329#=Manuele snelheid
+#menu330#=GOO snelheid
+#menu331#=Waarde zaagsnede
+#menu332#=Hoeksnelheid (1-100)
+#menu333#=Type snijden
+#menu334#=Ja
+#menu335#=Nee
+#menu336#=Demo/ Terugversnelling
+#menu337#=Poedersnelheid
+#menu338#=Demo draaisnelhied
+#menu67#=Demo draaisnelhied
+#menu339#=Ontstekingstijd
+#menu340#=Lage opwarmingstijd
+#menu341#=Hoge opwarmingstijd
+#menu342#=Boringstijd 1
+#menu343#=Boringstijd 2
+#menu344#=Boringstijd 3
+#menu345#=Uitlaattijd
+#menu346#=Tijd toortsdaling
+#menu347#=Tijd boorstijging
+#menu348#=Tijd boordaling
+#menu349#=THC mogelijk
+#menu350#=Blijvende VÓÓrverwarming
+#menu351#=Randsnijden mogelijk
+#menu352#=Opvoersnelheid
+#menu353#=Opvoertijd
+#menu354#=Boogtijd
+#menu355#=Doorboortijd
+#menu356#=Toorts up tijd
+#menu357#=Controle boogtijd
+#menu358#=Controle positietijd
+#menu359#=stand-up tijd
+#menu360#=Boog afgesloten
+#menu361#=Toezicht actieve boog
+#menu362#=Afstand boogstop
+#menu363#=Vertraging in  boogverlies
+#menu365#=Poederontstekingstijd
+#menu366#=Poedervöörverwarmingstijd
+#menu367#=Openingstijd poedermengsel
+#menu368#=Sluitingstijd poedermengsel
+#menu369#=Stijgingstijd poeder
+#menu370#=Dalingstijd poeder
+#menu371#=Horizontale offset poeder
+#menu372#=Verticale offset poeder
+#menu373#=Horizontale asimpuls
+#menu374#=Verticale asimpuls
+#menu375#=Max snijsnelheid
+#menu376#=Max GOO snelheid
+#menu377#=Kleine booglimiet
+#menu379#=Vlamversnellingstijd
+#menu381#=Noodstoptijd
+#menu382#=Startsnelheid
+#menu383#=Max + X
+#menu384#=Max + Y
+#menu385#=Min - X
+#menu386#=Min - Y
+#menu380#=Plasmaversnellingstijd
+#menu387#=Max Manuele Snelheid
+#menu388#=Invoer Parameter Succesvol
+#menu389#=Invoer Parameter Mislukt
+#menu390#=Geen F2300.DAT bestand
+#menu391#=Herstarten ter activatie
+#menu392#=Wil je zeker de parameter invoeren?
+#menu393#=Parameterbestand is F2300D.DAT
+#menu394#=Uitvoer parameter succesvol
+#menu395#=Uitvoer parameter mislukt
+#menu396#=Opening parameterbestand mislukt
+#menu397#=Bestand bestaat in U schijf, verwijder het eerst
+#menu398#=Zeker de Parameter exporteren?
+#menu399#=Parameter ok
+#menu400#=Parameters vernietigd, laadfout, willekeurige toets om verder te gaan
+#menu401#=Parameters ernstig beschadigd, verifieer de parameterinstellingen
+#menu402#=Herstel parameters succesvol
+#menu403#=Snijsnelheidsfout
+#menu404#=Manuele verplaatsingssnelheid fout
+#menu405#=GOO verplaatsingssnelheidfout
+#menu406#=Zaagsnedewaarde fout
+#menu407#=Hoeksnelheid fout
+#menu408#=Afsluitfout boog
+#menu409#=Snijsnelheid te hoog
+#menu410#=Manuele verp.snelheid te vlug
+#menu411#=GOO verplaatsingssnelheid te vlug
+#menu412#=Demo/terugsnelheid te vlug
+#menu413#=Poedersnelheid te vlug
+#menu414#=Demodraaisnelheid te vlug
+#menu415#=Horizontale Asimpuls verminderen/Verticale Asimpuls om snelheid te verhogen
+#menu416#=Bewaring parameters succesvol
+#menu417#=Wil je zeker parametersysteem veranderen
+#menu407#=Fout hoeksnelheid
+#menu418#=Vlam
+#menu419#=Plasma
+#menu420#=X Spiegel
+#menu421#=Y Spiegel
+#menu422#=F1 Selecteer lijn
+#menu423#=F2 Selecteer boren
+#menu424#=Invoer aantal rijen
+#menu425#=Drukken  ←→om rijen te selecteren
+#menu426#=F8 OK
+#menu427#=F1 Origine
+#menu428#=Links&Achter
+#menu429#=Links&Vóór
+#menu430#=Rechts&Achter
+#menu431#=Rechts&Vóór
+#menu432#=Aantal boringen invoeren
+#menu433#=Drukken←→om aantal boringen te selecteren
+#menu434#=type controleur
+#menu435#=CC to HDD
+#menu436#=Ingang
+#menu437#=Uitgang
+#menu438#=Formaat 
+#menu439#=Aantal 
+#menu440#=Inbrengen snijbestand
+#menu441#=Snijbestand succesvol aangemaakt
+#menu442#=Snijbestaand niet aangemaakt
+#menu443#=Teveel bestanden aangemaakt 
+#menu444#=Snijbestand verwijderen. Ok?
+#menu445#=BestVerwi
+#menu446#=Coördinaat 
+#menu447#=Absol
+#menu448#=Relatif
+#menu449#=Druk  ←→ om te veranderen
+#menu450#=Eindig droogtest
+#menu451#=F3
+Border
+#menu461#=incomplete eenheid
+#menu452#=Metric
+#menu453#=Inches
+#menu454#=Restart voor veranderen eenheid
+#menu455#=Y coordinaten waarden
+#menu456#=Actueel bestand
+#menu457#=Spoorwaarde
+#menu458#=Parameter
+#menu459#=SP(OX1Y)
+#menu460#=Nee
+#menu455#=IJ coorditantie
+#menu461#=standaard eenheid
+#menu462#=Cont. snijcontouren
+#menu463#=Plaat hoek verstell.
+#menu464#=F1
+Start pnt
+#menu465#=F5
+NwBestand
+#menu466#=Backu-up data
+#menu467#=Laden back-up
+#menu378#=Radius voor circell snijsnelheid 
+#menu468#=nota
+#menu469#=Rotatie linksom snijden
+#menu470#=Rotatie rechtsom snijden
+#menu471#=Herstelwaarde naar 0 punt
+#menu472#=Jaar
+#menu473#=Maand
+#menu474#=Dag
+#menu475#=Week
+#menu476#=Maa
+#menu477#=Din
+#menu478#=Woe
+#menu479#=Don
+#menu480#=Vri
+#menu481#=Zat
+#menu482#=Zon
+#menu525#=Klauwplaat  
+#menu526#=rotatie snelheid
+#menu527#=SysteemModus
+#menu528#=Plaatsnijden
+#menu529#=Buissnijden
+#menu530#=Diameter niet ingestelt
+#menu531#=Buissnijden module
+#menu537#=Lasersnijden
+#menu538#=Laser tijdinstelling
+#menu539#=Upslope laser
+#menu540#=Downslope Laser
+#menu541#=Hoogte regeling toortshouder tijd
+#menu542#=Gastest
+#menu543#=Laser aan
+#menu544#=Gasblazen
+#menu545#=Laser snijden
+#menu546#=THC Uitschakelen
+#menu547#=Afstand tot laser uitschakelen
+#menu548#=Gastest uitschakelen 
+#menu554#=●
+#menu220#=Kan bestand niet open doen
+#menu576#=F8
+Gaterug
+#menu600#=F1
+RecupParam
+#menu601#=F2
+ParaBackup
+#menu602#=F8
+Update
+#menu610#=Use Cilindro THC
+#menu640#=cllisie detectie afsluiten
+#menu641#=na afsniuding wordt voorvermaarmde  zuurstof niet afgedicht
+#menu729#=USB ondersteunt lange bestandsnamen
