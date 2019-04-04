@@ -7,14 +7,14 @@ import shutil
 
 class FileProcess():
     def __init__(self):
-        self.language_col_number_ = 0   #第一列
+        self.language_col_number_ = 0
         self.list_language = []
         self.list_first = []
         self.list_second = []
 
     def ReadExcel(self, language, excel_language_name):
         for i in range(0, ncols):
-            row_first = table.cell(0, i).value  # 取第一行的值
+            row_first = table.cell(1, i).value  # 取第二行的值
             if row_first == language:
                 self.language_col_number_ = i
 
@@ -106,6 +106,20 @@ class FileProcess():
         os.remove(file)
         os.rename("%s.bak" % file, file)
 
+    def Convert(self, file):
+        with open(file, "rb") as f1, open("%s.ba" % file, "wb") as f2:
+            for line in f1:
+                line_str = str(line, encoding='utf8')
+                for i in line_str:
+                    byte_i = bytes(i, encoding='utf8')
+                    if len(byte_i) != 1:
+                        byte_many = bytes(str(byte_i)[2:-1], encoding='utf8')
+                        f2.write(byte_many)
+                    else:
+                        f2.write(bytes(i, encoding='utf8'))
+        os.remove(file)
+        os.rename("%s.ba" % file, file)
+
 if __name__ == '__main__':
     process = FileProcess()
     if os.path.exists('./xls/') == False:
@@ -121,15 +135,19 @@ if __name__ == '__main__':
     ncols = table.ncols  # 获取列总数
 
     for i in range(3, ncols):
-        language_name = table.cell(0, i).value  # 取第一行的值
-        encode_name = table.cell(1, i).value  # 取第二行的值
-        excel_language_name = './xls/' + language_name + ".xls"
-        txt_language_name = './txt/' + language_name + ".txt"
-        lan_language_name = './lan/' + language_name + ".lan"
-        process.ReadExcel(language_name, excel_language_name)
-        process.xls_txt(excel_language_name, txt_language_name)
-        encoding = process.GetEncode(txt_language_name)
-        process.SetEncode()
-        process.Replace(txt_language_name)
-        process.DeleteLf(txt_language_name)
-        shutil.copy(txt_language_name, lan_language_name)
+        language_name = table.cell(1, i).value  # 取第二行的值
+        language_name = os.path.splitext(language_name)[0]
+        encode_name = table.cell(2, i).value  # 取第三行的值
+        if (language_name != '') and (encode_name != ''):
+            excel_language_name = './xls/' + language_name + ".xls"
+            txt_language_name = './txt/' + language_name + ".txt"
+            lan_language_name = './lan/' + language_name + ".lan"
+            process.ReadExcel(language_name, excel_language_name)
+            process.xls_txt(excel_language_name, txt_language_name)
+            encoding = process.GetEncode(txt_language_name)
+            process.SetEncode()
+            process.Replace(txt_language_name)
+            process.DeleteLf(txt_language_name)
+            if encoding == 'utf-8':
+                process.Convert(txt_language_name)
+            shutil.copy(txt_language_name, lan_language_name)
