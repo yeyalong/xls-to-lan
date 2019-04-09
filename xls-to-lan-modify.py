@@ -4,17 +4,22 @@ import xlrd
 import xlwt
 import os
 import shutil
+import configparser
 
 class FileProcess():
     def __init__(self):
-        self.language_add1 = 3
-        self.language_add2 = 4
         self.list_language = []
         self.list_first = []
         self.list_second = []
         self.list_third = []
         self.list_add1 = []
         self.list_add2 = []
+
+    def Ini(self):
+        config = configparser.ConfigParser()
+        config.read('add_col.ini')
+        self.language_add1 = int(config.get("section_col_number", "language_add_col_1"))
+        self.language_add2 = int(config.get("section_col_number", "language_add_col_2"))
 
     def ReadExcel(self, language, excel_language_name, excel_language_name_3col):
         for i in range(0, self.ncols):
@@ -191,4 +196,5 @@ class FileProcess():
 if __name__ == '__main__':
     process = FileProcess()
     process.MakeDir()
+    process.Ini()
     process.Main()
