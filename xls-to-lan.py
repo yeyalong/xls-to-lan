@@ -4,43 +4,53 @@ import xlrd
 import xlwt
 import os
 import shutil
+import configparser
 
 class FileProcess():
-    def __init__(self):
-        self.language_col_number_ = 0
-        self.list_language = []
-        self.list_first = []
-        self.list_second = []
+    def Ini(self):
+        config = configparser.ConfigParser()
+        config.read('add_col.ini')
+        self.language_add1 = int(config.get("section_col_number", "language_add_col_1"))
+        self.language_add2 = int(config.get("section_col_number", "language_add_col_2"))
 
-    def ReadExcel(self, language, excel_language_name):
-        for i in range(0, ncols):
-            row_first = table.cell(1, i).value  # 取第二行的值
+    def ReadExcel(self, language, excel_language_name, excel_language_name_3col):
+        for i in range(0, self.ncols):
+            row_first = self.table.cell(1, i).value  # 取第二行的值
             if row_first == language:
                 self.language_col_number_ = i
 
-        for nrow in range(0, nrows):  # 遍历每一行
-            language_value = table.cell(nrow, self.language_col_number_).value  # 取language列的值
-            col_first = table.cell(nrow, 0).value  #取第一列的值
-            col_second = table.cell(nrow, 1).value  #取第二列的值
-            self.list_language.append(language_value)
-            self.list_first.append(col_first)
-            self.list_second.append(col_second)
-
-        book_write = xlwt.Workbook(encoding=encode_name)
+        book_write = xlwt.Workbook(encoding=self.encode_name)
         sheet = book_write.add_sheet('test')
-        for i in range(len(self.list_first)):
-            sheet.write(i, 0, self.list_first[i])
-        for i in range(len(self.list_second)):
-            sheet.write(i, 1, self.list_second[i])
-        for i in range(len(self.list_language)):
-            sheet.write(i, 2, self.list_language[i])
+        book_write_3col = xlwt.Workbook(encoding=self.encode_name)
+        sheet_3col = book_write_3col.add_sheet('test')
+
+        for nrow in range(0, self.nrows):  # 遍历每一行
+            language_value = self.table.cell(nrow, self.language_col_number_).value  # 取language列的值
+            add1_value = self.table.cell(nrow, self.language_add1).value  # 取add1列的值
+            add2_value = self.table.cell(nrow, self.language_add2).value  # 取add2列的值
+            col_first = self.table.cell(nrow, 0).value  #取第一列的值
+            col_second = self.table.cell(nrow, 1).value  #取第二列的值
+            col_third = self.table.cell(nrow, 2).value  #取第三列的值
+
+            sheet.write(nrow, 0, col_first)
+            sheet.write(nrow, 1, col_second)
+            sheet.write(nrow, 2, col_third)
+            sheet.write(nrow, 3, add1_value)
+            sheet.write(nrow, 4, add2_value)
+            if (self.language_col_number_ != self.language_add1) and (
+                    self.language_col_number_ != self.language_add2):
+                sheet.write(nrow, 5, language_value)
+
+            sheet_3col.write(nrow, 0, col_first)
+            sheet_3col.write(nrow, 1, col_second)
+            sheet_3col.write(nrow, 2, language_value)
 
         if os.path.exists(excel_language_name):
             os.remove(excel_language_name)
         book_write.save(excel_language_name)
-        self.list_language.clear()
-        self.list_first.clear()
-        self.list_second.clear()
+        if os.path.exists(excel_language_name_3col):
+            os.remove(excel_language_name_3col)
+        book_write_3col.save(excel_language_name_3col)
 
     def strs(self, row):
         try:
@@ -56,12 +66,12 @@ class FileProcess():
             data = xlrd.open_workbook(xls_name)
             if os.path.exists(txt_name):
                 os.remove(txt_name)
-            sqlfile = open(txt_name, "a", encoding=encode_name)
+            sqlfile = open(txt_name, "a", encoding=self.encode_name)
             table = data.sheets()[0]
             nrows = table.nrows
             for ronum in range(0, nrows):
                 row = table.row_values(ronum)
-                values = process.strs(row) + "\n"  # 调用函数，将行数据拼接成字符串
+                values = self.strs(row) + "\n"  # 调用函数，将行数据拼接成字符串
                 sqlfile.writelines(values)
             sqlfile.close()
         except:
@@ -76,8 +86,8 @@ class FileProcess():
             return chardet.detect(data)['encoding']
 
     def SetEncode(self):
-        set_encode = encoding
-        if encoding == 'GB2312':
+        set_encode = self.encoding
+        if self.encoding == 'GB2312':
             set_encode = 'GB18030'
         return set_encode
 
@@ -106,8 +116,8 @@ class FileProcess():
         os.remove(file)
         os.rename("%s.bak" % file, file)
 
-    def Convert(self, file):
-        with open(file, "rb") as f1, open("%s.ba" % file, "wb") as f2:
+    def Convert(self, file, file_convert):
+        with open(file, "rb") as f1, open(file_convert, "wb") as f2:
             for line in f1:
                 line_str = str(line, encoding='utf8')
                 for i in line_str:
@@ -117,37 +127,47 @@ class FileProcess():
                         f2.write(byte_many)
                     else:
                         f2.write(bytes(i, encoding='utf8'))
-        os.remove(file)
-        os.rename("%s.ba" % file, file)
+    def MakeDir(self):
+        if os.path.exists('./xls/') == False:
+            os.mkdir('./xls/')
+        if os.path.exists('./txt/') == False:
+            os.mkdir('./txt/')
+        if os.path.exists('./lan/') == False:
+            os.mkdir('./lan/')
+
+    def Main(self):
+        excel_all_name = "./F2000语言文件(完整版).xls"
+        book = xlrd.open_workbook(excel_all_name)
+        self.table = book.sheet_by_index(0)
+        self.nrows = self.table.nrows  # 获取行总数
+        self.ncols = self.table.ncols  # 获取列总数
+
+        for i in range(3, self.ncols):
+            language_name = self.table.cell(1, i).value  # 取第二行的值
+            language_name = os.path.splitext(language_name)[0]
+            self.encode_name = self.table.cell(2, i).value  # 取第三行的值
+            if (language_name != '') and (self.encode_name != ''):
+                excel_language_name = './xls/' + language_name + ".xls"
+                txt_language_name = './txt/' + language_name + ".txt"
+                lan_language_name = './lan/' + language_name + ".lan"
+                excel_language_name_3col = './xls/' + language_name + "_3col.xls"
+                txt_language_name_convert = './txt/' + language_name + "_convert.txt"
+                self.ReadExcel(language_name, excel_language_name, excel_language_name_3col)
+                self.xls_txt(excel_language_name_3col, txt_language_name)
+                os.remove(excel_language_name_3col)
+                self.encoding = self.GetEncode(txt_language_name)
+                self.SetEncode()
+                self.Replace(txt_language_name)
+                self.DeleteLf(txt_language_name)
+                if self.encoding == 'utf-8':
+                    self.Convert(txt_language_name, txt_language_name_convert)
+                    shutil.copy(txt_language_name_convert, lan_language_name)
+                    os.remove(txt_language_name_convert)
+                else:
+                    shutil.copy(txt_language_name, lan_language_name)
 
 if __name__ == '__main__':
     process = FileProcess()
-    if os.path.exists('./xls/') == False:
-        os.mkdir('./xls/')
-    if os.path.exists('./txt/') == False:
-        os.mkdir('./txt/')
-    if os.path.exists('./lan/') == False:
-        os.mkdir('./lan/')
-    excel_all_name = "./F2000语言文件(完整版).xls"
-    book = xlrd.open_workbook(excel_all_name)
-    table = book.sheet_by_index(0)
-    nrows = table.nrows  # 获取行总数
-    ncols = table.ncols  # 获取列总数
-
-    for i in range(3, ncols):
-        language_name = table.cell(1, i).value  # 取第二行的值
-        language_name = os.path.splitext(language_name)[0]
-        encode_name = table.cell(2, i).value  # 取第三行的值
-        if (language_name != '') and (encode_name != ''):
-            excel_language_name = './xls/' + language_name + ".xls"
-            txt_language_name = './txt/' + language_name + ".txt"
-            lan_language_name = './lan/' + language_name + ".lan"
-            process.ReadExcel(language_name, excel_language_name)
-            process.xls_txt(excel_language_name, txt_language_name)
-            encoding = process.GetEncode(txt_language_name)
-            process.SetEncode()
-            process.Replace(txt_language_name)
-            process.DeleteLf(txt_language_name)
-            if encoding == 'utf-8':
-                process.Convert(txt_language_name)
-            shutil.copy(txt_language_name, lan_language_name)
+    process.MakeDir()
+    process.Ini()
+    process.Main()

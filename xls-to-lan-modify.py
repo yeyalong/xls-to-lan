@@ -7,14 +7,6 @@ import shutil
 import configparser
 
 class FileProcess():
-    def __init__(self):
-        self.list_language = []
-        self.list_first = []
-        self.list_second = []
-        self.list_third = []
-        self.list_add1 = []
-        self.list_add2 = []
-
     def Ini(self):
         config = configparser.ConfigParser()
         config.read('add_col.ini')
@@ -27,6 +19,11 @@ class FileProcess():
             if row_first == language:
                 self.language_col_number_ = i
 
+        book_write = xlwt.Workbook(encoding=self.encode_name)
+        sheet = book_write.add_sheet('test')
+        book_write_3col = xlwt.Workbook(encoding=self.encode_name)
+        sheet_3col = book_write_3col.add_sheet('test')
+
         for nrow in range(0, self.nrows):  # 遍历每一行
             language_value = self.table.cell(nrow, self.language_col_number_).value  # 取language列的值
             add1_value = self.table.cell(nrow, self.language_add1).value  # 取add1列的值
@@ -34,50 +31,26 @@ class FileProcess():
             col_first = self.table.cell(nrow, 0).value  #取第一列的值
             col_second = self.table.cell(nrow, 1).value  #取第二列的值
             col_third = self.table.cell(nrow, 2).value  #取第三列的值
-            self.list_language.append(language_value)
-            self.list_add1.append(add1_value)
-            self.list_add2.append(add2_value)
-            self.list_first.append(col_first)
-            self.list_second.append(col_second)
-            self.list_third.append(col_third)
 
-        book_write = xlwt.Workbook(encoding=self.encode_name)
-        sheet = book_write.add_sheet('test')
-        for i in range(len(self.list_first)):
-            sheet.write(i, 0, self.list_first[i])
-        for i in range(len(self.list_second)):
-            sheet.write(i, 1, self.list_second[i])
-        for i in range(len(self.list_third)):
-            sheet.write(i, 2, self.list_third[i])
-        for i in range(len(self.list_add1)):
-            sheet.write(i, 3, self.list_add1[i])
-        for i in range(len(self.list_add2)):
-            sheet.write(i, 4, self.list_add2[i])
-        if (self.language_col_number_ != self.language_add1) and (self.language_col_number_ != self.language_add2):
-            for i in range(len(self.list_language)):
-                sheet.write(i, 5, self.list_language[i])
+            sheet.write(nrow, 0, col_first)
+            sheet.write(nrow, 1, col_second)
+            sheet.write(nrow, 2, col_third)
+            sheet.write(nrow, 3, add1_value)
+            sheet.write(nrow, 4, add2_value)
+            if (self.language_col_number_ != self.language_add1) and (
+                    self.language_col_number_ != self.language_add2):
+                sheet.write(nrow, 5, language_value)
+
+            sheet_3col.write(nrow, 0, col_first)
+            sheet_3col.write(nrow, 1, col_second)
+            sheet_3col.write(nrow, 2, language_value)
+
         if os.path.exists(excel_language_name):
             os.remove(excel_language_name)
         book_write.save(excel_language_name)
-
-        book_write_3col = xlwt.Workbook(encoding=self.encode_name)
-        sheet_3col = book_write_3col.add_sheet('test')
-        for i in range(len(self.list_first)):
-            sheet_3col.write(i, 0, self.list_first[i])
-        for i in range(len(self.list_second)):
-            sheet_3col.write(i, 1, self.list_second[i])
-        for i in range(len(self.list_language)):
-            sheet_3col.write(i, 2, self.list_language[i])
         if os.path.exists(excel_language_name_3col):
             os.remove(excel_language_name_3col)
         book_write_3col.save(excel_language_name_3col)
-
-        self.list_language.clear()
-        self.list_first.clear()
-        self.list_second.clear()
-        self.list_third.clear()
-        self.list_add1.clear()
-        self.list_add2.clear()
 
     def strs(self, row):
         try:
