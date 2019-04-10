@@ -1,5 +1,5 @@
+# -*- coding: utf-8 -*-
 import chardet
-# import binascii
 import xlrd
 import xlwt
 import os
@@ -9,9 +9,13 @@ import configparser
 class FileProcess():
     def Ini(self):
         config = configparser.ConfigParser()
-        config.read('add_col.ini')
-        self.language_add1 = int(config.get("section_col_number", "language_add_col_1"))
-        self.language_add2 = int(config.get("section_col_number", "language_add_col_2"))
+        config.read('F2000_lan_tool.ini')
+        self.language_add1 = config.getint("section_col_number", "language_add_col_1")
+        self.language_add2 = config.getint("section_col_number", "language_add_col_2")
+        self.excel_all_name = config.get("set_path", "xls_all_path")
+        self.xls_path = config.get("set_path", "xls_path")
+        self.txt_path = config.get("set_path", "txt_path")
+        self.lan_path = config.get("set_path", "lan_path")
 
     def ReadExcel(self, language, excel_language_name, excel_language_name_3col):
         for i in range(0, self.ncols):
@@ -82,7 +86,6 @@ class FileProcess():
         # 二进制方式读取，获取字节数据，检测类型
         with open(file, 'rb') as f:
             data = f.read()
-            # print(binascii.hexlify(data), end=' ')
             return chardet.detect(data)['encoding']
 
     def SetEncode(self):
@@ -128,16 +131,15 @@ class FileProcess():
                     else:
                         f2.write(bytes(i, encoding='utf8'))
     def MakeDir(self):
-        if os.path.exists('./xls/') == False:
-            os.mkdir('./xls/')
-        if os.path.exists('./txt/') == False:
-            os.mkdir('./txt/')
-        if os.path.exists('./lan/') == False:
-            os.mkdir('./lan/')
+        if os.path.exists(self.xls_path) == False:
+            os.mkdir(self.xls_path)
+        if os.path.exists(self.txt_path) == False:
+            os.mkdir(self.txt_path)
+        if os.path.exists(self.lan_path) == False:
+            os.mkdir(self.lan_path)
 
     def Main(self):
-        excel_all_name = "./F2000语言文件(完整版).xls"
-        book = xlrd.open_workbook(excel_all_name)
+        book = xlrd.open_workbook(self.excel_all_name)
         self.table = book.sheet_by_index(0)
         self.nrows = self.table.nrows  # 获取行总数
         self.ncols = self.table.ncols  # 获取列总数
@@ -147,11 +149,11 @@ class FileProcess():
             language_name = os.path.splitext(language_name)[0]
             self.encode_name = self.table.cell(2, i).value  # 取第三行的值
             if (language_name != '') and (self.encode_name != ''):
-                excel_language_name = './xls/' + language_name + ".xls"
-                txt_language_name = './txt/' + language_name + ".txt"
-                lan_language_name = './lan/' + language_name + ".lan"
-                excel_language_name_3col = './xls/' + language_name + "_3col.xls"
-                txt_language_name_convert = './txt/' + language_name + "_convert.txt"
+                excel_language_name = self.xls_path + language_name + ".xls"
+                txt_language_name = self.txt_path + language_name + ".txt"
+                lan_language_name = self.lan_path + language_name + ".lan"
+                excel_language_name_3col = self.xls_path + language_name + "_3col.xls"
+                txt_language_name_convert = self.txt_path + language_name + "_convert.txt"
                 self.ReadExcel(language_name, excel_language_name, excel_language_name_3col)
                 self.xls_txt(excel_language_name_3col, txt_language_name)
                 os.remove(excel_language_name_3col)
@@ -168,6 +170,6 @@ class FileProcess():
 
 if __name__ == '__main__':
     process = FileProcess()
-    process.MakeDir()
     process.Ini()
+    process.MakeDir()
     process.Main()
